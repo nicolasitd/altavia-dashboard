@@ -832,21 +832,68 @@ function getSheet(wb,names){for(var i=0;i<names.length;i++){if(wb.Sheets[names[i
 
 function parseWorkbook(wb,filename){
   var codigoRend=filename.replace(/\.xlsx$/i,'');
+
+  /* 1. Intentar pestaña Rendición (puede no existir en el nuevo formato) */
   var wsRend=getSheet(wb,['Rendición','Rendicion']);
-  if(wsRend){var arrR=XLSX.utils.sheet_to_json(wsRend,{header:1,defval:'',raw:true});for(var i=0;i<arrR.length;i++){var campo=String(arrR[i][0]||'').trim().toLowerCase();if(campo==='codigo-rendicion'||campo==='codigorendicion'){var val=String(arrR[i][1]||'').trim();if(val){codigoRend=val;break;}}}}
-  var wsG=getSheet(wb,['Co_Gastos','co_gastos','Gastos']);if(!wsG)throw new Error('No Co_Gastos');
+  if(wsRend){
+    var arrR=XLSX.utils.sheet_to_json(wsRend,{header:1,defval:'',raw:true});
+    for(var i=0;i<arrR.length;i++){
+      var campo=String(arrR[i][0]||'').trim().toLowerCase();
+      if(campo==='codigo-rendicion'||campo==='codigorendicion'){
+        var val=String(arrR[i][1]||'').trim();
+        if(val){codigoRend=val;break;}
+      }
+    }
+  }
+
+  /* 2. Co_Gastos — fuente principal de datos */
+  var wsG=getSheet(wb,['Co_Gastos','co_gastos','Gastos']);
+  if(!wsG)throw new Error('No Co_Gastos');
   var raw=XLSX.utils.sheet_to_json(wsG,{header:1,defval:'',raw:true,cellDates:true});
-  var hdrIdx=-1;for(var h=0;h<Math.min(raw.length,5);h++){for(var c=0;c<raw[h].length;c++){if(String(raw[h][c]).trim().toLowerCase()==='quien'){hdrIdx=h;break;}}if(hdrIdx>=0)break;}
-  if(hdrIdx<0)throw new Error('No headers');
+
+  /* Buscar fila de encabezados (la que contiene 'Quien') */
+  var hdrIdx=-1;
+  for(var h=0;h<Math.min(raw.length,5);h++){
+    for(var c=0;c<raw[h].length;c++){
+      if(String(raw[h][c]).trim().toLowerCase()==='quien'){hdrIdx=h;break;}
+    }
+    if(hdrIdx>=0)break;
+  }
+  if(hdrIdx<0)throw new Error('No headers en Co_Gastos');
+
   var headers=raw[hdrIdx].map(function(h){return String(h).trim();});
   function ci(name){var idx=-1;headers.forEach(function(h,i){if(h.toLowerCase()===name.toLowerCase())idx=i;});return idx;}
-  var iQ=ci('Quien'),iFR=ci('Fecha R'),iCC=ci('CentroCostos'),iTD=ci('Tipo D'),iCp=ci('Concepto Compra'),iFD=ci('Fecha D'),iPr=ci('Proveedor'),iFo=ci('Folio'),iT=ci('TOTAL');
+
+  var iQ=ci('Quien'),iFR=ci('Fecha R'),iCC=ci('CentroCostos'),iTD=ci('Tipo D');
+  var iCp=ci('Concepto Compra'),iFD=ci('Fecha D'),iPr=ci('Proveedor'),iFo=ci('Folio'),iT=ci('TOTAL');
+  var iCodCo=ci('Codigo-Rendicion'); /* columna codigo en Co_Gastos */
+
   var dRows=raw.slice(hdrIdx+1);
   var quien=iQ>=0&&dRows[0]?String(dRows[0][iQ]||'').trim():'';
   var fRaw=iFR>=0&&dRows[0]?dRows[0][iFR]:'';
+
+  /* Si no había pestaña Rendición, leer código desde Co_Gastos */
+  if(!wsRend&&iCodCo>=0&&dRows[0]){
+    var codigoDesdeSheet=String(dRows[0][iCodCo]||'').trim();
+    if(codigoDesdeSheet)codigoRend=codigoDesdeSheet;
+  }
+
   var rendidor=resolverNombre(wb,quien,codigoRend);
   var lineas=[];
-  dRows.forEach(function(row){if(!row||!row.length)return;var monto=iT>=0?parseNum(row[iT]):0;if(monto<=0)return;lineas.push({desc:String(iCp>=0?row[iCp]||'—':'—').trim(),tipo:String(iTD>=0?row[iTD]||'':'').trim().toUpperCase(),fecha:fmtDate(iFD>=0?row[iFD]:''),cc:String(iCC>=0?row[iCC]||'—':'—').trim(),prov:String(iPr>=0?row[iPr]||'—':'—').trim(),folio:String(iFo>=0?row[iFo]||'—':'—').trim(),monto:monto});});
+  dRows.forEach(function(row){
+    if(!row||!row.length)return;
+    var monto=iT>=0?parseNum(row[iT]):0;
+    if(monto<=0)return;
+    lineas.push({
+      desc:String(iCp>=0?row[iCp]||'—':'—').trim(),
+      tipo:String(iTD>=0?row[iTD]||'':'').trim().toUpperCase(),
+      fecha:fmtDate(iFD>=0?row[iFD]:''),
+      cc:String(iCC>=0?row[iCC]||'—':'—').trim(),
+      prov:String(iPr>=0?row[iPr]||'—':'—').trim(),
+      folio:String(iFo>=0?row[iFo]||'—':'—').trim(),
+      monto:monto
+    });
+  });
   return{codigo:codigoRend,rendidor:rendidor,lineas:lineas,fechaRend:fmtDate(fRaw)};
 }
 

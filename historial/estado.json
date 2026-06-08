@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-08T21:45:13.325Z",
+  "timestamp": "2026-06-08T21:47:35.993Z",
   "rendiciones": {
     "NT_20260603": {
       "codigo": "NT-20260603",
@@ -39,7 +39,7 @@
           "monto": 203000
         },
         "2": {
-          "desc": "Artículos de Oficina",
+          "desc": "ArtÃ­culos de Oficina",
           "tipo": "FV",
           "fecha": "16-04-2026",
           "cc": "AV3S-Gcomer",
@@ -109,7 +109,7 @@
           "monto": 50000
         },
         "2": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "30-04-2026",
           "cc": "AVINT-FH.P",
@@ -118,7 +118,7 @@
           "monto": 11800
         },
         "3": {
-          "desc": "Mantención Camioneta",
+          "desc": "MantenciÃ³n Camioneta",
           "tipo": "FV",
           "fecha": "04-05-2026",
           "cc": "AVINT-FH.P",
@@ -154,7 +154,7 @@
           "monto": 20405
         },
         "7": {
-          "desc": "Pasaje Avión",
+          "desc": "Pasaje AviÃ³n",
           "tipo": "FE",
           "fecha": "07-05-2026",
           "cc": "AVINT-FH.P",
@@ -163,7 +163,7 @@
           "monto": 103913
         },
         "8": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "FE",
           "fecha": "28-04-2026",
           "cc": "AVINT-FH.P",
@@ -207,11 +207,11 @@
           "monto": 203000
         },
         "2": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "FV",
           "fecha": "13-04-2026",
           "cc": "AV3S",
-          "prov": "Restaurant María Castillo Perez",
+          "prov": "Restaurant MarÃ­a Castillo Perez",
           "folio": "3308",
           "monto": 99499
         }
@@ -233,7 +233,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Asesorías o Servicios para Proyectos",
+          "desc": "AsesorÃ­as o Servicios para Proyectos",
           "tipo": "FV",
           "fecha": "04-05-2026",
           "cc": "AdminAV SS-G.Grales",
@@ -242,7 +242,7 @@
           "monto": 1700365
         },
         "1": {
-          "desc": "Artículos de Oficina",
+          "desc": "ArtÃ­culos de Oficina",
           "tipo": "FV",
           "fecha": "16-04-2026",
           "cc": "AdminAV SS-G.Grales",
@@ -251,7 +251,7 @@
           "monto": 21000
         },
         "2": {
-          "desc": "Artículos de Oficina",
+          "desc": "ArtÃ­culos de Oficina",
           "tipo": "FV",
           "fecha": "25-05-2026",
           "cc": "AdminAV SS-G.Grales",

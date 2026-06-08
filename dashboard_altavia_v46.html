@@ -495,15 +495,16 @@ function restaurarEstado(estado){
           var row=document.getElementById('row'+id);
           if(row && cont){
             row.classList.add('deleted');
-            /* Convertir checkbox chkdel en checkbox de selección para vista Eliminadas */
+            /* Reemplazar chkdel por checkbox de selección en eliminadas */
             var chkD = document.getElementById('chkdel'+id);
             if(chkD){
-              chkD.id = 'chkelim'+id;
-              chkD.checked = false;
-              chkD.disabled = false;
-              chkD.removeAttribute('onchange');
-              chkD.setAttribute('onchange', "toggleSelElim('"+id+"',this.checked)");
-              chkD.style.accentColor = '#cc0000';
+              var newChk = document.createElement('input');
+              newChk.type = 'checkbox';
+              newChk.id = 'chkelim'+id;
+              newChk.style.cssText = 'width:15px;height:15px;cursor:pointer;accent-color:#cc0000';
+              newChk.addEventListener('click', function(e){ e.stopPropagation(); });
+              (function(rid, chk){ chk.addEventListener('change', function(){ toggleSelElim(rid, chk.checked); }); })(id, newChk);
+              chkD.parentNode.replaceChild(newChk, chkD);
             }
             cont.appendChild(row);
           }
@@ -1308,19 +1309,17 @@ function moverAEliminadas(){
     if(row && cont){
       row.classList.remove('sel-del');
       row.classList.add('deleted');
-      /* Convertir checkbox chkdel en checkbox de selección para vista Eliminadas */
+      /* Reemplazar chkdel por checkbox de selección en vista Eliminadas */
       var chkD = document.getElementById('chkdel'+id);
       if(chkD){
-        chkD.id = 'chkelim'+id;
-        chkD.checked = false;
-        chkD.disabled = false;
-        chkD.removeAttribute('onchange');
-        chkD.setAttribute('onchange', "toggleSelElim('"+id+"',this.checked)");
-        chkD.style.accentColor = '#cc0000';
+        var newChk = document.createElement('input');
+        newChk.type = 'checkbox';
+        newChk.id = 'chkelim'+id;
+        newChk.style.cssText = 'width:15px;height:15px;cursor:pointer;accent-color:#cc0000';
+        newChk.addEventListener('click', function(e){ e.stopPropagation(); });
+        (function(rid, chk){ chk.addEventListener('change', function(){ toggleSelElim(rid, chk.checked); }); })(id, newChk);
+        chkD.parentNode.replaceChild(newChk, chkD);
       }
-      /* Deshabilitar chknomina */
-      var chkN = document.getElementById('chknomina'+id);
-      if(chkN){ chkN.disabled = true; chkN.checked = false; }
       /* Agregar al contenedor de eliminadas */
       cont.appendChild(row);
     }
@@ -1360,9 +1359,17 @@ function restaurarSeleccionadas(){
     var row = document.getElementById('row'+id);
     if(row && cont){
       row.classList.remove('deleted','sel-elim');
-      /* Re-habilitar checkbox de eliminar */
-      var chkD = document.getElementById('chkdel'+id);
-      if(chkD){ chkD.disabled = false; chkD.checked = false; }
+      /* Reemplazar chkelim por chkdel limpio para vista activa */
+      var chkE = document.getElementById('chkelim'+id);
+      if(chkE){
+        var newChk = document.createElement('input');
+        newChk.type = 'checkbox';
+        newChk.id = 'chkdel'+id;
+        newChk.style.cssText = 'width:15px;height:15px;cursor:pointer;accent-color:#cc0000';
+        newChk.addEventListener('click', function(e){ e.stopPropagation(); });
+        (function(rid, chk){ chk.addEventListener('change', function(){ toggleSelDel(rid, chk.checked); }); })(id, newChk);
+        chkE.parentNode.replaceChild(newChk, chkE);
+      }
       /* Re-habilitar chknomina si corresponde */
       if(ra[id] && !enNomina[id]){
         var chkN = document.getElementById('chknomina'+id);

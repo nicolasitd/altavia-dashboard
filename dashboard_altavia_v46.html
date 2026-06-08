@@ -495,17 +495,21 @@ function restaurarEstado(estado){
           var row=document.getElementById('row'+id);
           if(row && cont){
             row.classList.add('deleted');
-            /* Reemplazar chkdel por checkbox de selección en eliminadas */
             var chkD = document.getElementById('chkdel'+id);
-            if(chkD){
-              var newChk = document.createElement('input');
-              newChk.type = 'checkbox';
-              newChk.id = 'chkelim'+id;
-              newChk.style.cssText = 'width:15px;height:15px;cursor:pointer;accent-color:#cc0000';
-              newChk.addEventListener('click', function(e){ e.stopPropagation(); });
-              (function(rid, chk){ chk.addEventListener('change', function(){ toggleSelElim(rid, chk.checked); }); })(id, newChk);
-              chkD.parentNode.replaceChild(newChk, chkD);
-            }
+            if(chkD) chkD.style.display = 'none';
+            (function(rid, r){
+              var rhdr = r.querySelector('.rhdr');
+              if(rhdr){
+                rhdr.setAttribute('data-elim-id', rid);
+                rhdr.onclick = function(e){
+                  if(e.target.closest('button, input, a')) return;
+                  var checked = !selElim[rid];
+                  selElim[rid] = checked;
+                  r.classList.toggle('sel-elim', checked);
+                  updateToolbarElim();
+                };
+              }
+            })(id, row);
             cont.appendChild(row);
           }
         }
@@ -1309,18 +1313,22 @@ function moverAEliminadas(){
     if(row && cont){
       row.classList.remove('sel-del');
       row.classList.add('deleted');
-      /* Reemplazar chkdel por checkbox de selección en vista Eliminadas */
+      /* Ocultar chkdel y activar selección por click en la fila */
       var chkD = document.getElementById('chkdel'+id);
-      if(chkD){
-        var newChk = document.createElement('input');
-        newChk.type = 'checkbox';
-        newChk.id = 'chkelim'+id;
-        newChk.style.cssText = 'width:15px;height:15px;cursor:pointer;accent-color:#cc0000';
-        newChk.addEventListener('click', function(e){ e.stopPropagation(); });
-        (function(rid, chk){ chk.addEventListener('change', function(){ toggleSelElim(rid, chk.checked); }); })(id, newChk);
-        chkD.parentNode.replaceChild(newChk, chkD);
-      }
-      /* Agregar al contenedor de eliminadas */
+      if(chkD) chkD.style.display = 'none';
+      (function(rid, r){
+        var rhdr = r.querySelector('.rhdr');
+        if(rhdr){
+          rhdr.setAttribute('data-elim-id', rid);
+          rhdr.onclick = function(e){
+            if(e.target.closest('button, input, a')) return;
+            var checked = !selElim[rid];
+            selElim[rid] = checked;
+            r.classList.toggle('sel-elim', checked);
+            updateToolbarElim();
+          };
+        }
+      })(id, row);
       cont.appendChild(row);
     }
   });
@@ -1359,17 +1367,14 @@ function restaurarSeleccionadas(){
     var row = document.getElementById('row'+id);
     if(row && cont){
       row.classList.remove('deleted','sel-elim');
-      /* Reemplazar chkelim por chkdel limpio para vista activa */
-      var chkE = document.getElementById('chkelim'+id);
-      if(chkE){
-        var newChk = document.createElement('input');
-        newChk.type = 'checkbox';
-        newChk.id = 'chkdel'+id;
-        newChk.style.cssText = 'width:15px;height:15px;cursor:pointer;accent-color:#cc0000';
-        newChk.addEventListener('click', function(e){ e.stopPropagation(); });
-        (function(rid, chk){ chk.addEventListener('change', function(){ toggleSelDel(rid, chk.checked); }); })(id, newChk);
-        chkE.parentNode.replaceChild(newChk, chkE);
+      /* Restaurar onclick original y mostrar chkdel */
+      var rhdr = row.querySelector('.rhdr');
+      if(rhdr){
+        rhdr.removeAttribute('data-elim-id');
+        (function(rid){ rhdr.onclick = function(){ tog(rid); }; })(id);
       }
+      var chkD = document.getElementById('chkdel'+id);
+      if(chkD) chkD.style.display = '';
       /* Re-habilitar chknomina si corresponde */
       if(ra[id] && !enNomina[id]){
         var chkN = document.getElementById('chknomina'+id);

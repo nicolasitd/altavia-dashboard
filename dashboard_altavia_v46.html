@@ -493,7 +493,20 @@ function restaurarEstado(estado){
           eliminadas[id]=true;
           var cont=document.getElementById('eliminadas-container');
           var row=document.getElementById('row'+id);
-          if(row && cont){ row.classList.add('deleted'); cont.appendChild(row); }
+          if(row && cont){
+            row.classList.add('deleted');
+            /* Convertir checkbox chkdel en checkbox de selección para vista Eliminadas */
+            var chkD = document.getElementById('chkdel'+id);
+            if(chkD){
+              chkD.id = 'chkelim'+id;
+              chkD.checked = false;
+              chkD.disabled = false;
+              chkD.removeAttribute('onchange');
+              chkD.setAttribute('onchange', "toggleSelElim('"+id+"',this.checked)");
+              chkD.style.accentColor = '#cc0000';
+            }
+            cont.appendChild(row);
+          }
         }
       });
       updateTabCounts();
@@ -1295,9 +1308,16 @@ function moverAEliminadas(){
     if(row && cont){
       row.classList.remove('sel-del');
       row.classList.add('deleted');
-      /* Deshabilitar chkdel en vista activa (ya está en eliminadas) */
+      /* Convertir checkbox chkdel en checkbox de selección para vista Eliminadas */
       var chkD = document.getElementById('chkdel'+id);
-      if(chkD){ chkD.disabled = true; chkD.checked = false; }
+      if(chkD){
+        chkD.id = 'chkelim'+id;
+        chkD.checked = false;
+        chkD.disabled = false;
+        chkD.removeAttribute('onchange');
+        chkD.setAttribute('onchange', "toggleSelElim('"+id+"',this.checked)");
+        chkD.style.accentColor = '#cc0000';
+      }
       /* Deshabilitar chknomina */
       var chkN = document.getElementById('chknomina'+id);
       if(chkN){ chkN.disabled = true; chkN.checked = false; }

@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Altavia — Revisión de Rendiciones</title>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;background:#f5f4f1;color:#1a1a18;padding:28px 24px 52px}
+.wrap{max-width:1300px;margin:0 auto}
+.app-header{display:flex;align-items:center;justify-content:space-between;padding-bottom:20px;border-bottom:1px solid rgba(0,0,0,.1);margin-bottom:20px;flex-wrap:wrap;gap:14px}
+.hl{display:flex;align-items:center}
+.logo-wrap{padding-right:22px;border-right:1px solid rgba(0,0,0,.13)}
+.logo-img{height:38px;width:auto}
+.header-info{padding-left:22px}
+.header-title{font-size:17px;font-weight:600}
+.header-sub{font-size:12px;color:#6b6b66;margin-top:1px}
+.stats{display:flex;gap:10px}
+.sc{background:#fff;border:1px solid #1a1a18;border-radius:4px;padding:10px 18px;min-width:148px}
+.sc-l{font-size:10px;color:#6b6b66;text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:3px}
+.sc-v{font-size:22px;font-weight:700}
+.sc-v.ok{color:#0F6E56}.sc-v.warn{color:#c0392b}
+.upload-zone{display:flex;align-items:center;gap:12px;padding:13px 18px;border:1.5px dashed rgba(0,0,0,.22);border-radius:10px;background:#fff;margin-bottom:16px;transition:border-color .15s,background .15s}
+.upload-zone:hover{border-color:#185FA5;background:#E6F1FB}
+.uz-icon{width:38px;height:38px;border-radius:8px;background:#E6F1FB;border:1px solid #B5D4F4;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:19px;color:#185FA5}
+.uz-title{font-size:13px;font-weight:600}.uz-hint{font-size:12px;color:#6b6b66}
+.uz-btn{margin-left:auto;font-size:13px;font-weight:500;padding:8px 18px;border-radius:8px;border:none;background:#185FA5;color:#fff;cursor:pointer;white-space:nowrap;font-family:inherit}
+.uz-btn:hover{background:#0C447C}
+.frow{display:flex;gap:8px;align-items:center;margin-bottom:14px;flex-wrap:wrap}
+.frow label{font-size:13px;color:#6b6b66}
+.frow select,.frow input{font-family:inherit;font-size:13px;padding:6px 10px;border-radius:6px;border:1px solid rgba(0,0,0,.18);background:#fff;color:#1a1a18;outline:none}
+.frow input{flex:1;min-width:160px}
+.cls{display:grid;grid-template-columns:28px 28px 120px minmax(0,1fr) 92px 92px 92px 90px 90px 86px 116px 42px 28px;gap:6px;padding:4px 18px 7px;align-items:center}
+.cl{font-size:11px;color:#9e9d97;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.rrow{border:1px solid rgba(0,0,0,.09);border-radius:10px;margin-bottom:9px;overflow:hidden;background:#fff}
+.rrow:hover{border-color:rgba(0,0,0,.18)}
+.rrow.validated{border:2px solid #5DCAA5}
+.rhdr{display:grid;grid-template-columns:28px 28px 120px minmax(0,1fr) 92px 92px 92px 90px 90px 86px 116px 42px 28px;align-items:center;gap:6px;padding:13px 18px;cursor:pointer;user-select:none}
+.rhdr:hover{background:#f8f7f4}
+.rrow.validated .rhdr{background:#f5fdf9}
+.arrbtn{width:24px;height:24px;border-radius:50%;border:1px solid rgba(0,0,0,.16);display:flex;align-items:center;justify-content:center;flex-shrink:0;background:#fff;cursor:pointer;font-size:12px;color:#6b6b66;transition:transform .2s}
+.arrbtn.open{transform:rotate(180deg)}
+.rcode{font-size:11px;font-weight:500;color:#6b6b66;font-family:'Courier New',monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rname{font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rdcol{font-size:13px;color:#6b6b66;white-space:nowrap}
+.ramt{font-size:14px;font-weight:700}
+.ricnt{font-size:12px;color:#9e9d97;text-align:right;line-height:1.3}
+.sbadge{font-size:12px;font-weight:600;padding:4px 12px;border-radius:99px;white-space:nowrap;display:inline-block}
+.s-pend{background:#FDF0DC;color:#9B5A00}.s-valid{background:#E1F5EE;color:#085041}.s-auth{background:#E6F1FB;color:#185FA5}
+.pw{display:flex;justify-content:center}
+.pbtn{font-size:12px;font-weight:500;padding:6px 10px;border-radius:7px;border:1px solid rgba(0,0,0,.15);cursor:pointer;background:#fff;color:#1a1a18;white-space:nowrap;font-family:inherit;min-width:118px;text-align:center;transition:all .12s}
+.pbtn:hover:not([disabled]){background:#EAF3DE;border-color:#5DCAA5;color:#0F6E56}
+.pbtn.autorized{background:#E1F5EE;border-color:#5DCAA5;color:#085041;cursor:default;font-weight:600}
+.pbtn.blocked{background:#f5f4f1;color:#9e9d97;border-color:rgba(0,0,0,.08);cursor:not-allowed}
+.pbar{height:2px;background:rgba(0,0,0,.06);margin:0 16px 7px;border-radius:2px}
+.pfill{height:2px;background:#1D9E75;border-radius:2px;transition:width .35s ease}
+.dpanel{display:none;border-top:1px solid rgba(0,0,0,.07);background:#f8f7f4}
+.dpanel.open{display:block}
+.dtable{width:100%;border-collapse:collapse;table-layout:fixed}
+.dtable .cn{width:28px}.dtable .cfg{width:82px}.dtable .ccc{width:112px}.dtable .cpr{width:158px}.dtable .cfo{width:82px}.dtable .cam{width:90px}.dtable .cpd{width:50px}.dtable .cap{width:150px}
+.dtable thead tr{background:#eceae3}
+.dtable th{font-size:11px;font-weight:600;color:#9e9d97;letter-spacing:.05em;text-transform:uppercase;padding:8px 10px;text-align:left;border-bottom:1px solid rgba(0,0,0,.08);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dtable td{font-size:13px;padding:8px 10px;border-bottom:1px solid rgba(0,0,0,.06);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:#fff;transition:background .1s}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tbody tr:hover td{background:#fafaf8}
+.dtable tbody tr.lp td{background:#f0faf6;color:#085041}
+.dtable tbody tr.lr td{background:#fdf0f0}
+.locked .dtable tbody tr:hover td{background:#fff}
+.locked .dtable tbody tr.lp:hover td{background:#f0faf6}
+.locked .dtable tbody tr.lr:hover td{background:#fdf0f0}
+.ctag{font-size:11px;padding:3px 8px;border-radius:5px;background:#eeede7;border:1px solid rgba(0,0,0,.1);color:#5F5E5A;display:inline-block;white-space:nowrap;font-weight:500}
+.plnk{display:inline-flex;align-items:center;font-size:12px;padding:3px 8px;border-radius:6px;white-space:nowrap;font-weight:500;border:1px solid rgba(0,0,0,.08);background:#f5f4f1;color:#9e9d97;cursor:default}
+.act-wrap{display:flex;gap:4px;justify-content:center;align-items:center}
+.labtn{font-size:12px;font-weight:500;padding:5px 10px;border-radius:7px;border:1px solid rgba(0,0,0,.13);cursor:pointer;background:#fff;color:#1a1a18;white-space:nowrap;font-family:inherit;min-width:58px;text-align:center;transition:all .12s}
+.labtn:hover:not([disabled]){background:#EAF3DE;border-color:#5DCAA5;color:#0F6E56}
+.labtn.paid{background:#E1F5EE;border-color:#5DCAA5;color:#085041}
+.labtn.rej{background:#fdf0f0;border-color:#F09595;color:#A32D2D}
+.rjbtn{font-size:12px;font-weight:500;padding:5px 10px;border-radius:7px;border:1px solid #F09595;cursor:pointer;background:#FCEBEB;color:#A32D2D;white-space:nowrap;font-family:inherit;min-width:58px;text-align:center;transition:all .12s}
+.rjbtn:hover:not([disabled]){background:#F09595;color:#fff}
+.revbtn{font-size:11px;padding:3px 7px;border-radius:6px;border:1px solid rgba(0,0,0,.13);cursor:pointer;background:#f5f4f1;color:#6b6b66;white-space:nowrap;font-family:inherit;transition:all .12s}
+.revbtn:hover{background:#eceae3}
+.reject-row td{background:#fdf5f5!important;border-top:none!important}
+.reject-inner{display:flex;align-items:center;gap:8px;padding:2px 0}
+.reject-input{font-family:inherit;font-size:12px;padding:5px 9px;border-radius:7px;border:1px solid #F09595;background:#fff;color:#A32D2D;flex:1;outline:none;min-width:0}
+.reject-save{font-family:inherit;font-size:12px;padding:5px 12px;border-radius:7px;border:1px solid #F09595;background:#FCEBEB;color:#A32D2D;cursor:pointer;white-space:nowrap}
+.reject-save:hover{background:#F09595;color:#fff}
+.reject-note{font-size:12px;color:#A32D2D;font-style:italic}
+.dfooter{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-top:1px solid rgba(0,0,0,.07);background:#fff;flex-wrap:wrap;gap:10px}
+.ftotals{display:flex;gap:28px}
+.ftl{font-size:11px;color:#6b6b66;margin-bottom:2px;font-weight:500}
+.ftv{font-size:14px;font-weight:700}.ftv.g{color:#0F6E56}
+.dacts{display:flex;gap:6px;align-items:center}
+.abtn{font-family:inherit;font-size:13px;padding:7px 14px;border-radius:7px;border:1px solid rgba(0,0,0,.14);cursor:pointer;background:#fff;color:#1a1a18;white-space:nowrap;transition:background .1s;font-weight:500}
+.abtn:hover:not([disabled]){background:#f0efe9}
+.abtn.primary{background:#1a1a18;color:#fff;border-color:transparent;font-weight:600}
+.abtn.primary:hover:not([disabled]){background:#333}
+.abtn[disabled]{opacity:.35;cursor:not-allowed}
+.abtn.done{background:#E1F5EE;color:#085041;border-color:#5DCAA5;cursor:default}
+.abtn.mail{background:#E6F1FB;color:#0C447C;border-color:#B5D4F4}
+.abtn.mail:hover:not([disabled]){background:#B5D4F4}
+.abtn.pdf-ok{border-color:#5DCAA5;color:#0F6E56;background:#f0faf6}
+.src-badge{font-size:10px;padding:2px 7px;border-radius:4px;background:#EAF3DE;color:#27500A;border:1px solid #C0DD97;font-weight:600;margin-left:6px;vertical-align:middle}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#1a1a18;color:#fff;font-size:13px;padding:9px 18px;border-radius:8px;opacity:0;transition:all .3s;pointer-events:none;z-index:999;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ── Nómina ── */
+.chk-cell{width:28px;display:flex;align-items:center;justify-content:center}
+.chk-cell input[type=checkbox]{width:16px;height:16px;cursor:pointer;accent-color:#1D9E75}
+.rrow.selected{border-color:#1D9E75!important;background:#f0faf6}
+.rrow.selected .rhdr{background:#f0faf6}
+.rrow.en-nomina{border-color:#5DCAA5;opacity:.75}
+.toolbar-nomina{display:flex;align-items:center;gap:10px;padding:10px 16px;background:#f0faf6;border:1px solid #5DCAA5;border-radius:10px;margin-bottom:12px;flex-wrap:wrap}
+.btn-nomina{font-family:inherit;font-size:13px;font-weight:600;padding:8px 18px;border-radius:8px;border:none;background:#1a1a18;color:#fff;cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:7px;transition:background .15s}
+.btn-nomina:hover:not([disabled]){background:#333}
+.btn-nomina[disabled]{opacity:.35;cursor:not-allowed}
+.badge-sel{background:#5DCAA5;color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;margin-left:4px}
+.pbtn.pagado{background:#E1F5EE;border-color:#5DCAA5;color:#085041;cursor:default;font-weight:600}
+/* Modal nómina */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:900;display:none;align-items:center;justify-content:center}
+.modal-overlay.open{display:flex}
+.modal-box{background:#fff;border-radius:12px;padding:28px 28px 22px;max-width:520px;width:92%;box-shadow:0 8px 32px rgba(0,0,0,.18)}
+.modal-title{font-size:16px;font-weight:700;margin-bottom:12px}
+.modal-list{max-height:220px;overflow-y:auto;margin-bottom:16px;border:1px solid rgba(0,0,0,.09);border-radius:8px}
+.modal-list-row{display:flex;justify-content:space-between;padding:8px 12px;border-bottom:1px solid rgba(0,0,0,.06);font-size:13px}
+.modal-list-row:last-child{border-bottom:none}
+.modal-total{font-weight:700;font-size:14px;text-align:right;margin-bottom:18px}
+.modal-acts{display:flex;gap:8px;justify-content:flex-end}
+.modal-cancel{font-family:inherit;font-size:13px;padding:7px 16px;border-radius:8px;border:1px solid rgba(0,0,0,.15);cursor:pointer;background:#fff;color:#1a1a18}
+.modal-confirm{font-family:inherit;font-size:13px;font-weight:600;padding:7px 18px;border-radius:8px;border:none;cursor:pointer;background:#1a1a18;color:#fff}
+
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;margin-right:6px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── Tabs de navegación ── */
+.nav-tabs{display:flex;gap:0;margin-top:10px}
+.nav-tab{font-family:inherit;font-size:13px;font-weight:500;padding:7px 18px;border:1px solid rgba(0,0,0,.14);background:#f5f5f0;color:#6b6b66;cursor:pointer;transition:background .15s,color .15s;white-space:nowrap}
+.nav-tab:first-child{border-radius:8px 0 0 8px}
+.nav-tab:last-child{border-radius:0 8px 8px 0;border-left:none}
+.nav-tab.active{background:#1a1a18;color:#fff;border-color:#1a1a18;font-weight:600}
+.tab-cnt{font-size:11px;font-weight:700;padding:1px 6px;border-radius:99px;margin-left:5px;background:rgba(0,0,0,.1);color:#555}
+.nav-tab.active .tab-cnt{background:rgba(255,255,255,.2);color:#fff}
+/* ── Columna papelera ── */
+.chk-del-cell{width:28px;display:flex;align-items:center;justify-content:center}
+.chk-del-cell input[type=checkbox]{width:15px;height:15px;cursor:pointer;accent-color:#cc0000}
+/* ── Toolbar mover a eliminadas ── */
+.toolbar-del{display:flex;align-items:center;gap:10px;padding:10px 16px;background:#fff5f5;border:1px solid #f0a0a0;border-radius:10px;margin-bottom:12px;flex-wrap:wrap}
+.btn-mover-del{font-family:inherit;font-size:13px;font-weight:600;padding:8px 18px;border-radius:8px;border:none;background:#cc0000;color:#fff;cursor:pointer;white-space:nowrap;transition:background .15s}
+.btn-mover-del:hover:not([disabled]){background:#aa0000}
+.btn-mover-del[disabled]{opacity:.35;cursor:not-allowed}
+.badge-del{background:#cc0000;color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px}
+/* ── Vista eliminadas ── */
+.rrow.deleted{opacity:.6;filter:grayscale(25%)}
+.rrow.deleted .rhdr{background:#f5f5f2}
+.rrow.deleted.sel-elim{opacity:.85;filter:none;border-color:#cc0000!important;background:#fff5f5}
+.rrow.deleted.sel-elim .rhdr{background:#fff5f5}
+.toolbar-elim{display:flex;align-items:center;gap:8px;padding:10px 0 14px 0;flex-wrap:wrap}
+.btn-restaurar{font-family:inherit;font-size:13px;font-weight:500;padding:7px 16px;border-radius:8px;border:1px solid rgba(0,0,0,.15);background:#fff;cursor:pointer;transition:background .15s}
+.btn-restaurar:hover:not([disabled]){background:#f0f0ea}
+.btn-restaurar[disabled]{opacity:.35;cursor:not-allowed}
+.btn-elim-perm{font-family:inherit;font-size:13px;font-weight:600;padding:7px 16px;border-radius:8px;border:none;background:#cc0000;color:#fff;cursor:pointer;transition:background .15s}
+.btn-elim-perm:hover:not([disabled]){background:#aa0000}
+.btn-elim-perm[disabled]{opacity:.35;cursor:not-allowed}
+.badge-elim-cnt{background:#cc0000;color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;display:none}
+/* ── Modal confirmar eliminación permanente ── */
+.modal-perm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:910;display:none;align-items:center;justify-content:center}
+.modal-perm-overlay.open{display:flex}
+.modal-perm-box{background:#fff;border-radius:12px;padding:28px;max-width:440px;width:92%;box-shadow:0 8px 32px rgba(0,0,0,.2)}
+.modal-perm-title{font-size:16px;font-weight:700;color:#cc0000;margin-bottom:8px}
+.modal-perm-msg{font-size:13px;color:#555;margin-bottom:20px;line-height:1.5}
+.modal-perm-acts{display:flex;gap:8px;justify-content:flex-end}
+.modal-perm-cancel{font-family:inherit;font-size:13px;padding:7px 16px;border-radius:8px;border:1px solid rgba(0,0,0,.15);cursor:pointer;background:#fff}
+.modal-perm-confirm{font-family:inherit;font-size:13px;font-weight:600;padding:7px 16px;border-radius:8px;border:none;cursor:pointer;background:#cc0000;color:#fff}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="app-header">
+  <div class="hl">
+    <div class="logo-wrap"><img style="height:38px;width:auto" src="https://www.altavia.cl/wp-content/uploads/2019/01/Logo_Altavia-1.png" alt="Altavia"></div>
+    <div class="header-info"><div class="header-title">Revisión y auditoría de rendiciones</div><div class="header-sub">Altavia — Control de Gestión</div><div id="gh-status" style="font-size:11px;color:#6b6b66;margin-top:2px;height:14px"></div></div>
+    <div class="nav-tabs" style="margin-left:18px;margin-top:0;align-self:flex-end;margin-bottom:2px">
+    <button class="nav-tab active" id="tab-activas" onclick="switchTab('activas')">Activas <span class="tab-cnt" id="cnt-activas">0</span></button>
+    <button class="nav-tab" id="tab-eliminadas" onclick="switchTab('eliminadas')">🗑 Eliminadas <span class="tab-cnt" id="cnt-eliminadas">0</span></button>
+  </div>
+  </div>
+  <div class="stats">
+    <div class="sc"><div class="sc-l">Total rendido</div><div class="sc-v" id="stat-total">$0</div></div>
+    <div class="sc"><div class="sc-l">Autorizado para pago</div><div class="sc-v ok" id="stat-aprobado">$0</div></div>
+    <div class="sc"><div class="sc-l">Pendiente revisión</div><div class="sc-v warn" id="stat-pend">$0</div></div>
+  </div>
+</div>
+<div class="upload-zone">
+  <div class="uz-icon">&#8679;</div>
+  <div><div class="uz-title">Cargar rendición</div><div class="uz-hint">Selecciona uno o más pares .xlsx + .pdf (mismo nombre) — el nombre del rendidor se detecta automáticamente</div></div>
+  <button class="uz-btn" type="button" onclick="triggerUpload()">Seleccionar archivos</button>
+</div>
+<div class="frow">
+  <label>Filtrar por</label>
+  <select id="filterEstado" onchange="applyFilters()"><option value="">Todos los estados</option><option value="Pendiente">Pendiente</option><option value="Validado">Validado</option></select>
+  <input type="text" id="filterRendidor" placeholder="Buscar rendidor…" oninput="applyFilters()">
+</div>
+<div class="cls">
+  <div></div><div></div><div class="cl">Código</div><div class="cl">Rendidor</div>
+  <div class="cl">Fec. Rend.</div><div class="cl">Fec. Valid.</div><div class="cl">Fec. Pago</div>
+  <div class="cl">M. Rendido</div><div class="cl">M. Aprobado</div><div class="cl">Estado</div>
+  <div class="cl" style="text-align:center">Pago</div><div></div><div class="cl" style="text-align:center;font-size:15px" title="Mover a Eliminadas">🗑</div>
+</div>
+<!-- Toolbar nómina -->
+<div class="toolbar-nomina" id="toolbar-nomina" style="display:none">
+  <span style="font-size:13px;font-weight:500">Nómina:</span>
+  <span id="badge-sel" class="badge-sel">0</span>
+  <span style="font-size:12px;color:#6b6b66">rendiciones seleccionadas para pago</span>
+  <button class="btn-nomina" id="btn-pasar-nomina" disabled onclick="abrirModalNomina()">
+    &#9654; Generar nómina
+  </button>
+</div>
+
+<!-- Modal confirmación nómina -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal-box">
+    <div class="modal-title">Confirmar Nómina de Pago</div>
+    <div class="modal-list" id="modal-nomina-list"></div>
+    <div class="modal-total" id="modal-nomina-total"></div>
+    <div class="modal-acts">
+      <button class="modal-cancel" onclick="cerrarModalNomina()">Cancelar</button>
+      <button class="modal-confirm" id="btn-confirmar-nomina" onclick="confirmarNomina()">✓ Confirmar y generar nómina</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toolbar: mover seleccionadas a Eliminadas -->
+<div class="toolbar-del" id="toolbar-del" style="display:none">
+  <span style="font-size:13px;font-weight:500">Mover a Eliminadas:</span>
+  <span class="badge-del" id="badge-del">0</span>
+  <span style="font-size:12px;color:#6b6b66">rendiciones seleccionadas</span>
+  <button class="btn-mover-del" id="btn-mover-del" onclick="moverAEliminadas()">🗑 Mover a Eliminadas</button>
+</div>
+<div id="rendiciones-container"></div>
+
+<!-- Vista Eliminadas -->
+<div id="vista-eliminadas" style="display:none">
+  <div class="toolbar-elim">
+    <span class="badge-elim-cnt" id="badge-elim-cnt">0</span>
+    <button class="btn-restaurar" id="btn-restaurar" onclick="restaurarSeleccionadas()" disabled>↩ Restaurar a activas</button>
+    <button class="btn-elim-perm" id="btn-elim-perm" onclick="abrirModalElimPerm()" disabled>🗑 Eliminar permanentemente</button>
+  </div>
+  <div id="eliminadas-container"></div>
+</div>
+</div>
+<div class="modal-perm-overlay" id="modal-perm-overlay">
+  <div class="modal-perm-box">
+    <div class="modal-perm-title">⚠ Eliminar permanentemente</div>
+    <div class="modal-perm-msg" id="modal-perm-msg">Esta acción no se puede deshacer.</div>
+    <div class="modal-perm-acts">
+      <button class="modal-perm-cancel" onclick="cerrarModalElimPerm()">Cancelar</button>
+      <button class="modal-perm-confirm" onclick="confirmarElimPerm()">Eliminar para siempre</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+// ── Logo
+
+var TESORERIA='tesoreria@altavia.cl';
+
+/* ══════════════════════════════════════════════════════════════
+   HISTORIAL PERSISTENTE — GitHub API
+   ══════════════════════════════════════════════════════════════
+   Configura estas 3 variables con tus datos de GitHub:
+   - GITHUB_TOKEN: tu Personal Access Token (ghp_...)
+   - GITHUB_REPO:  usuario/repositorio (ej: nicolasitd/altavia-dashboard)
+   - GITHUB_FILE:  ruta del archivo JSON dentro del repo
+   ══════════════════════════════════════════════════════════════ */
+var GITHUB_TOKEN = 'INGRESA_TU_TOKEN_AQUI';   /* ghp_... */
+var GITHUB_REPO  = 'nicolasitd/altavia-dashboard'; /* usuario/repo */
+var GITHUB_FILE  = 'historial/estado.json';
+
+/* ── Versión del esquema de datos ── */
+var DATA_VERSION = 1;
+
+/* ── Estado global del historial ── */
+var historialCargado = false;
+var githubFileSha = null; /* SHA del archivo en GitHub — necesario para actualizarlo */
+
+/* ════════════════════════════════════════════════════════════
+   FUNCIONES DE HISTORIAL
+   ════════════════════════════════════════════════════════════ */
+
+/* Headers de GitHub cacheados — se recalculan solo si cambia el token */
+var _ghHeaders = null;
+function ghHeaders(){
+  if(!_ghHeaders || _ghHeaders._token !== GITHUB_TOKEN){
+    _ghHeaders = {
+      'Authorization': 'token ' + GITHUB_TOKEN,
+      'Content-Type': 'application/json',
+      'Accept': 'application/vnd.github.v3+json',
+      '_token': GITHUB_TOKEN  /* cache key */
+    };
+  }
+  return _ghHeaders;
+}
+
+/* Cargar historial desde GitHub al abrir el dashboard */
+async function cargarHistorial(){
+  if(GITHUB_TOKEN === 'INGRESA_TU_TOKEN_AQUI'){
+    console.log('Historial desactivado — configura GITHUB_TOKEN');
+    return;
+  }
+  try {
+    var url = 'https://api.github.com/repos/'+GITHUB_REPO+'/contents/'+GITHUB_FILE;
+    var resp = await fetch(url, {headers: ghHeaders()});
+    if(resp.status === 404){
+      /* Archivo no existe aún — empezar con historial vacío */
+      console.log('Historial nuevo — se creará al guardar por primera vez');
+      historialCargado = true;
+      return;
+    }
+    if(!resp.ok) throw new Error('GitHub API error: ' + resp.status);
+    var data = await resp.json();
+    githubFileSha = data.sha;
+    var jsonStr = atob(data.content.replace(/\n/g,''));
+    var estado = JSON.parse(jsonStr);
+    /* Restaurar el estado */
+    restaurarEstado(estado);
+    historialCargado = true;
+    showToast('✓ Historial cargado — '+Object.keys(estado.rendiciones||{}).length+' rendición(es)');
+  } catch(e){
+    console.error('Error cargando historial:', e);
+    showToast('⚠ No se pudo cargar el historial: ' + e.message);
+  }
+}
+
+/* Guardar historial en GitHub — con checksum para evitar writes redundantes */
+var _lastSavedHash = null;
+async function guardarHistorial(){
+  if(GITHUB_TOKEN === 'INGRESA_TU_TOKEN_AQUI') return;
+  try {
+    var estado = capturarEstado();
+    var jsonStr = JSON.stringify(estado, null, 2);
+    /* Evitar commit si no cambió nada */
+    var hash = jsonStr.length + ':' + jsonStr.slice(0,100);
+    if(hash === _lastSavedHash){ console.log('Sin cambios — omitir guardado'); return; }
+    var b64 = btoa(unescape(encodeURIComponent(jsonStr)));
+    var url = 'https://api.github.com/repos/'+GITHUB_REPO+'/contents/'+GITHUB_FILE;
+    var body = {
+      message: 'Actualización automática — ' + new Date().toLocaleString('es-CL'),
+      content: b64
+    };
+    if(githubFileSha) body.sha = githubFileSha;
+    var resp = await fetch(url, {
+      method: 'PUT',
+      headers: ghHeaders(),
+      body: JSON.stringify(body)
+    });
+    if(!resp.ok) throw new Error('GitHub save error: ' + resp.status);
+    var data = await resp.json();
+    githubFileSha = data.content.sha;
+    _lastSavedHash = hash;
+    console.log('Historial guardado en GitHub');
+    var ghEl = document.getElementById('gh-status');
+    if(ghEl){ var now=new Date(); ghEl.textContent='💾 Historial guardado — '+String(now.getHours()).padStart(2,'0')+':'+String(now.getMinutes()).padStart(2,'0')+':'+String(now.getSeconds()).padStart(2,'0'); }
+  } catch(e){
+    console.error('Error guardando historial:', e);
+    showToast('⚠ No se pudo guardar el historial: ' + e.message);
+  }
+}
+
+/* Capturar el estado actual del dashboard en un objeto serializable */
+function capturarEstado(){
+  var rendiciones = {};
+  Object.keys(rendidorMap).forEach(function(id){
+    rendiciones[id] = {
+      codigo:       codigoMap[id]||id,
+      xlsxName:     xlsxNameMap[id]||'',
+      rendidor:     rendidorMap[id]||'',
+      fechaRend:    fechaMap[id]||'',
+      fechaValid:   fechaValidMap[id]||'',
+      fechaPago:    fechaPagoMap[id]||'',
+      monto:        ramt[id]||0,
+      /* Calcular monto aprobado desde mapa ls[] — sin tocar DOM */
+      montoAprobado:(function(){
+        var t=0;
+        Object.keys(ls[id]||{}).forEach(function(i){
+          if(ls[id][i]==='approved'){
+            var lm=lineasMap[id]&&lineasMap[id][i];
+            if(lm) t+=lm.monto||0;
+          }
+        });
+        return t;
+      })(),
+      validado:     validated[id]||false,
+      autorizado:   ra[id]||0,
+      enNomina:     enNomina[id]||false,
+      lineas:       ls[id]||{},
+      motivos:      rejMotivos[id]||{},
+      lineasDatos:  lineasMap[id]||{}
+    };
+  });
+  return {
+    version:     DATA_VERSION,
+    timestamp:   new Date().toISOString(),
+    rendiciones: rendiciones,
+    nominas:     nominasHistorial||[],
+    eliminadas_ids: Object.keys(eliminadas).filter(function(id){ return eliminadas[id]; })
+  };
+}
+
+/* Restaurar el estado desde el objeto cargado */
+function restaurarEstado(estado){
+  if(!estado || !estado.rendiciones) return;
+  var rends = estado.rendiciones;
+  Object.keys(rends).forEach(function(id){
+    var r = rends[id];
+    /* Restaurar mapas globales */
+    rendidorMap[id]  = r.rendidor;
+    codigoMap[id]    = r.codigo;
+    xlsxNameMap[id]  = r.xlsxName;
+    fechaMap[id]     = r.fechaRend;
+    fechaValidMap[id]= r.fechaValid;
+    fechaPagoMap[id] = r.fechaPago;
+    ramt[id]         = r.monto;
+    validated[id]    = r.validado;
+    ra[id]           = r.autorizado;
+    enNomina[id]     = r.enNomina;
+    ls[id]           = r.lineas||{};
+    rejMotivos[id]   = r.motivos||{};
+    lineasMap[id]    = r.lineasDatos||{};
+    /* Reconstruir lineas como array para montarRendicion */
+    var lineasArr = Object.keys(r.lineasDatos||{})
+      .sort(function(a,b){return +a-+b;})
+      .map(function(i){ return r.lineasDatos[i]; });
+    /* Montar la rendición en el DOM */
+    if(lineasArr.length > 0){
+      montarRendicion(r.codigo, r.rendidor, lineasArr, r.fechaRend, null, r.xlsxName);
+      /* Restaurar estados de líneas */
+      Object.keys(r.lineas||{}).forEach(function(i){
+        var estado_lin = r.lineas[i];
+        var motivo = (r.motivos||{})[i]||'';
+        if(estado_lin === 'approved'){
+          /* Simular aprobación */
+          var tr = document.querySelector('#l'+id+' tr[data-i="'+i+'"]');
+          if(tr){ ls[id] = ls[id]||{}; ls[id][+i]='approved'; }
+        } else if(estado_lin === 'rejected'){
+          ls[id] = ls[id]||{}; ls[id][+i]='rejected';
+          rejMotivos[id] = rejMotivos[id]||{}; rejMotivos[id][+i]=motivo;
+        }
+      });
+      /* Restaurar estado validado/autorizado */
+      if(r.validado) validated[id] = true;
+      if(r.autorizado){
+        ra[id] = 1;
+        var pb = document.getElementById('pb'+id);
+        if(pb){
+          if(r.enNomina){
+            pb.textContent='✓ Pagado'; pb.className='pbtn pagado'; pb.disabled=true;
+          } else {
+            pb.textContent='✓ Pago en Curso'; pb.className='pbtn autorized'; pb.disabled=false;
+          }
+        }
+        /* Habilitar checkbox nómina si no está pagado */
+        if(!r.enNomina){
+          var chk = document.getElementById('chknomina'+id);
+          if(chk) chk.disabled=false;
+        }
+      }
+      /* Restaurar DOM después del paint — evita leer refs antes de que existan */
+      (function(id,r){
+        requestAnimationFrame(function(){
+          var fvEl=document.getElementById('fvalid'+id);
+          if(fvEl && r.fechaValid) fvEl.textContent=r.fechaValid;
+          var fpEl=document.getElementById('fpago'+id);
+          if(fpEl && r.fechaPago) fpEl.textContent=r.fechaPago;
+          var sb=document.getElementById('st'+id);
+          if(sb){
+            if(r.validado && r.autorizado){ sb.textContent='Validado'; sb.className='sbadge s-auth'; }
+            else if(r.validado){ sb.textContent='Validado'; sb.className='sbadge s-valid'; }
+          }
+          upd(id);
+        });
+      })(id, r);
+    }
+  });
+  /* Restaurar historial de nóminas */
+  if(estado.nominas) nominasHistorial = estado.nominas;
+  /* Restaurar eliminadas */
+  if(estado.eliminadas_ids && estado.eliminadas_ids.length){
+    requestAnimationFrame(function(){
+      estado.eliminadas_ids.forEach(function(id){ 
+        if(document.getElementById('row'+id)){
+          eliminadas[id]=true;
+          var cont=document.getElementById('eliminadas-container');
+          var row=document.getElementById('row'+id);
+          if(row && cont){ row.classList.add('deleted'); cont.appendChild(row); }
+        }
+      });
+      updateTabCounts();
+    });
+  }
+  us();
+}
+
+/* Variable para historial de nóminas */
+var nominasHistorial = [];
+
+/* Guardar automáticamente tras cada acción importante */
+/* Timer de debounce — solo 1 llamada GitHub aunque el usuario
+   haga click 10 veces seguidas */
+var _ghSaveTimer = null;
+function autoGuardar(){
+  if(GITHUB_TOKEN === 'INGRESA_TU_TOKEN_AQUI') return;
+  clearTimeout(_ghSaveTimer);
+  _ghSaveTimer = setTimeout(guardarHistorial, 1200);
+}
+
+
+var pdfMap={},pdfNameMap={},xlsxMap={},xlsxNameMap={};
+var rendidorMap={},codigoMap={},fechaMap={},lineasMap={};
+var ls={};var rejMotivos={};var validated={};var ra={};var ramt={};
+
+function fmt(n){return '$'+Math.round(n).toLocaleString('es-CL');}
+function showToast(msg){var t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(function(){t.classList.remove('show');},3500);}
+function escH(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function escA(s){return String(s||'').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
+function tog(id){var p=document.getElementById('d'+id),a=document.getElementById('arr'+id);var o=p.classList.contains('open');p.classList.toggle('open',!o);a.classList.toggle('open',!o);}
+function fmtDate(v){if(!v&&v!==0)return '—';if(v instanceof Date){return String(v.getUTCDate()).padStart(2,'0')+'-'+String(v.getUTCMonth()+1).padStart(2,'0')+'-'+v.getUTCFullYear();}if(typeof v==='number'&&v>0){var d=new Date(Math.round((v-25569)*864e5));return String(d.getUTCDate()).padStart(2,'0')+'-'+String(d.getUTCMonth()+1).padStart(2,'0')+'-'+d.getUTCFullYear();}return String(v).trim()||'—';}
+function parseNum(v){if(v===null||v===undefined||v==='')return 0;if(typeof v==='number')return Math.round(v);var s=String(v).trim().replace(/\./g,'').replace(',','.');var n=parseFloat(s);return isNaN(n)?0:Math.round(n);}
+var TC={FC:{c:'#9B5A00',b:'#FDF0DC'},FV:{c:'#0C447C',b:'#E6F1FB'},FE:{c:'#444441',b:'#F1EFE8'},BL:{c:'#27500A',b:'#EAF3DE'},BH:{c:'#633806',b:'#FAEEDA'},NC:{c:'#791F1F',b:'#FCEBEB'},ND:{c:'#72243E',b:'#FBEAF0'}};
+function badge(tipo){var k=String(tipo||'').trim().toUpperCase();var s=TC[k]||{c:'#5F5E5A',b:'#F1EFE8'};return '<span style="font-size:10px;color:'+s.c+';background:'+s.b+';padding:1px 5px;border-radius:3px;font-weight:600;margin-left:3px">'+escH(k||'DOC')+'</span>';}
+function getAppr(r){var t=0;document.querySelectorAll('#l'+r+' tr[data-amt]').forEach(function(row){if(ls[r]&&ls[r][+row.dataset.i]==='approved')t+=+row.dataset.amt;});return t;}
+function counted(r){var n=0;document.querySelectorAll('#l'+r+' tr[data-i]').forEach(function(row){if(ls[r]&&ls[r][+row.dataset.i])n++;});return n;}
+function total(r){return document.querySelectorAll('#l'+r+' tr[data-i]').length;}
+function upd(r){
+  if(validated[r]) return;
+  var a=counted(r), t=total(r);
+  /* Cachear getAppr — evita 2 querySelectorAll separados */
+  var apr=getAppr(r);
+  var pf=document.getElementById('pf'+r);
+  if(pf) pf.style.width=(t>0?Math.round(a/t*100):0)+'%';
+  var ae=document.getElementById('ap'+r);
+  if(ae) ae.textContent=fmt(apr);
+  var ape=document.getElementById('apr'+r);
+  if(ape) ape.textContent=fmt(apr);
+  var cb=document.getElementById('cb'+r);
+  if(cb) cb.disabled=(a<t);
+  us();
+}
+function setAppr(r,i){var aw=document.getElementById('aw'+r+'-'+i);if(!aw)return;aw.innerHTML='';var b1=document.createElement('button');b1.className='labtn paid';b1.disabled=true;b1.textContent='✓ Aprobado';var b2=document.createElement('button');b2.className='revbtn';b2.textContent='Revertir';b2.dataset.rid=r;b2.dataset.i=i;b2.dataset.action='revert';aw.appendChild(b1);aw.appendChild(b2);}
+function setRej(r,i,reason){if(!rejMotivos[r])rejMotivos[r]={};rejMotivos[r][i]=reason;var aw=document.getElementById('aw'+r+'-'+i);if(!aw)return;aw.innerHTML='';var b1=document.createElement('button');b1.className='labtn rej';b1.disabled=true;b1.textContent='✗ Rechazado';var b2=document.createElement('button');b2.className='revbtn';b2.textContent='Revertir';b2.dataset.rid=r;b2.dataset.i=i;b2.dataset.action='revert';aw.appendChild(b1);aw.appendChild(b2);var tr=document.querySelector('#l'+r+' tr[data-i="'+i+'"]');if(tr){var ex=tr.nextElementSibling;if(ex&&ex.classList.contains('reject-row'))ex.remove();var rr=document.createElement('tr');rr.className='reject-row';var td=document.createElement('td');td.colSpan=tr.querySelectorAll('td').length;td.innerHTML='<div class="reject-inner"><span class="reject-note">Motivo: '+escH(reason)+'</span></div>';rr.appendChild(td);tr.after(rr);}}
+function setPend(r,i){if(rejMotivos[r])delete rejMotivos[r][i];var aw=document.getElementById('aw'+r+'-'+i);if(!aw)return;aw.innerHTML='';var b1=document.createElement('button');b1.className='labtn';b1.dataset.rid=r;b1.dataset.i=i;b1.dataset.action='appr';b1.textContent='Aprobar';var b2=document.createElement('button');b2.className='rjbtn';b2.dataset.rid=r;b2.dataset.i=i;b2.dataset.action='rej';b2.textContent='Rechazar';aw.appendChild(b1);aw.appendChild(b2);}
+function showRejInput(r,i){var tr=document.querySelector('#l'+r+' tr[data-i="'+i+'"]');if(!tr)return;var ex=tr.nextElementSibling;if(ex&&ex.classList.contains('reject-row')){ex.remove();return;}var rr=document.createElement('tr');rr.className='reject-row';var td=document.createElement('td');td.colSpan=tr.querySelectorAll('td').length;var inner=document.createElement('div');inner.className='reject-inner';/* datalist con sugerencias predefinidas */
+var dlId='rej-dl-'+r+'-'+i;
+var dl=document.createElement('datalist');
+dl.id=dlId;
+['Excede monto máximo permitido','No corresponde a políticas de gasto','Concepto de compra no permitido']
+.forEach(function(op){var o=document.createElement('option');o.value=op;dl.appendChild(o);});
+inner.appendChild(dl);
+var inp=document.createElement('input');inp.className='reject-input';inp.setAttribute('list',dlId);inp.placeholder='Razón del rechazo…';inp.maxLength=200;var btn=document.createElement('button');btn.className='reject-save';btn.textContent='Guardar';btn.dataset.rid=r;btn.dataset.i=i;btn.dataset.action='save-rej';inner.appendChild(inp);inner.appendChild(btn);td.appendChild(inner);rr.appendChild(td);tr.after(rr);inp.focus();}
+function dlBlob(blob,filename){var url=URL.createObjectURL(blob);var a=document.createElement('a');a.href=url;a.download=filename;a.style.display='none';document.body.appendChild(a);a.click();setTimeout(function(){document.body.removeChild(a);URL.revokeObjectURL(url);},10000);}
+
+/* ══════════════════════════════════
+   authPago — genera 3 archivos
+══════════════════════════════════ */
+
+function regenArchivos(r){
+  if(!xlsxMap[r]){showToast('No hay xlsx cargado para regenerar');return;}
+  var lineas=recopilarLineas(r);
+  var aprobadas=lineas.filter(function(l){return l.estado==='approved';});
+  var rechazadas=lineas.filter(function(l){return l.estado==='rejected';});
+  var totalAprobado=aprobadas.reduce(function(s,l){return s+l.monto;},0);
+  var totalRechazado=rechazadas.reduce(function(s,l){return s+l.monto;},0);
+  var codigo=codigoMap[r]||r;
+  var rendidor=rendidorMap[r]||r;
+  var fecha=fechaMap[r]||'—';
+  showToast('Regenerando archivos…');
+  generarXlsxConJSZip(r,lineas,codigo,rendidor,fechaMap[r]||'—',xlsxNameMap[r]||'').catch(function(e){console.error(e);showToast('Error Excel: '+e.message);});
+  setTimeout(function(){
+    try{generarInformeHTML(lineas,codigo,rendidor,fecha,totalAprobado,totalRechazado,xlsxNameMap[r]);}
+    catch(e){console.error(e);showToast('Error informe: '+e.message);}
+  },500);
+}
+
+function authPago(r){
+  if(!r||ra[r])return;
+  ra[r]=1;
+  var pb=document.getElementById('pb'+r);
+  if(pb){pb.textContent='✓ Pago en Curso';pb.className='pbtn autorized';pb.disabled=true;pb.onclick=function(e){e.stopPropagation();};}
+  var sb=document.getElementById('st'+r);if(sb){sb.textContent='Validado';sb.className='sbadge s-auth';}
+  var rrow=document.getElementById('row'+r);if(rrow)rrow.dataset.estado='Validado';
+  us();
+  autoGuardar();
+  /* Registrar fecha de validación/autorización */
+  var hoyAuth=new Date();
+  var hoyAuthStr=String(hoyAuth.getDate()).padStart(2,'0')+'-'+String(hoyAuth.getMonth()+1).padStart(2,'0')+'-'+hoyAuth.getFullYear();
+  fechaValidMap[r]=hoyAuthStr;
+  /* Actualizar fecha validación en la línea */
+  var fvEl=document.getElementById('fvalid'+r);
+  if(fvEl) fvEl.textContent=hoyAuthStr;
+  /* Habilitar checkbox de nómina */
+  var chkNom=document.getElementById('chknomina'+r);
+  if(chkNom) chkNom.disabled=false;
+  // Inyectar botón Regenerar en el footer de esta rendición
+  var dactsEl=document.querySelector('#d'+r+' .dacts');
+  if(dactsEl&&!document.getElementById('regen'+r)){
+    var rb=document.createElement('button');
+    rb.className='abtn';rb.id='regen'+r;
+    rb.innerHTML='&#8681; Regenerar';
+    rb.title='Vuelve a generar y descargar los archivos';
+    rb.onclick=function(){regenArchivos(r);};
+    dactsEl.insertBefore(rb,dactsEl.firstChild);
+  }
+  var lineas=recopilarLineas(r);
+  var aprobadas=lineas.filter(function(l){return l.estado==='approved';});
+  var rechazadas=lineas.filter(function(l){return l.estado==='rejected';});
+  var totalAprobado=aprobadas.reduce(function(s,l){return s+l.monto;},0);
+  var totalRechazado=rechazadas.reduce(function(s,l){return s+l.monto;},0);
+  var codigo=codigoMap[r]||r;
+  var rendidor=rendidorMap[r]||r;
+  var fecha=fechaMap[r]||'—';
+  showToast('Generando 3 archivos…');
+
+  /* 1 — PDF original respaldos */
+  
+
+  /* 2+3 — Generar XLSX y luego informe HTML en secuencia con Promise */
+  if(!xlsxMap[r]){ showToast('No hay xlsx cargado'); return; }
+  generarXlsxConJSZip(r,lineas,codigo,rendidor,fechaMap[r]||'—',xlsxNameMap[r]||'')
+    .then(function(){
+      showToast('✓ Excel descargado');
+      /* Informe HTML después de que el XLSX terminó */
+      try{ generarInformeHTML(lineas,codigo,rendidor,fecha,totalAprobado,totalRechazado,xlsxNameMap[r]); }
+      catch(e){ console.error('html',e); showToast('Error informe: '+e.message); }
+    })
+    .catch(function(e){ console.error('xlsx',e); showToast('Error Excel: '+e.message); });
+}
+
+function recopilarLineas(r){
+  var lineas=[];
+  document.querySelectorAll('#l'+r+' tr[data-i]').forEach(function(row){
+    var i=+row.dataset.i;var lm=lineasMap[r]&&lineasMap[r][i];
+    lineas.push({i:i,desc:row.dataset.desc||'—',monto:+row.dataset.amt||0,estado:ls[r]&&ls[r][i]?ls[r][i]:'pending',motivo:(rejMotivos[r]&&rejMotivos[r][i])||'',tipo:lm?lm.tipo:'',fecha:lm?lm.fecha:'',cc:lm?lm.cc:'',prov:lm?lm.prov:'',folio:lm?lm.folio:''});
+  });
+  return lineas;
+}
+
+/* ══════════════════════════════════════════════════════════
+   XLSX revisado — estrategia doble:
+   A) SheetJS cellStyles:true → agrega columnas Estado/Motivo
+      en Co_Gastos copiando style indexes (.s)
+   B) JSZip → modifica pivotCacheRecords1.xml directamente
+      eliminando los <r> de las filas rechazadas y actualizando count
+   Esto garantiza:
+   - Mismo formato visual (colores, anchos, fuentes)
+   - Tabla dinámica ya refleja solo los aprobados al abrir en Excel
+══════════════════════════════════════════════════════════ */
+async function generarXlsxConJSZip(r,lineas,codigo,rendidor,fechaRend,xlsxFilename){
+  /* ════════════════════════════════════════════════════════════
+     Estrategia 100% JSZip — NO usa XLSX.write()
+     1. Lee el archivo original como ZIP (preserva TODO: styles, pivot, calcChain, etc.)
+     2. Modifica solo sheet2.xml (Co_Gastos): agrega 2 columnas nuevas directamente en XML
+     3. Agrega los strings nuevos a sharedStrings.xml
+     4. Actualiza pivotCacheRecords si hay rechazados
+     5. Descarga el ZIP modificado → mismo formato que el original
+  ════════════════════════════════════════════════════════════ */
+  if(!xlsxMap[r]) throw new Error('No hay xlsx cargado');
+
+  var zip = await JSZip.loadAsync(xlsxMap[r]);
+
+  /* ── 1. Identificar qué sheet es Co_Gastos ── */
+  var wbXml = await zip.file('xl/workbook.xml').async('string');
+  var sheetRels = {};
+  var wbRels = await zip.file('xl/_rels/workbook.xml.rels').async('string');
+  var relMatches = wbRels.match(/<Relationship[^>]+>/g)||[];
+  relMatches.forEach(function(rel){
+    var id = (rel.match(/Id="([^"]+)"/)||[])[1];
+    var tgt = (rel.match(/Target="([^"]+)"/)||[])[1];
+    if(id && tgt) sheetRels[id] = tgt;
+  });
+  /* Buscar rId de Co_Gastos */
+  var gasRid = null;
+  var sheetMatches = wbXml.match(/<sheet [^/]*/g)||[];
+  sheetMatches.forEach(function(s){
+    if(/co_gastos/i.test(s) || /co gastos/i.test(s)){
+      gasRid = (s.match(/r:id="([^"]+)"/)||[])[1];
+    }
+  });
+  /* Fallback: buscar por posición o por target que contenga sheet2 */
+  if(!gasRid){
+    /* Intentar mapear Co_Gastos por nombre de hoja → posición → archivo */
+    var sheetNames = wbXml.match(/<sheet [^>]+>/g)||[];
+    var gasIdx = -1;
+    sheetNames.forEach(function(s,i){ if(/co_gastos/i.test(s)) gasIdx=i; });
+    if(gasIdx < 0) gasIdx = 1; /* default: segunda hoja */
+    /* Obtener el rId de esa posición */
+    var ridMatch = sheetNames[gasIdx] && sheetNames[gasIdx].match(/r:id="([^"]+)"/);
+    gasRid = ridMatch ? ridMatch[1] : null;
+    /* Si aún no, forzar sheet2.xml */
+    if(!gasRid || !sheetRels[gasRid]){
+      zip.forEach(function(path){ if(path.match(/worksheets\/sheet2\.xml$/)) gasRid = '_direct_'; });
+    }
+  }
+  /* Si gasRid es _direct_, usar sheet2.xml directamente */
+  if(gasRid === '_direct_'){ var gasFile = 'xl/worksheets/sheet2.xml'; }
+  else {
+  var gasFile = 'xl/' + (sheetRels[gasRid]||'').replace('../',''); }
+  console.log('Co_Gastos file:', gasFile);
+
+  /* ── 2. Leer sharedStrings y agregar strings nuevos ── */
+  var ss = await zip.file('xl/sharedStrings.xml').async('string');
+  var ssCount  = parseInt((ss.match(/count="(\d+)"/)||[0,'0'])[1]);
+  var ssUnique = parseInt((ss.match(/uniqueCount="(\d+)"/)||[0,'0'])[1]);
+  /* Agregar Estado Revision y Motivo Rechazo */
+  var idxEstado = ssUnique;      /* nuevo índice para "Estado Revision" */
+  var idxMotivo = ssUnique + 1;  /* nuevo índice para "Motivo Rechazo" */
+  var newStrings = '<si><t>Estado Revision</t></si><si><t>Motivo Rechazo</t></si>';
+  /* Agregar strings para valores posibles: Aprobado, Rechazado, Pendiente */
+  var idxAprobado = ssUnique + 2;
+  var idxRechazado = ssUnique + 3;
+  var idxPendiente = ssUnique + 4;
+  newStrings += '<si><t>Aprobado</t></si><si><t>Rechazado</t></si><si><t>Pendiente</t></si>';
+  var newSsUnique = ssUnique + 5;
+  var newSsCount  = ssCount  + 5;
+  ss = ss.replace('count="'+ssCount+'"', 'count="'+newSsCount+'"');
+  ss = ss.replace('uniqueCount="'+ssUnique+'"', 'uniqueCount="'+newSsUnique+'"');
+  ss = ss.replace('</sst>', newStrings + '</sst>');
+  zip.file('xl/sharedStrings.xml', ss);
+
+  /* ── 3. Modificar sheet2.xml (Co_Gastos) ── */
+  var sheet = await zip.file(gasFile).async('string');
+
+  /* Encontrar última columna (Y = 25) → nuevas serán Z(26) y AA(27) */
+  var dimMatch = sheet.match(/<dimension ref="([^"]+)"/);
+  var dimRef = dimMatch ? dimMatch[1] : 'A1:Y11';
+  /* Parsear rango: ej "A1:Y11" → lastColLetter="Y", lastRow=11 */
+  var dimParts = dimRef.match(/([A-Z]+)(\d+):([A-Z]+)(\d+)/);
+  var lastColLetter = dimParts ? dimParts[3] : 'Y';
+  var lastRowNum    = dimParts ? parseInt(dimParts[4]) : 11;
+  /* Calcular nueva última columna */
+  function colLetterToNum(s){var n=0;for(var i=0;i<s.length;i++)n=n*26+(s.charCodeAt(i)-64);return n;}
+  function colNumToLetter(n){var s='';while(n>0){var r=(n-1)%26;s=String.fromCharCode(65+r)+s;n=Math.floor((n-1)/26);}return s;}
+  var lastColNum = colLetterToNum(lastColLetter);
+  var newCol1Num = lastColNum + 1;  /* Z = 26 */
+  var newCol2Num = lastColNum + 2;  /* AA = 27 */
+  var newCol1Letter = colNumToLetter(newCol1Num);
+  var newCol2Letter = colNumToLetter(newCol2Num);
+
+  /* Actualizar dimension */
+  var newDim = dimRef.replace(lastColLetter+dimParts[4], newCol2Letter+lastRowNum);
+  sheet = sheet.replace(dimRef, newDim);
+
+  /* Obtener estilos de referencia del XML:
+     - Fila 1 (orden): buscar celda de col Y fila 1 → atributo s
+     - Fila 2 (header): buscar celda de col Y fila 2 → atributo s
+     - Fila 3+ (datos): buscar celda de col Y fila 3 → atributo s */
+  function getCellStyle(xml, colLetter, rowNum){
+    var pat = new RegExp('<c r="'+colLetter+rowNum+'"([^>]*)>');
+    var m = xml.match(pat);
+    if(!m) return '0';
+    var sMatch = m[1].match(/s="(\d+)"/);
+    return sMatch ? sMatch[1] : '0';
+  }
+  var sOrder  = getCellStyle(sheet, lastColLetter, 1);  /* fila orden */
+  var sHeader = getCellStyle(sheet, lastColLetter, 2);  /* fila header */
+  var sData   = getCellStyle(sheet, lastColLetter, 3);  /* fila datos */
+
+  /* Agregar columnas en <cols> */
+  var newColDefs = '<col min="'+newCol1Num+'" max="'+newCol1Num+'" width="18" style="'+sHeader+'" customWidth="1"/>'
+                + '<col min="'+newCol2Num+'" max="'+newCol2Num+'" width="40" style="'+sHeader+'" customWidth="1"/>';
+  sheet = sheet.replace('</cols>', newColDefs + '</cols>');
+
+  /* Actualizar spans de cada fila (spans="1:25" → spans="1:27") */
+  var newLastSpan = newCol2Num;
+  sheet = sheet.replace(/spans="1:\d+"/g, 'spans="1:'+newLastSpan+'"');
+
+  /* Para cada fila, agregar las 2 nuevas celdas antes de </row> */
+  /* Necesitamos saber qué filas tienen monto>0 para asignar estado */
+  /* Primero: encontrar columna TOTAL en el XML */
+  /* Buscar columna TOTAL leyendo fila 2 + sharedStrings */
+  var totalColLetter = lastColLetter; /* fallback */
+  try {
+    var ssXml = await zip.file('xl/sharedStrings.xml').async('string');
+    var siTexts = [];
+    var siRe = /<si>.*?<t[^>]*>([^<]*)<\/t>.*?<\/si>/gs;
+    var siM;
+    while((siM = siRe.exec(ssXml)) !== null) siTexts.push(siM[1]);
+    /* Fila 2: buscar celda cuyo string compartido = "TOTAL" */
+    var row2Re = /<row[^>]*r="2"[^>]*>(.*?)<\/row>/s;
+    var row2M = sheet.match(row2Re);
+    if(row2M){
+      var cellRe = /<c r="([A-Z]+)2"[^>]*t="s"[^>]*><v>(\d+)<\/v><\/c>/g;
+      var cM;
+      while((cM = cellRe.exec(row2M[1])) !== null){
+        var colRef = cM[1]; var strIdx = parseInt(cM[2]);
+        if(strIdx < siTexts.length && siTexts[strIdx].trim().toUpperCase() === 'TOTAL'){
+          totalColLetter = colRef;
+          break;
+        }
+      }
+    }
+  } catch(e){ console.warn('Could not find TOTAL col, using fallback:', e); }
+  console.log('TOTAL column:', totalColLetter);
+
+  /* Recorrer filas y añadir celdas */
+  var linIdx = 0;
+  var newSheet = sheet.replace(/<\/row>/g, function(match, offset){
+    /* Obtener el número de fila en el contexto */
+    var rowStart = sheet.lastIndexOf('<row ', offset);
+    var rowAttrs = sheet.substring(rowStart, sheet.indexOf('>', rowStart)+1);
+    var rowNum = parseInt((rowAttrs.match(/r="(\d+)"/)||[0,'0'])[1]);
+
+    if(rowNum === 1){
+      /* Fila de orden: números */
+      var v1 = newCol1Num; var v2 = newCol2Num;
+      return '<c r="'+newCol1Letter+'1" s="'+sOrder+'"><v>'+v1+'</v></c>'
+           + '<c r="'+newCol2Letter+'1" s="'+sOrder+'"><v>'+v2+'</v></c>'
+           + '</row>';
+    }
+    if(rowNum === 2){
+      /* Fila headers: strings compartidos */
+      return '<c r="'+newCol1Letter+'2" s="'+sHeader+'" t="s"><v>'+idxEstado+'</v></c>'
+           + '<c r="'+newCol2Letter+'2" s="'+sHeader+'" t="s"><v>'+idxMotivo+'</v></c>'
+           + '</row>';
+    }
+    /* Filas de datos (3+): buscar si tienen monto en col TOTAL */
+    /* Extraer el valor de la celda TOTAL de esta fila */
+    var rowXml = sheet.substring(rowStart, offset + '</row>'.length);
+    var totalCellPat = new RegExp('<c r="'+totalColLetter+rowNum+'"[^>]*>.*?</c>', 's');
+    var totalMatch = rowXml.match(totalCellPat);
+    var hasData = false;
+    if(totalMatch){
+      var vMatch = totalMatch[0].match(/<v>([^<]+)<\/v>/);
+      if(vMatch && parseFloat(vMatch[1]) > 0) hasData = true;
+    }
+    if(hasData && linIdx < lineas.length){
+      var lin = lineas[linIdx]; linIdx++;
+      var estadoIdx = lin.estado==='approved' ? idxAprobado : lin.estado==='rejected' ? idxRechazado : idxPendiente;
+      var motivoText = (lin.motivo||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      /* Para el motivo: si hay texto, usar inline string; si no, celda vacía */
+      var motivoCell = motivoText
+        ? '<c r="'+newCol2Letter+rowNum+'" s="'+sData+'" t="inlineStr"><is><t>'+motivoText+'</t></is></c>'
+        : '<c r="'+newCol2Letter+rowNum+'" s="'+sData+'"/>';
+      return '<c r="'+newCol1Letter+rowNum+'" s="'+sData+'" t="s"><v>'+estadoIdx+'</v></c>'
+           + motivoCell
+           + '</row>';
+    }
+    /* Fila sin datos (vacía o sin monto) */
+    return '<c r="'+newCol1Letter+rowNum+'" s="'+sData+'"/>'
+         + '<c r="'+newCol2Letter+rowNum+'" s="'+sData+'"/>'
+         + '</row>';
+  });
+
+  zip.file(gasFile, newSheet);
+
+  /* ── 4. Modificar pivotCacheRecords (excluir rechazados) ── */
+  /* rechazadasIdx usa índice dentro de líneas con monto (igual que el cache) */
+  var rechazadasIdx = [];
+  var montoIdx = 0;
+  lineas.forEach(function(l){
+    if(l.monto > 0){
+      if(l.estado === 'rejected') rechazadasIdx.push(montoIdx);
+      montoIdx++;
+    }
+  });
+  if(rechazadasIdx.length > 0){
+    var cacheFile = null;
+    zip.forEach(function(path){ if(path.toLowerCase().includes('pivotcacherecords')) cacheFile = path; });
+    if(cacheFile){
+      var cacheXml = await zip.file(cacheFile).async('string');
+      var allRows = []; var pos = 0;
+      while(true){
+        var s = cacheXml.indexOf('<r>',pos); if(s<0) break;
+        var e = cacheXml.indexOf('</r>',s); if(e<0) break;
+        allRows.push({start:s, end:e+4, xml:cacheXml.substring(s,e+4)});
+        pos = e+4;
+      }
+      var kept = allRows.filter(function(_,i){ return rechazadasIdx.indexOf(i)<0; });
+      if(allRows.length > 0){
+        var hdr = cacheXml.substring(0, allRows[0].start);
+        var ftr = cacheXml.substring(allRows[allRows.length-1].end);
+        var newCache = hdr + kept.map(function(r){return r.xml;}).join('') + ftr;
+        newCache = newCache.replace(/count="\d+"/, 'count="'+kept.length+'"');
+        zip.file(cacheFile, newCache);
+      }
+    }
+  }
+
+  /* ── 4b. Agregar hoja Resumen con tabla estática de aprobados ── */
+  try {
+    var aprobadasResumen = lineas.filter(function(l){return l.estado==='approved';});
+    var rechazadasResumen = lineas.filter(function(l){return l.estado==='rejected';});
+    var totalApr = aprobadasResumen.reduce(function(s,l){return s+l.monto;},0);
+    var totalRech = rechazadasResumen.reduce(function(s,l){return s+l.monto;},0);
+    var totalRend = lineas.reduce(function(s,l){return s+l.monto;},0);
+
+    /* Agrupar aprobados por CentroCostos + Tipo D + Concepto */
+    var grupos = {};
+    aprobadasResumen.forEach(function(l){
+      var k = (l.cc||'—')+'|'+(l.tipo||'—')+'|'+(l.desc||'—');
+      if(!grupos[k]) grupos[k] = {cc:l.cc||'—', tipo:l.tipo||'—', desc:l.desc||'—', monto:0, count:0};
+      grupos[k].monto += l.monto;
+      grupos[k].count += 1;
+    });
+    var filas = Object.keys(grupos).map(function(k){return grupos[k];});
+
+    function escXml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+    var rowsXml = '';
+    var codigoDisplay=(xlsxNameMap[r]||xlsxFilename||'').replace(/\.xlsx$/i,'')||codigo;
+    var hoyDate=new Date();
+    var hoyStr=String(hoyDate.getDate()).padStart(2,'0')+'-'+String(hoyDate.getMonth()+1).padStart(2,'0')+'-'+hoyDate.getFullYear();
+    function fmtCLP(n){return '$'+Math.round(n).toLocaleString('es-CL');}
+    rowsXml += '<row r="1" spans="1:5" ht="20" customHeight="1"><c r="A1" t="inlineStr"><is><t>Resumen de Rendición Aprobada</t></is></c></row>';
+    rowsXml += '<row r="2" spans="1:5"><c r="A2" t="inlineStr"><is><t>Código:</t></is></c><c r="B2" t="inlineStr"><is><t>'+escXml(codigo)+'</t></is></c>'
+             +'<c r="D2" t="inlineStr"><is><t>Rendidor:</t></is></c><c r="E2" t="inlineStr"><is><t>'+escXml(rendidor)+'</t></is></c></row>';
+    rowsXml += '<row r="3" spans="1:5">'
+             +'<c r="A3" t="inlineStr"><is><t>Fecha rendición:</t></is></c>'
+             +'<c r="B3" t="inlineStr"><is><t>'+escXml(fechaRend||'—')+'</t></is></c>'
+             +'<c r="D3" t="inlineStr"><is><t>Fecha aprobación:</t></is></c>'
+             +'<c r="E3" t="inlineStr"><is><t>'+hoyStr+'</t></is></c>'
+             +'</row>';
+    rowsXml += '<row r="5" spans="1:5"><c r="A5" t="inlineStr"><is><t>Total Rendido</t></is></c><c r="B5"><v>'+totalRend+'</v></c></row>';
+    rowsXml += '<row r="6" spans="1:5"><c r="A6" t="inlineStr"><is><t>Total Aprobado</t></is></c><c r="B6"><v>'+totalApr+'</v></c></row>';
+    rowsXml += '<row r="7" spans="1:5"><c r="A7" t="inlineStr"><is><t>Total Rechazado</t></is></c><c r="B7"><v>'+totalRech+'</v></c></row>';
+    rowsXml += '<row r="9" spans="1:5"><c r="A9" t="inlineStr"><is><t>CentroCostos</t></is></c>'
+             +'<c r="B9" t="inlineStr"><is><t>Tipo D</t></is></c>'
+             +'<c r="C9" t="inlineStr"><is><t>Concepto</t></is></c>'
+             +'<c r="D9" t="inlineStr"><is><t>N° Items</t></is></c>'
+             +'<c r="E9" t="inlineStr"><is><t>Monto Aprobado</t></is></c></row>';
+    var rowN = 10;
+    filas.forEach(function(f){
+      rowsXml += '<row r="'+rowN+'" spans="1:5">'
+        +'<c r="A'+rowN+'" t="inlineStr"><is><t>'+escXml(f.cc)+'</t></is></c>'
+        +'<c r="B'+rowN+'" t="inlineStr"><is><t>'+escXml(f.tipo)+'</t></is></c>'
+        +'<c r="C'+rowN+'" t="inlineStr"><is><t>'+escXml(f.desc)+'</t></is></c>'
+        +'<c r="D'+rowN+'"><v>'+f.count+'</v></c>'
+        +'<c r="E'+rowN+'"><v>'+f.monto+'</v></c></row>';
+      rowN++;
+    });
+    rowsXml += '<row r="'+rowN+'" spans="1:5">'
+      +'<c r="A'+rowN+'" t="inlineStr"><is><t>TOTAL</t></is></c>'
+      +'<c r="E'+rowN+'"><v>'+totalApr+'</v></c></row>';
+
+    var sheetXml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\r\n'
+      +'<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">'
+      +'<dimension ref="A1:E'+rowN+'"/>'
+      +'<sheetViews><sheetView workbookViewId="0"/></sheetViews>'
+      +'<sheetFormatPr defaultRowHeight="14.35"/>'
+      +'<cols>'
+      +'<col min="1" max="1" width="22" customWidth="1"/>'
+      +'<col min="2" max="2" width="12" customWidth="1"/>'
+      +'<col min="3" max="3" width="38" customWidth="1"/>'
+      +'<col min="4" max="4" width="10" customWidth="1"/>'
+      +'<col min="5" max="5" width="18" customWidth="1"/>'
+      +'</cols>'
+      +'<sheetData>'+rowsXml+'</sheetData>'
+      +'<pageMargins left="0.7" right="0.7" top="0.75" bottom="0.75" header="0.3" footer="0.3"/>'
+      +'</worksheet>';
+
+    var existingSheets = [];
+    zip.forEach(function(path){ var m=path.match(/xl\/worksheets\/sheet(\d+)\.xml$/); if(m) existingSheets.push(parseInt(m[1])); });
+    var newSheetNum = Math.max.apply(null, existingSheets.concat([0])) + 1;
+    var newSheetPath = 'xl/worksheets/sheet'+newSheetNum+'.xml';
+    zip.file(newSheetPath, sheetXml);
+
+    var wbXml2 = await zip.file('xl/workbook.xml').async('string');
+    var maxSheetId = 0;
+    var sidM = wbXml2.match(/sheetId="(\d+)"/g)||[];
+    sidM.forEach(function(s){ var n=parseInt(s.match(/(\d+)/)[1]); if(n>maxSheetId) maxSheetId=n; });
+    var wbRels2 = await zip.file('xl/_rels/workbook.xml.rels').async('string');
+    var maxRid = 0;
+    (wbRels2.match(/Id="rId(\d+)"/g)||[]).forEach(function(s){ var n=parseInt(s.match(/(\d+)/)[1]); if(n>maxRid) maxRid=n; });
+    var newRid = 'rId'+(maxRid+1);
+    wbXml2 = wbXml2.replace('</sheets>', '<sheet name="Resumen" sheetId="'+(maxSheetId+1)+'" r:id="'+newRid+'"/></sheets>');
+    zip.file('xl/workbook.xml', wbXml2);
+    wbRels2 = wbRels2.replace('</Relationships>',
+      '<Relationship Id="'+newRid+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet'+newSheetNum+'.xml"/></Relationships>');
+    zip.file('xl/_rels/workbook.xml.rels', wbRels2);
+    var ctXml = await zip.file('[Content_Types].xml').async('string');
+    ctXml = ctXml.replace('</Types>',
+      '<Override PartName="/xl/worksheets/sheet'+newSheetNum+'.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>');
+    zip.file('[Content_Types].xml', ctXml);
+    console.log('Hoja Resumen agregada');
+  } catch(e){ console.warn('Could not add Resumen sheet:', e); }
+
+  /* ── 5. Generar blob y descargar ── */
+  var blob = await zip.generateAsync({
+    type:'blob',
+    compression:'DEFLATE',
+    compressionOptions:{level:6}
+  });
+  var nombre = (xlsxNameMap[r]||codigo).replace(/\.xlsx$/i,'') + '_revisado.xlsx';
+  dlBlob(blob, nombre);
+  setTimeout(function(){ showToast('✓ Excel descargado'); }, 100);
+}
+
+
+function generarInformeHTML(lineas,codigo,rendidor,fecha,totalAprobado,totalRechazado,xlsxFilename){
+  var aprobadas=lineas.filter(function(l){return l.estado==='approved';});
+  var rechazadas=lineas.filter(function(l){return l.estado==='rejected';});
+  var totalRendido=lineas.reduce(function(s,l){return s+l.monto;},0);
+  var hoy=new Date().toLocaleDateString('es-CL',{day:'2-digit',month:'long',year:'numeric'});
+  var pct=totalRendido>0?Math.round(totalAprobado/totalRendido*100):0;
+
+  var rowsA=aprobadas.map(function(l,i){
+    return '<tr><td>'+(i+1)+'</td><td>'+escH(l.desc)+'</td><td>'+escH(l.tipo)+'</td><td>'+escH(l.fecha)+'</td><td>'+escH(l.prov)+'</td><td>'+escH(l.folio)+'</td><td style="text-align:right">$'+l.monto.toLocaleString('es-CL')+'</td></tr>';
+  }).join('');
+
+  var rowsR=rechazadas.map(function(l,i){
+    return '<tr style="background:#fdf0f0"><td>'+(i+1)+'</td><td>'+escH(l.desc)+'</td><td>'+escH(l.tipo)+'</td><td>'+escH(l.fecha)+'</td><td>'+escH(l.prov)+'</td><td>'+escH(l.folio)+'</td><td style="text-align:right">$'+l.monto.toLocaleString('es-CL')+'</td><td style="color:#A32D2D">'+escH(l.motivo)+'</td></tr>';
+  }).join('');
+
+  var secR=rechazadas.length
+    ? '<h3 style="color:#A32D2D;font-size:13px;margin:20px 0 8px;border-bottom:1px solid #f0c0c0;padding-bottom:4px">Gastos rechazados ('+rechazadas.length+')</h3>'
+      +'<table><thead><tr><th>#</th><th>Descripción</th><th>Tipo</th><th>Fecha</th><th>Proveedor</th><th>Folio</th><th>Monto</th><th>Motivo rechazo</th></tr></thead><tbody>'+rowsR+'</tbody></table>'
+    : '';
+
+  /* HTML idéntico al v16 — logo real embebido */
+  var html='<!DOCTYPE html><html><head><meta charset="UTF-8"><style>'
+    +'*{box-sizing:border-box;margin:0;padding:0}'
+    +'body{font-family:Arial,sans-serif;font-size:11px;color:#1a1a18;padding:32px 36px;background:#fff}'
+    +'.header{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid #1a1a18;padding-bottom:14px;margin-bottom:20px}'
+    +'.logo-img{height:36px;width:auto}'
+    +'.hright{text-align:right}'
+    +'.htitle{font-size:15px;font-weight:700;margin-bottom:3px}'
+    +'.hsub{font-size:11px;color:#6b6b66}'
+    +'.meta{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:20px}'
+    +'.mc{background:#f5f4f1;border-radius:6px;padding:10px 14px}'
+    +'.mc-l{font-size:9px;color:#6b6b66;text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:3px}'
+    +'.mc-v{font-size:14px;font-weight:700}'
+    +'.mc-v.ok{color:#0F6E56}.mc-v.re{color:#c0392b}'
+    +'.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px}'
+    +'.kpi{border:1px solid #eceae3;border-radius:6px;padding:10px 14px;text-align:center}'
+    +'.kpi-l{font-size:9px;color:#6b6b66;text-transform:uppercase;letter-spacing:.05em;font-weight:600;margin-bottom:4px}'
+    +'.kpi-v{font-size:16px;font-weight:700}'
+    +'.kpi-v.ok{color:#0F6E56}.kpi-v.re{color:#c0392b}'
+    +'h3{font-size:12px;margin:16px 0 8px;border-bottom:1px solid #eceae3;padding-bottom:4px;color:#1a1a18}'
+    +'table{width:100%;border-collapse:collapse;margin-bottom:8px}'
+    +'th{font-size:9px;font-weight:600;color:#6b6b66;text-transform:uppercase;letter-spacing:.05em;padding:5px 7px;text-align:left;background:#f5f4f1;border-bottom:1px solid #eceae3}'
+    +'td{font-size:10px;padding:5px 7px;border-bottom:1px solid #f0efe9}'
+    +'.footer{margin-top:24px;padding-top:12px;border-top:1px solid #eceae3;display:flex;justify-content:space-between;font-size:9px;color:#9e9d97}'
+    +'</style></head><body>'
+    +'<div class="header">'
+    +'<img style="height:34px;width:auto" src="https://www.altavia.cl/wp-content/uploads/2019/01/Logo_Altavia-1.png" alt="Altavia">'
+    +'<div class="hright"><div class="htitle">Informe de Revisión de Rendición</div><div class="hsub">Generado el '+hoy+'</div></div>'
+    +'</div>'
+    +'<div class="meta">'
+    +'<div class="mc"><div class="mc-l">Código</div><div class="mc-v" style="font-size:12px">'+escH(codigo)+'</div></div>'
+    +'<div class="mc"><div class="mc-l">Rendidor</div><div class="mc-v" style="font-size:12px">'+escH(rendidor)+'</div></div>'
+    +'<div class="mc"><div class="mc-l">Fecha rendición</div><div class="mc-v" style="font-size:12px">'+escH(fecha)+'</div></div>'
+    +'</div>'
+    +'<div class="kpis">'
+    +'<div class="kpi"><div class="kpi-l">Total rendido</div><div class="kpi-v">$'+totalRendido.toLocaleString('es-CL')+'</div></div>'
+    +'<div class="kpi"><div class="kpi-l">Total aprobado</div><div class="kpi-v ok">$'+totalAprobado.toLocaleString('es-CL')+' <span style="font-size:11px">('+pct+'%)</span></div></div>'
+    +'<div class="kpi"><div class="kpi-l">Total rechazado</div><div class="kpi-v'+(totalRechazado>0?' re':'')+'">$'+totalRechazado.toLocaleString('es-CL')+'</div></div>'
+    +'</div>'
+    +(aprobadas.length?'<h3>Gastos aprobados ('+aprobadas.length+')</h3><table><thead><tr><th>#</th><th>Descripción</th><th>Tipo</th><th>Fecha</th><th>Proveedor</th><th>Folio</th><th>Monto</th></tr></thead><tbody>'+rowsA+'</tbody></table>':'')
+    +secR
+    +'<div class="footer"><span>Altavia — Sistema de Auditoría de Rendiciones</span><span>'+escH(codigo)+' · '+escH(rendidor)+'</span></div>'
+    +'</body></html>';
+
+  var blob=new Blob([html],{type:'text/html;charset=utf-8'});
+  var infNombre=(xlsxFilename||codigo).replace(/\.xlsx$/i,'');dlBlob(blob,'Informe_'+infNombre+'.html');
+  setTimeout(function(){showToast('✓ Informe HTML descargado — ábrelo y usa Ctrl+P para guardar como PDF');},100);
+}
+
+/* ── delegación ── */
+
+/* ── Variables de nómina ── */
+var selNomina={};   /* id → true si está seleccionada para nómina */
+/* ── Vars eliminadas ── */
+var selDel={};   /* seleccionada para mover a eliminadas */
+var eliminadas={}; /* id → en pestaña eliminadas */
+var selElim={};  /* seleccionada en vista eliminadas */
+var tabActual='activas';
+var enNomina={};    /* id → true si ya fue incluida en una nómina */
+var fechaValidMap={}; /* id → fecha en que se validó/autorizó */
+var fechaPagoMap={};  /* id → fecha en que se pagó (generó nómina) */
+
+var XLSX_GEN_PY = "import sys,json,io,base64\nfrom openpyxl import Workbook\nfrom openpyxl.styles import Font,PatternFill,Alignment\nfrom openpyxl.utils import get_column_letter\nR=\"FF0000\";B=\"333399\";O=\"FFCC00\";W=\"FFFFFF\";K=\"000000\"\nHC=[R,R,R,R,R,R,R,B,B,R,B,B,O,None]\nH=[\"N\u00ba Cuenta de Cargo\",\"N\u00ba Cuenta de Destino\",\"Banco Destino\",\"Rut Beneficiario\",\"Dig. Verif. Beneficiario\",\"Nombre Beneficiario\",\"Monto Transferencia\",\"Nro.Factura Boleta (1)\",\"N\u00ba Orden de Compra(1)\",\"Tipo de Pago(2)\",\"Mensaje Destinatario (3)\",\"Email Destinatario(3)\",\"Cuenta Destino inscrita como(4)\",\"\"]\nCW=[18,24,14,15,21,20,19,20,22,14,23,20,30,6];RH=14.4;CTA=\"52426815\"\nBK=[(\"Tabla de Bancos\",\"\",\"\",\"\"),(\"\",\"\",\"\",\"\"),(\"C\u00f3digo\",\"Descripci\u00f3n\",\"\",\"\"),\n(1,\"Banco de Chile / A. Edwards / Citibank N.A.\",\"REM\",\"Remuneraciones\"),(9,\"Banco Internacional\",\"PRV\",\"Proveedores\"),\n(11,\"Dresdner Bank Leteinamerika\",\"OTR\",\"Otros Pagos\"),(12,\"Banco del Estado de Chile\",\"DIV\",\"Dividendos\"),\n(14,\"Scotiabank\",\"\",\"\"),(16,\"Banco Cr\u00e9dito e Inversiones\",\"\",\"\"),(17,\"Banco Do Brasil S.A.\",\"Rojo\",\"Obligatorio\"),\n(27,\"Corpbanca\",\"Azul\",\"Opcional\"),(28,\"Banco Bice\",\"Naranjo\",\"Obligatorio solo para Cuentas nuevas\"),\n(31,\"HSBC Bank Chile\",\"\",\"\"),(37,\"Banco Santander - Santiago\",\"\",\"\"),(39,\"Banco Ita\u00fa\",\"Alias\",\"Cuenta Destino inscrita como\"),\n(41,\"JP Morgan Chase Bank\",\"\",\"\"),(43,\"Banco de la Naci\u00f3n Argentina\",\"(1) Obligatorio para pagos PRV\",\"\"),\n(45,\"The Bank of Tokyo \u2013 Mitsubishi\",\"(3) Obligatorio si ingresa email destinatario\",\"\"),\n(46,\"Abn Amro Bank (Chile)\",\"\",\"\"),(49,\"Banco Security\",\"\",\"\"),(51,\"Banco Falabella\",\"\",\"\"),(52,\"Deutsche Bank (Chile)\",\"\",\"\"),\n(53,\"Banco Ripley\",\"\",\"\"),(54,\"HNS Banco\",\"\",\"\"),(55,\"Banco Consorcio\",\"\",\"\"),(504,\"BBVA Banco Bhif\",\"\",\"\"),(507,\"Banco del Desarrollo\",\"\",\"\"),\n(734,\"Banco Conosur\",\"\",\"\"),(672,\"Copeeuch\",\"\",\"\"),(729,\"Tarjetas Los Heroes S.A.\",\"\",\"\"),(730,\"Tenpo Prepago S.A.\",\"\",\"\"),\n(732,\"Los Andes Tarjetas de Prepago\",\"\",\"\"),(116,\"Cuentas Mach\",\"\",\"\"),(875,\"Mercado Pago\",\"\",\"\"),(741,\"Copec Pay\",\"\",\"\"),(738,\"Global 66\",\"\",\"\"),(697,\"La polar\",\"\",\"\")]\nitems=json.loads(sys.stdin.read() if hasattr(sys.stdin,'read') else '[]')\n# parse from JSON_INPUT prefix if present\nimport re\nraw=sys.stdin.read() if False else \"\"\nwb=Workbook();ws=wb.active;ws.title=\"N\u00f3mina\"\nfor i,w in enumerate(CW): ws.column_dimensions[get_column_letter(i+1)].width=w\nfor c,(h2,col) in enumerate(zip(H,HC),start=1):\n    cell=ws.cell(row=1,column=c,value=h2)\n    cell.font=Font(name=\"Calibri\",size=11,color=W if col else K)\n    cell.alignment=Alignment(vertical=\"center\",wrap_text=False)\n    if col: cell.fill=PatternFill(fill_type=\"solid\",fgColor=col)\nws.row_dimensions[1].height=RH\nwr=0\nfor it in items:\n    r=wr+2\n    vals=[CTA,\"\",\"\",\"\",\"\",it.get(\"rendidor\",\"\"),int(it.get(\"monto\",0)),\"\",\"\",\"REM\",\"\",\"\",\"\",\"\"]\n    for c,val in enumerate(vals,start=1):\n        cell=ws.cell(row=r,column=c,value=val)\n        cell.font=Font(name=\"Calibri\",size=11,color=K)\n        cell.alignment=Alignment(vertical=\"center\")\n        if c in (1,7): cell.number_format=\"0\"\n    ws.row_dimensions[r].height=RH;wr+=1\nfor ex in range(wr,8):\n    r=ex+2\n    for c in range(1,15):\n        cell=ws.cell(row=r,column=c,value=\"REM\" if c==10 else \"\")\n        cell.font=Font(name=\"Calibri\",size=11,color=K)\n    ws.row_dimensions[r].height=RH\nwb2=wb.create_sheet(\"COD_BANCO\")\nwb2.column_dimensions[\"A\"].width=10;wb2.column_dimensions[\"B\"].width=46;wb2.column_dimensions[\"C\"].width=16;wb2.column_dimensions[\"D\"].width=40\ncc={\"Rojo\":R,\"Azul\":B,\"Naranjo\":O}\nfor ri,row in enumerate(BK,start=1):\n    for ci,val in enumerate(row,start=1):\n        cell=wb2.cell(row=ri,column=ci,value=val)\n        cell.font=Font(name=\"Calibri\",size=11)\n        if ci==3 and isinstance(val,str) and val in cc:\n            cell.fill=PatternFill(fill_type=\"solid\",fgColor=cc[val])\n            cell.font=Font(name=\"Calibri\",size=11,color=W)\nbuf=io.BytesIO();wb.save(buf);buf.seek(0)\nsys.stdout.write(base64.b64encode(buf.read()).decode())\n";
+
+
+function generarExcelNomina(ids, hoy){
+  var parts=hoy.split('-'), dateFile=parts[2]+parts[1]+parts[0];
+  var filename='Nómina_'+dateFile+'.xlsx';
+  var items=ids.map(function(id){ return {rendidor:rendidorMap[id]||id, monto:getAppr(id), codigo:(xlsxNameMap[id]||id).replace(/\.xlsx$/i,'')}; }).filter(Boolean);
+  var btnConf=document.getElementById('btn-confirmar-nomina');
+  if(btnConf){ btnConf.disabled=true; btnConf.innerHTML='<span class="spinner"></span>Generando Excel…'; }
+  fetch('https://api.anthropic.com/v1/messages',{
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      model:'claude-sonnet-4-20250514', max_tokens:16000,
+      system:'You are a Python executor. Execute the given Python script with the JSON input provided. Respond with ONLY the raw base64 string output from the script. No markdown. No explanation. No newlines. Just the base64.',
+      messages:[{role:'user',content:'JSON_INPUT: '+JSON.stringify(items)+'\n\nSCRIPT:\n'+XLSX_GEN_PY}]
+    })
+  })
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var txt=(data.content||[]).map(function(b){return b.text||'';}).join('').replace(/```[^\n]*\n?/g,'').replace(/\s/g,'').trim();
+    if(!txt||txt.length<200) throw new Error('bad b64');
+    _dlB64(txt,filename);
+    showToast('📊 '+filename+' descargado');
+  })
+  .catch(function(e){
+    console.error(e);
+    _fallbackXlsx(items,filename);
+  })
+  .finally(function(){
+    if(btnConf){btnConf.disabled=false;btnConf.innerHTML='✓ Confirmar y pasar a nómina';}
+  });
+}
+
+function _dlB64(b64,filename){
+  var bin=atob(b64),arr=new Uint8Array(bin.length);
+  for(var i=0;i<bin.length;i++) arr[i]=bin.charCodeAt(i);
+  var blob=new Blob([arr],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+  var url=URL.createObjectURL(blob),a=document.createElement('a');
+  a.href=url;a.download=filename;a.style.display='none';
+  document.body.appendChild(a);a.click();
+  setTimeout(function(){document.body.removeChild(a);URL.revokeObjectURL(url);},8000);
+}
+
+function _fallbackXlsx(items,filename){
+  var hdr=['Nº Cuenta de Cargo','Nº Cuenta de Destino','Banco Destino','Rut Beneficiario','Dig. Verif. Beneficiario','Nombre Beneficiario','Monto Transferencia','Nro.Factura Boleta (1)','Nº Orden de Compra(1)','Tipo de Pago(2)','Mensaje Destinatario (3)','Email Destinatario(3)','Cuenta Destino inscrita como(4)',''];
+  var rows=[hdr];
+  items.forEach(function(it){rows.push(['52426815','','','','',it.rendidor,Math.round(it.monto),'','','REM','','','','']);});
+  for(var e=items.length;e<8;e++) rows.push(['52426815','','','','','','','','','REM','','','','']);
+  var ws=XLSX.utils.aoa_to_sheet(rows);
+  ws['!cols']=[{wch:18},{wch:24},{wch:14},{wch:15},{wch:21},{wch:20},{wch:19},{wch:20},{wch:22},{wch:14},{wch:23},{wch:20},{wch:30},{wch:6}];
+  var wb2=XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb2,ws,'Nómina');
+  XLSX.writeFile(wb2,filename);
+  showToast('📊 '+filename+' (sin formato de color)');
+}
+
+
+function toggleSelNomina(id, checked){
+  /* Solo se puede seleccionar si está en estado "Pago en Curso" */
+  if(!ra[id] || enNomina[id]) return;
+  selNomina[id]=checked;
+  var row=document.getElementById('row'+id);
+  if(row) row.classList.toggle('selected', checked);
+  updateNominaBar();
+}
+
+function updateNominaBar(){
+  var sel=Object.keys(selNomina).filter(function(id){return selNomina[id];});
+  var bar=document.getElementById('toolbar-nomina');
+  var btn=document.getElementById('btn-pasar-nomina');
+  var bdg=document.getElementById('badge-sel');
+  if(sel.length>0){
+    bar.style.display='flex';
+    btn.disabled=false;
+    bdg.textContent=sel.length;
+  } else {
+    bar.style.display='none';
+    btn.disabled=true;
+  }
+}
+
+function abrirModalNomina(){
+  var sel=Object.keys(selNomina).filter(function(id){return selNomina[id];});
+  if(!sel.length) return;
+  var list=document.getElementById('modal-nomina-list');
+  var total=0;
+  list.innerHTML='';
+  sel.forEach(function(id){
+    var nombre=rendidorMap[id]||id;
+    var monto=getAppr(id);
+    total+=monto;
+    var row=document.createElement('div');
+    row.className='modal-list-row';
+    row.innerHTML='<span>'+escH(nombre)+'</span><span>'+fmt(monto)+'</span>';
+    list.appendChild(row);
+  });
+  document.getElementById('modal-nomina-total').textContent='Total: '+fmt(total);
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function cerrarModalNomina(){
+  document.getElementById('modal-overlay').classList.remove('open');
+}
+
+function confirmarNomina(){
+  var sel=Object.keys(selNomina).filter(function(id){return selNomina[id];});
+  if(!sel.length) return;
+  var hoy=new Date();
+  var hoyStr=String(hoy.getDate()).padStart(2,'0')+'-'+String(hoy.getMonth()+1).padStart(2,'0')+'-'+hoy.getFullYear();
+  /* Generar Excel nómina */
+  generarExcelNomina(sel, hoyStr);
+  /* Marcar como pagadas */
+  sel.forEach(function(id){
+    enNomina[id]=true;
+    selNomina[id]=false;
+    fechaPagoMap[id]=hoyStr;
+    /* Actualizar botón de pago */
+    var pb=document.getElementById('pb'+id);
+    if(pb){pb.textContent='✓ Pagado';pb.className='pbtn pagado';pb.disabled=true;}
+    /* Actualizar fecha pago en línea */
+    var fpEl=document.getElementById('fpago'+id);
+    if(fpEl) fpEl.textContent=hoyStr;
+    /* Desmarcar checkbox */
+    var chk=document.getElementById('chknomina'+id);
+    if(chk){chk.checked=false;chk.disabled=true;}
+    var row=document.getElementById('row'+id);
+    if(row){row.classList.remove('selected');row.classList.add('en-nomina');}
+  });
+  cerrarModalNomina();
+  updateNominaBar();
+  /* Guardar nómina en historial */
+  nominasHistorial.push({fecha:hoyStr, ids:sel.slice(), total:sel.reduce(function(s,id){return s+getAppr(id);},0)});
+  autoGuardar();
+  showToast('✓ Nómina generada — '+sel.length+' rendición(es) pagadas');
+}
+
+
+/* ══════════════════════════════════════════════════════════════
+   GESTIÓN DE ELIMINADAS
+   ══════════════════════════════════════════════════════════════ */
+
+/* Variables de estado */
+var selDel = {};       /* id → true: seleccionado para mover a eliminadas */
+var eliminadas = {};   /* id → true: está en la pestaña Eliminadas */
+var selElim = {};      /* id → true: seleccionado en vista eliminadas */
+var tabActual = 'activas';
+
+/* ── Switch de pestañas ── */
+function switchTab(tab){
+  tabActual = tab;
+  var vActivas    = document.getElementById('rendiciones-container');
+  var vEliminadas = document.getElementById('vista-eliminadas');
+  var toolbarNom  = document.getElementById('toolbar-nomina');
+  var toolbarDel  = document.getElementById('toolbar-del');
+  var tabAct      = document.getElementById('tab-activas');
+  var tabElim     = document.getElementById('tab-eliminadas');
+  var frow        = document.querySelector('.frow');
+  var cls         = document.querySelector('.cls');
+
+  if(tab === 'activas'){
+    if(vActivas) vActivas.style.display = '';
+    if(vEliminadas) vEliminadas.style.display = 'none';
+    if(toolbarDel) toolbarDel.style.display = Object.keys(selDel).some(function(id){return selDel[id];}) ? 'flex' : 'none';
+    if(frow) frow.style.display = '';
+    if(cls) cls.style.display = '';
+    if(tabAct) tabAct.classList.add('active');
+    if(tabElim) tabElim.classList.remove('active');
+  } else {
+    if(vActivas) vActivas.style.display = 'none';
+    if(vEliminadas) vEliminadas.style.display = '';
+    if(toolbarDel) toolbarDel.style.display = 'none';
+    if(toolbarNom) toolbarNom.style.display = 'none';
+    if(frow) frow.style.display = 'none';
+    if(cls) cls.style.display = 'none';
+    if(tabAct) tabAct.classList.remove('active');
+    if(tabElim) tabElim.classList.add('active');
+  }
+}
+
+/* ── Actualizar contadores en tabs ── */
+function updateTabCounts(){
+  var nActivas    = Object.keys(rendidorMap).filter(function(id){ return !eliminadas[id]; }).length;
+  var nEliminadas = Object.keys(eliminadas).filter(function(id){ return eliminadas[id]; }).length;
+  var cntAct = document.getElementById('cnt-activas');
+  var cntElim = document.getElementById('cnt-eliminadas');
+  if(cntAct) cntAct.textContent = nActivas;
+  if(cntElim) cntElim.textContent = nEliminadas;
+}
+
+/* ── Toggle checkbox de mover a eliminadas ── */
+function toggleSelDel(id, checked){
+  selDel[id] = checked;
+  var row = document.getElementById('row'+id);
+  if(row) row.classList.toggle('sel-del', checked);
+  updateToolbarDel();
+}
+
+function updateToolbarDel(){
+  var sel = Object.keys(selDel).filter(function(id){ return selDel[id]; });
+  var bar = document.getElementById('toolbar-del');
+  var btn = document.getElementById('btn-mover-del');
+  var bdg = document.getElementById('badge-del');
+  if(bar) bar.style.display = sel.length > 0 && tabActual === 'activas' ? 'flex' : 'none';
+  if(btn) btn.disabled = sel.length === 0;
+  if(bdg) bdg.textContent = sel.length;
+}
+
+/* ── Mover seleccionadas a Eliminadas ── */
+function moverAEliminadas(){
+  var sel = Object.keys(selDel).filter(function(id){ return selDel[id]; });
+  if(!sel.length) return;
+  var cont = document.getElementById('eliminadas-container');
+  sel.forEach(function(id){
+    eliminadas[id] = true;
+    selDel[id] = false;
+    var row = document.getElementById('row'+id);
+    if(row && cont){
+      row.classList.remove('sel-del');
+      row.classList.add('deleted');
+      /* Deshabilitar chkdel en vista activa (ya está en eliminadas) */
+      var chkD = document.getElementById('chkdel'+id);
+      if(chkD){ chkD.disabled = true; chkD.checked = false; }
+      /* Deshabilitar chknomina */
+      var chkN = document.getElementById('chknomina'+id);
+      if(chkN){ chkN.disabled = true; chkN.checked = false; }
+      /* Agregar al contenedor de eliminadas */
+      cont.appendChild(row);
+    }
+  });
+  updateToolbarDel();
+  updateTabCounts();
+  autoGuardar();
+  showToast('🗑 '+sel.length+' rendición(es) movidas a Eliminadas');
+}
+
+/* ── Toggle selección en vista Eliminadas ── */
+function toggleSelElim(id, checked){
+  selElim[id] = checked;
+  var row = document.getElementById('row'+id);
+  if(row) row.classList.toggle('sel-elim', checked);
+  updateToolbarElim();
+}
+
+function updateToolbarElim(){
+  var sel = Object.keys(selElim).filter(function(id){ return selElim[id]; });
+  var btnR = document.getElementById('btn-restaurar');
+  var btnP = document.getElementById('btn-elim-perm');
+  var bdg  = document.getElementById('badge-elim-cnt');
+  if(btnR) btnR.disabled = sel.length === 0;
+  if(btnP) btnP.disabled = sel.length === 0;
+  if(bdg){ bdg.style.display = sel.length > 0 ? 'inline-block' : 'none'; bdg.textContent = sel.length; }
+}
+
+/* ── Restaurar de Eliminadas a Activas ── */
+function restaurarSeleccionadas(){
+  var sel = Object.keys(selElim).filter(function(id){ return selElim[id]; });
+  if(!sel.length) return;
+  var cont = document.getElementById('rendiciones-container');
+  sel.forEach(function(id){
+    eliminadas[id] = false;
+    selElim[id] = false;
+    var row = document.getElementById('row'+id);
+    if(row && cont){
+      row.classList.remove('deleted','sel-elim');
+      /* Re-habilitar checkbox de eliminar */
+      var chkD = document.getElementById('chkdel'+id);
+      if(chkD){ chkD.disabled = false; chkD.checked = false; }
+      /* Re-habilitar chknomina si corresponde */
+      if(ra[id] && !enNomina[id]){
+        var chkN = document.getElementById('chknomina'+id);
+        if(chkN) chkN.disabled = false;
+      }
+      cont.appendChild(row);
+    }
+  });
+  updateToolbarElim();
+  updateTabCounts();
+  autoGuardar();
+  showToast('↩ Rendición(es) restauradas a activas');
+}
+
+/* ── Modal y eliminación permanente ── */
+function abrirModalElimPerm(){
+  var sel = Object.keys(selElim).filter(function(id){ return selElim[id]; });
+  if(!sel.length) return;
+  var msg = document.getElementById('modal-perm-msg');
+  if(msg){
+    var nombres = sel.map(function(id){ return rendidorMap[id]||codigoMap[id]||id; }).join(', ');
+    msg.innerHTML = 'Se eliminarán permanentemente:<br><strong>'+escH(nombres)+'</strong><br><br>Esta acción no se puede deshacer.';
+  }
+  document.getElementById('modal-perm-overlay').classList.add('open');
+}
+
+function cerrarModalElimPerm(){
+  document.getElementById('modal-perm-overlay').classList.remove('open');
+}
+
+function confirmarElimPerm(){
+  var sel = Object.keys(selElim).filter(function(id){ return selElim[id]; });
+  sel.forEach(function(id){
+    /* Eliminar del DOM */
+    var row = document.getElementById('row'+id);
+    if(row) row.remove();
+    /* Limpiar todos los mapas */
+    delete eliminadas[id]; delete selElim[id];
+    delete rendidorMap[id]; delete codigoMap[id];
+    delete xlsxNameMap[id]; delete fechaMap[id];
+    delete fechaValidMap[id]; delete fechaPagoMap[id];
+    delete ramt[id]; delete validated[id]; delete ra[id];
+    delete enNomina[id]; delete ls[id]; delete rejMotivos[id];
+    delete lineasMap[id]; delete xlsxMap[id];
+    delete pdfMap[id]; delete pdfNameMap[id]; delete selNomina[id];
+  });
+  cerrarModalElimPerm();
+  updateToolbarElim();
+  updateTabCounts();
+  us();
+  autoGuardar();
+  showToast('🗑 '+sel.length+' rendición(es) eliminadas permanentemente');
+}
+
+
+document.addEventListener('click',function(e){
+  var pdfBtn=e.target.closest('[id^="btnPdf"]');
+  if(pdfBtn){var url=pdfMap[pdfBtn.dataset.rid];if(url)window.open(url,'_blank','noopener');else showToast('Carga el PDF junto con el xlsx.');return;}
+  var btn=e.target.closest('[data-action]');if(!btn)return;
+  var ac=btn.dataset.action,r=btn.dataset.rid,i=btn.dataset.i!==undefined?+btn.dataset.i:null;
+  if(ac==='appr'){if(!r||validated[r])return;if(!ls[r])ls[r]={};ls[r][i]='approved';var tr=document.querySelector('#l'+r+' tr[data-i="'+i+'"]');if(tr){tr.classList.add('lp');tr.classList.remove('lr');var nx=tr.nextElementSibling;if(nx&&nx.classList.contains('reject-row'))nx.remove();}setAppr(r,i);upd(r);autoGuardar();}
+  else if(ac==='rej'){if(!r||validated[r])return;showRejInput(r,i);}
+  else if(ac==='save-rej'){if(!r||validated[r])return;var inp=btn.previousElementSibling;var reason=inp?inp.value.trim():'';if(!reason){if(inp)inp.focus();return;}if(!ls[r])ls[r]={};ls[r][i]='rejected';var tr2=document.querySelector('#l'+r+' tr[data-i="'+i+'"]');if(tr2){tr2.classList.add('lr');tr2.classList.remove('lp');}setRej(r,i,reason);upd(r);showToast('Línea rechazada: '+reason);autoGuardar();}
+  else if(ac==='revert'){if(!r||validated[r])return;if(ls[r])delete ls[r][i];var tr3=document.querySelector('#l'+r+' tr[data-i="'+i+'"]');if(tr3){tr3.classList.remove('lp','lr');var nx2=tr3.nextElementSibling;if(nx2&&nx2.classList.contains('reject-row'))nx2.remove();}setPend(r,i);upd(r);autoGuardar();}
+  else if(ac==='aa'){if(!r||validated[r])return;document.querySelectorAll('#l'+r+' tr[data-i]').forEach(function(row){var idx=+row.dataset.i;if(ls[r]&&ls[r][idx]==='rejected')return;if(!ls[r])ls[r]={};ls[r][idx]='approved';row.classList.add('lp');row.classList.remove('lr');var nx3=row.nextElementSibling;if(nx3&&nx3.classList.contains('reject-row'))nx3.remove();setAppr(r,idx);});upd(r);autoGuardar();}
+  else if(ac==='validate'){
+    if(!r||validated[r]||counted(r)<total(r))return;
+    validated[r]=true;
+    var panel=document.getElementById('d'+r);if(panel){panel.classList.add('locked');panel.querySelectorAll('.revbtn').forEach(function(b){b.style.display='none';});}
+    var cb=document.getElementById('cb'+r);if(cb){cb.textContent='✓ Validado';cb.disabled=true;cb.className='abtn done';delete cb.dataset.action;}
+    var mb=document.getElementById('mb'+r);if(mb)mb.disabled=false;
+    var sb2=document.getElementById('st'+r);if(sb2){sb2.textContent='Validado';sb2.className='sbadge s-valid';}
+    var rrow2=document.getElementById('row'+r);if(rrow2){rrow2.classList.add('validated');rrow2.dataset.estado='Validado';}
+    var pff=document.getElementById('pf'+r);if(pff)pff.style.width='100%';
+    var pb=document.getElementById('pb'+r);if(pb){pb.textContent='Autorizar';pb.className='pbtn';pb.disabled=false;pb.onclick=function(e){e.stopPropagation();authPago(r);};}
+    us();showToast('Rendición validada. Presiona "Autorizar" para generar las descargas.');
+  }
+  else if(ac==='mail'){var s2=encodeURIComponent('Rendición validada '+btn.dataset.codigo+' — '+btn.dataset.rendidor);var bd=encodeURIComponent('Estimado equipo de Tesorería,\n\nSe informa que la rendición '+btn.dataset.codigo+' de '+btn.dataset.rendidor+' por '+btn.dataset.monto+' ha sido validada y está lista para autorización de pago.\n\nSaludos,\nAltavia — Control de Gestión');window.location.href='mailto:'+TESORERIA+'?subject='+s2+'&body='+bd;showToast('Abriendo Outlook…');}
+});
+
+/* us() ahora usa mapas en memoria — O(n) sin tocar el DOM */
+function us(){
+  var ap=0, pe=0;
+  Object.keys(ramt).forEach(function(id){
+    if(ra[id]) ap+=ramt[id]||0;
+    else pe+=ramt[id]||0;
+  });
+  var elAp=document.getElementById('stat-aprobado');
+  var elPe=document.getElementById('stat-pend');
+  if(elAp) elAp.textContent=fmt(ap);
+  if(elPe) elPe.textContent=fmt(pe);
+}
+function applyFilters(){var est=document.getElementById('filterEstado').value.toLowerCase();var ren=document.getElementById('filterRendidor').value.toLowerCase();document.querySelectorAll('.rrow').forEach(function(row){var ok=(!est||(row.dataset.estado||'').toLowerCase()===est)&&(!ren||(row.dataset.rendidor||'').toLowerCase().includes(ren));row.style.display=ok?'':'none';});}
+function triggerUpload(){var inp=document.createElement('input');inp.type='file';inp.multiple=true;inp.accept='.xlsx,.pdf';inp.style.display='none';inp.addEventListener('change',function(e){processFiles(Array.from(e.target.files));if(inp.parentNode)inp.parentNode.removeChild(inp);});document.body.appendChild(inp);inp.click();}
+
+function processFiles(files){
+  var xlsxFiles={}, pdfFiles={};
+  Array.from(files).forEach(function(f){
+    var lower=f.name.toLowerCase();
+    var base=f.name.replace(/\.(xlsx|pdf)$/i,"");
+    if(lower.endsWith(".xlsx")) xlsxFiles[base]=f;
+    else if(lower.endsWith(".pdf")) pdfFiles[base]=f;
+  });
+  var errores=[];
+  Object.keys(xlsxFiles).forEach(function(b){ if(!pdfFiles[b]) errores.push(b+".xlsx sin su PDF"); });
+  Object.keys(pdfFiles).forEach(function(b){ if(!xlsxFiles[b]) errores.push(b+".pdf sin su xlsx"); });
+  if(errores.length){
+    showToast("⚠ "+errores[0]+(errores.length>1?" (+"+(errores.length-1)+" más)":""));
+    return;
+  }
+  var pares=Object.keys(xlsxFiles);
+  if(!pares.length){ showToast("Selecciona pares xlsx+pdf del mismo nombre"); return; }
+  showToast("Cargando "+pares.length+" rendición"+(pares.length>1?"es":"")+"…");
+  /* Leer todos los xlsx en paralelo con Promise.all */
+  var promises=pares.map(function(base){
+    return new Promise(function(resolve){
+      var xf=xlsxFiles[base], pf=pdfFiles[base];
+      var reader=new FileReader();
+      reader.onerror=function(){ resolve({error:true, name:xf.name}); };
+      reader.onload=function(e){ resolve({ab:e.target.result, xf:xf, pf:pf, base:base, error:false}); };
+      reader.readAsArrayBuffer(xf);
+    });
+  });
+  Promise.all(promises).then(function(results){
+    var cargadas=0;
+    results.forEach(function(res){
+      if(res.error){ showToast("Error leyendo "+res.name); return; }
+      try{
+        var wb=XLSX.read(new Uint8Array(res.ab),{type:"array",cellDates:true,raw:true});
+        var result=parseWorkbook(wb,res.xf.name);
+        /* Usar nombre del archivo como id para garantizar unicidad */
+        var id=res.xf.name.replace(/\.xlsx$/i,"").replace(/[^a-zA-Z0-9]/g,"_");
+        xlsxMap[id]=res.ab; xlsxNameMap[id]=res.xf.name;
+        rendidorMap[id]=result.rendidor; codigoMap[id]=result.codigo;
+        fechaMap[id]=result.fechaRend;
+        lineasMap[id]=result.lineas.reduce(function(acc,l,i){acc[i]=l;return acc;},{});
+        pdfMap[id]=URL.createObjectURL(res.pf); pdfNameMap[id]=res.pf.name;
+        montarRendicion(result.codigo,result.rendidor,result.lineas,result.fechaRend,pdfMap[id],res.xf.name);
+        cargadas++;
+      }catch(err){ showToast("Error en "+res.xf.name+": "+err.message); console.error(err); }
+    });
+    if(cargadas>1) showToast("✓ "+cargadas+" rendiciones cargadas");
+  });
+}
+
+function getSheet(wb,names){for(var i=0;i<names.length;i++){if(wb.Sheets[names[i]])return wb.Sheets[names[i]];}for(var j=0;j<wb.SheetNames.length;j++){var sn=wb.SheetNames[j].toLowerCase();for(var k=0;k<names.length;k++){if(sn.includes(names[k].toLowerCase()))return wb.Sheets[wb.SheetNames[j]];}}return null;}
+
+function parseWorkbook(wb,filename){
+  var codigoRend=filename.replace(/\.xlsx$/i,'');
+  var wsRend=getSheet(wb,['Rendición','Rendicion']);
+  if(wsRend){var arrR=XLSX.utils.sheet_to_json(wsRend,{header:1,defval:'',raw:true});for(var i=0;i<arrR.length;i++){var campo=String(arrR[i][0]||'').trim().toLowerCase();if(campo==='codigo-rendicion'||campo==='codigorendicion'){var val=String(arrR[i][1]||'').trim();if(val){codigoRend=val;break;}}}}
+  var wsG=getSheet(wb,['Co_Gastos','co_gastos','Gastos']);if(!wsG)throw new Error('No Co_Gastos');
+  var raw=XLSX.utils.sheet_to_json(wsG,{header:1,defval:'',raw:true,cellDates:true});
+  var hdrIdx=-1;for(var h=0;h<Math.min(raw.length,5);h++){for(var c=0;c<raw[h].length;c++){if(String(raw[h][c]).trim().toLowerCase()==='quien'){hdrIdx=h;break;}}if(hdrIdx>=0)break;}
+  if(hdrIdx<0)throw new Error('No headers');
+  var headers=raw[hdrIdx].map(function(h){return String(h).trim();});
+  function ci(name){var idx=-1;headers.forEach(function(h,i){if(h.toLowerCase()===name.toLowerCase())idx=i;});return idx;}
+  var iQ=ci('Quien'),iFR=ci('Fecha R'),iCC=ci('CentroCostos'),iTD=ci('Tipo D'),iCp=ci('Concepto Compra'),iFD=ci('Fecha D'),iPr=ci('Proveedor'),iFo=ci('Folio'),iT=ci('TOTAL');
+  var dRows=raw.slice(hdrIdx+1);
+  var quien=iQ>=0&&dRows[0]?String(dRows[0][iQ]||'').trim():'';
+  var fRaw=iFR>=0&&dRows[0]?dRows[0][iFR]:'';
+  var rendidor=resolverNombre(wb,quien,codigoRend);
+  var lineas=[];
+  dRows.forEach(function(row){if(!row||!row.length)return;var monto=iT>=0?parseNum(row[iT]):0;if(monto<=0)return;lineas.push({desc:String(iCp>=0?row[iCp]||'—':'—').trim(),tipo:String(iTD>=0?row[iTD]||'':'').trim().toUpperCase(),fecha:fmtDate(iFD>=0?row[iFD]:''),cc:String(iCC>=0?row[iCC]||'—':'—').trim(),prov:String(iPr>=0?row[iPr]||'—':'—').trim(),folio:String(iFo>=0?row[iFo]||'—':'—').trim(),monto:monto});});
+  return {codigo:codigoRend,rendidor:rendidor,lineas:lineas,fechaRend:fmtDate(fRaw)};
+}
+
+function resolverNombre(wb,quien,codigoRend){
+  if(!quien)return codigoRend||'Sin nombre';
+  var wsM=getSheet(wb,['M_RUTS','m_ruts','MRUTS']);if(!wsM)return quien;
+  var rawM=XLSX.utils.sheet_to_json(wsM,{header:1,defval:'',raw:true});if(rawM.length<2)return quien;
+  var hdrs=rawM[0].map(function(h){return String(h).trim().toLowerCase();});
+  var iR=hdrs.indexOf('rut');if(iR<0)iR=0;var iP=hdrs.indexOf('proveedor');if(iP<0)iP=1;
+  var datos=rawM.slice(1);
+  for(var i=0;i<datos.length;i++){if(String(datos[i][iR]||'').trim()===quien)return String(datos[i][iP]||quien).trim();}
+  var code=quien.replace(/-[A-Za-z]$/,'').replace(/[^A-Za-z]/g,'').toUpperCase();var nL=Math.min(code.length,3);
+  if(nL>=2){for(var j=0;j<datos.length;j++){var nom=String(datos[j][iP]||'').trim();var pal=nom.split(/\s+/).filter(function(w){return w.length>1;});if(pal.length>=nL){var ini='';for(var p=0;p<nL;p++)ini+=(pal[p][0]||'').toUpperCase();if(ini===code.substring(0,nL))return nom;}}}
+  var ac=codigoRend.replace(/[^A-Za-z]/g,'').toUpperCase();
+  if(ac&&ac!==code){var nL2=Math.min(ac.length,3);for(var k=0;k<datos.length;k++){var nom2=String(datos[k][iP]||'').trim();var pal2=nom2.split(/\s+/).filter(function(w){return w.length>1;});if(pal2.length>=nL2){var ini2='';for(var p2=0;p2<nL2;p2++)ini2+=(pal2[p2][0]||'').toUpperCase();if(ini2===ac.substring(0,nL2))return nom2;}}}
+  return quien;
+}
+
+function montarRendicion(codigo,rendidor,lineas,fechaRend,pdfUrl,xlsxFilename){
+  /* id basado en nombre de archivo para garantizar unicidad */
+  var id=(xlsxFilename||codigo).replace(/\.xlsx$/i,'').replace(/[^a-zA-Z0-9]/g,'_');
+  if(document.getElementById('row'+id)){if(pdfUrl){pdfMap[id]=pdfUrl;pdfNameMap[id]=pdfUrl;var b=document.getElementById('btnPdf'+id);if(b)b.className='abtn pdf-ok';showToast('PDF actualizado.');}else showToast('Esta rendición ya está cargada.');return;}
+  if(!lineas.length){showToast('Sin líneas con monto en '+codigo);return;}
+  ls[id]={};validated[id]=false;ra[id]=0;if(pdfUrl)pdfMap[id]=pdfUrl;
+  var totalMonto=lineas.reduce(function(s,l){return s+l.monto;},0);ramt[id]=totalMonto;
+  var lH=lineas.map(function(l,idx){return '<tr data-i="'+idx+'" data-amt="'+l.monto+'" data-desc="'+escA(l.desc)+'"><td style="color:#9e9d97">'+(idx+1)+'</td><td>'+escH(l.desc)+badge(l.tipo)+'</td><td style="color:#6b6b66">'+escH(l.fecha)+'</td><td><span class="ctag">'+escH(l.cc)+'</span></td><td style="color:#6b6b66">'+escH(l.prov)+'</td><td style="color:#6b6b66;font-family:monospace;font-size:12px">'+escH(l.folio)+'</td><td style="text-align:right">$'+l.monto.toLocaleString('es-CL')+'</td><td><span class="plnk">—</span></td><td style="text-align:center"><div class="act-wrap" id="aw'+id+'-'+idx+'"><button class="labtn" data-rid="'+id+'" data-i="'+idx+'" data-action="appr">Aprobar</button><button class="rjbtn" data-rid="'+id+'" data-i="'+idx+'" data-action="rej">Rechazar</button></div></td></tr>';}).join('');
+  var mf='$'+totalMonto.toLocaleString('es-CL');var pc=pdfUrl?'abtn pdf-ok':'abtn';
+  var html='<div class="rrow" id="row'+id+'" data-rendidor="'+escA(rendidor)+'" data-estado="Pendiente">'+'<div class="rhdr" onclick="tog(\''+id+'\')">'+'<div class="chk-cell"><input type="checkbox" id="chknomina'+id+'" onclick="event.stopPropagation()" onchange="toggleSelNomina(\''+id+'\',this.checked)" disabled></div>'+'<div class="arrbtn open" id="arr'+id+'">&#8964;</div>'+'<div class="rcode" title="'+escA(codigo)+'">'+escH((xlsxFilename||codigo).replace(/\.xlsx$/i,''))+'</div>'+'<div class="rname">'+escH(rendidor)+' <span class="src-badge">xlsx</span></div>'+'<div class="rdcol">'+escH(fechaRend)+'</div>'+'<div class="rdcol" id="fvalid'+id+'" style="color:#6b6b66">—</div>'+'<div class="rdcol" id="fpago'+id+'" style="color:#6b6b66">—</div>'+'<div class="ramt">'+mf+'</div>'+'<div class="ramt g" id="apr'+id+'">$0</div>'+'<div><span class="sbadge s-pend" id="st'+id+'">Pendiente</span></div>'+'<div class="pw"><button class="pbtn blocked" id="pb'+id+'" disabled onclick="event.stopPropagation()">Sin revisar</button></div>'+'<div class="ricnt">'+lineas.length+'<br>ítems</div>'+'<div class="chk-del-cell"><input type="checkbox" id="chkdel'+id+'" onclick="event.stopPropagation()" onchange="toggleSelDel(\''+id+'\',this.checked)"></div>'+'</div>'+'<div class="pbar"><div class="pfill" id="pf'+id+'" style="width:0%"></div></div>'+'<div class="dpanel open" id="d'+id+'">'+'<table class="dtable"><colgroup><col class="cn"><col><col class="cfg"><col class="ccc"><col class="cpr"><col class="cfo"><col class="cam"><col class="cpd"><col class="cap"></colgroup>'+'<thead><tr><th>#</th><th>Descripción</th><th>Fecha</th><th>Centro Costo</th><th>Proveedor</th><th>Folio/N°</th><th style="text-align:right">Monto</th><th>Resp.</th><th style="text-align:center">Acción</th></tr></thead>'+'<tbody id="l'+id+'">'+lH+'</tbody></table>'+'<div class="dfooter">'+'<div class="ftotals"><div><div class="ftl">Total rendición</div><div class="ftv">'+mf+'</div></div><div><div class="ftl">Aprobado</div><div class="ftv g" id="ap'+id+'">$0</div></div></div>'+'<div class="dacts">'+'<button class="'+pc+'" id="btnPdf'+id+'" data-rid="'+id+'">Ver PDF</button>'+'<button class="abtn" data-rid="'+id+'" data-action="aa">Aprobar todas</button>'+'<button class="abtn mail" id="mb'+id+'" disabled data-rid="'+id+'" data-action="mail" data-codigo="'+escA(codigo)+'" data-rendidor="'+escA(rendidor)+'" data-monto="'+escA(mf)+'">&#9993; Enviar mail</button>'+'<button class="abtn primary" id="cb'+id+'" disabled data-rid="'+id+'" data-action="validate">Validar</button>'+'</div></div></div></div>';
+  var container=document.getElementById('rendiciones-container');var tmp=document.createElement('div');tmp.innerHTML=html;container.appendChild(tmp.firstElementChild);updateTabCounts();
+  var cur=parseInt((document.getElementById('stat-total').textContent||'').replace(/[^0-9]/g,''))||0;
+  document.getElementById('stat-total').textContent=fmt(cur+totalMonto);us();
+  showToast('✓ '+rendidor+' ('+codigo+') · '+lineas.length+' líneas'+(pdfUrl?' · PDF listo':''));
+  setTimeout(function(){var el=document.getElementById('row'+id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},300);
+}
+us();
+/* Cargar historial desde GitHub al iniciar */
+setTimeout(function(){ cargarHistorial(); }, 300);
+
+document.getElementById('modal-overlay').addEventListener('click', function(e){
+  if(e.target === this) cerrarModalNomina();
+});
+document.getElementById('modal-perm-overlay').addEventListener('click', function(e){
+  if(e.target === this) cerrarModalElimPerm();
+});
+</script>
+</body>
+</html>

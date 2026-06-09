@@ -306,19 +306,20 @@ function ghHeaders(){
 /* Cargar historial desde GitHub al abrir el dashboard */
 async function cargarHistorial(){
   var WORKER_URL = 'https://altavia-historial.nicolasitd.workers.dev';
-  if(GITHUB_TOKEN === 'INGRESA_TU_TOKEN_AQUI'){
-    console.log('Historial via worker');
-  }
   try{
     var resp = await fetch(WORKER_URL, { method: 'GET' });
     if(resp.status === 404){
-      historialData = [];
+      console.log('Historial nuevo — se creará al guardar por primera vez');
+      historialCargado = true;
       return;
     }
+    if(!resp.ok) throw new Error('Worker error: ' + resp.status);
     var data = await resp.json();
-    _ghFileSha = data.sha;
-    historialData = JSON.parse(data.content);
-    if(!Array.isArray(historialData)) historialData = [];
+    githubFileSha = data.sha;
+    var estado = JSON.parse(data.content);
+    /* Restaurar el estado */
+    restaurarEstado(estado);
+    historialCargado = true;
   }catch(e){
     console.error('Error cargando historial:', e);
     showToast('⚠️ No se pudo cargar el historial: ' + e.message);
@@ -327,11 +328,13 @@ async function cargarHistorial(){
 async function guardarHistorial(){
   var WORKER_URL = 'https://altavia-historial.nicolasitd.workers.dev';
   try{
-    var checksum = JSON.stringify(historialData);
-    if(checksum === _lastSavedChecksum){ return; }
+    var estado = capturarEstado();
+    var jsonStr = JSON.stringify(estado, null, 2);
+    var checksum = jsonStr;
+    if(checksum === window._lastHistorialChecksum){ return; }
     var body = {
-      content: JSON.stringify(historialData, null, 2),
-      sha: _ghFileSha,
+      content: jsonStr,
+      sha: githubFileSha,
       message: 'Update historial'
     };
     var resp = await fetch(WORKER_URL, {
@@ -345,9 +348,9 @@ async function guardarHistorial(){
     }
     var result = await resp.json();
     if(result && result.content && result.content.sha){
-      _ghFileSha = result.content.sha;
+      githubFileSha = result.content.sha;
     }
-    _lastSavedChecksum = checksum;
+    window._lastHistorialChecksum = checksum;
     showToast('✅ Historial guardado');
   }catch(e){
     console.error('Error guardando historial:', e);

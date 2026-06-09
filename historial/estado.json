@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T16:52:04.304Z",
+  "timestamp": "2026-06-09T16:52:11.745Z",
   "rendiciones": {
     "RND_PRUEBA_001": {
       "codigo": "RND-PRUEBA-001",
@@ -11,7 +11,7 @@
       "fechaPago": "",
       "monto": 95500,
       "montoAprobado": 95500,
-      "validado": false,
+      "validado": true,
       "autorizado": 0,
       "enNomina": false,
       "lineas": {
@@ -52,5 +52,7 @@
     }
   },
   "nominas": [],
-  "eliminadas_ids": []
+  "eliminadas_ids": [
+    "RND_PRUEBA_001"
+  ]
 }

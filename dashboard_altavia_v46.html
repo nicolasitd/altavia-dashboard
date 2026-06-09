@@ -501,6 +501,7 @@ function restaurarEstado(estado){
               var rhdr = r.querySelector('.rhdr');
               if(rhdr){
                 rhdr.setAttribute('data-elim-id', rid);
+                rhdr.removeAttribute('onclick');
                 rhdr.onclick = function(e){
                   if(e.target.closest('button, input, a')) return;
                   var checked = !selElim[rid];
@@ -1320,7 +1321,8 @@ function moverAEliminadas(){
         var rhdr = r.querySelector('.rhdr');
         if(rhdr){
           rhdr.setAttribute('data-elim-id', rid);
-          rhdr.onclick = function(e){
+          rhdr.removeAttribute('onclick');
+                rhdr.onclick = function(e){
             if(e.target.closest('button, input, a')) return;
             var checked = !selElim[rid];
             selElim[rid] = checked;

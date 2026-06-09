@@ -1336,6 +1336,7 @@ function moverAEliminadas(){
   });
   updateToolbarDel();
   updateTabCounts();
+  us();
   autoGuardar();
   showToast('🗑 '+sel.length+' rendición(es) movidas a Eliminadas');
 }
@@ -1459,13 +1460,17 @@ document.addEventListener('click',function(e){
 
 /* us() ahora usa mapas en memoria — O(n) sin tocar el DOM */
 function us(){
-  var ap=0, pe=0;
+  var ap=0, pe=0, tot=0;
   Object.keys(ramt).forEach(function(id){
+    if(eliminadas[id]) return;
+    tot+=ramt[id]||0;
     if(ra[id]) ap+=ramt[id]||0;
     else pe+=ramt[id]||0;
   });
+  var elTot=document.getElementById('stat-total');
   var elAp=document.getElementById('stat-aprobado');
   var elPe=document.getElementById('stat-pend');
+  if(elTot) elTot.textContent=fmt(tot);
   if(elAp) elAp.textContent=fmt(ap);
   if(elPe) elPe.textContent=fmt(pe);
 }

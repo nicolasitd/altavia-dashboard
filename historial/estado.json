@@ -1,51 +1,7 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T16:50:54.460Z",
+  "timestamp": "2026-06-09T16:50:57.547Z",
   "rendiciones": {
-    "SP_20260526": {
-      "codigo": "TC46149",
-      "xlsxName": "SP-20260526.xlsx",
-      "rendidor": "Sebastian Paz",
-      "fechaRend": "26-05-2026",
-      "fechaValid": "",
-      "fechaPago": "",
-      "monto": 1745248,
-      "montoAprobado": 0,
-      "validado": false,
-      "autorizado": 0,
-      "enNomina": false,
-      "lineas": {},
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "AsesorÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­as o Servicios para Proyectos",
-          "tipo": "FV",
-          "fecha": "04-05-2026",
-          "cc": "AdminAV SS-G.Grales",
-          "prov": "Soc. Ventro de Estudios en Percp Remota",
-          "folio": "58",
-          "monto": 1700365
-        },
-        "1": {
-          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
-          "tipo": "FV",
-          "fecha": "16-04-2026",
-          "cc": "AdminAV SS-G.Grales",
-          "prov": "Distribuidora E y V SPA",
-          "folio": "309",
-          "monto": 21000
-        },
-        "2": {
-          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
-          "tipo": "FV",
-          "fecha": "25-05-2026",
-          "cc": "AdminAV SS-G.Grales",
-          "prov": "Cencosud Retail S.A.",
-          "folio": "3354655325",
-          "monto": 23883
-        }
-      }
-    },
     "RND_PRUEBA_001": {
       "codigo": "RND-PRUEBA-001",
       "xlsxName": "RND_PRUEBA_001.xlsx",
@@ -96,7 +52,5 @@
     }
   },
   "nominas": [],
-  "eliminadas_ids": [
-    "SP_20260526"
-  ]
+  "eliminadas_ids": []
 }

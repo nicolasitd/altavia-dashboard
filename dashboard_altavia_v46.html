@@ -290,14 +290,14 @@ var githubFileSha = null; /* SHA del archivo en GitHub — necesario para actual
    ════════════════════════════════════════════════════════════ */
 
 /* Headers de GitHub cacheados — se recalculan solo si cambia el token */
-var _ghHeaders = null;
+var _ghHeaders = null; var _ghHeadersToken = null;
 function ghHeaders(){
-  if(!_ghHeaders || _ghHeaders._token !== GITHUB_TOKEN){
+  if(!_ghHeaders || _ghHeadersToken !== GITHUB_TOKEN){
+    _ghHeadersToken = GITHUB_TOKEN;
     _ghHeaders = {
       'Authorization': 'token ' + GITHUB_TOKEN,
       'Content-Type': 'application/json',
-      'Accept': 'application/vnd.github.v3+json',
-      '_token': GITHUB_TOKEN  /* cache key */
+      'Accept': 'application/vnd.github.v3+json'
     };
   }
   return _ghHeaders;

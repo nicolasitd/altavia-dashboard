@@ -305,70 +305,55 @@ function ghHeaders(){
 
 /* Cargar historial desde GitHub al abrir el dashboard */
 async function cargarHistorial(){
+  var WORKER_URL = 'https://altavia-historial.nicolasitd.workers.dev';
   if(GITHUB_TOKEN === 'INGRESA_TU_TOKEN_AQUI'){
-    console.log('Historial desactivado — configura GITHUB_TOKEN');
-    return;
+    console.log('Historial via worker');
   }
-  try {
-    var url = 'https://api.github.com/repos/'+GITHUB_REPO+'/contents/'+GITHUB_FILE;
-    var resp = await fetch(url, {headers: ghHeaders()});
+  try{
+    var resp = await fetch(WORKER_URL, { method: 'GET' });
     if(resp.status === 404){
-      /* Archivo no existe aún — empezar con historial vacío */
-      console.log('Historial nuevo — se creará al guardar por primera vez');
-      historialCargado = true;
+      historialData = [];
       return;
     }
-    if(!resp.ok) throw new Error('GitHub API error: ' + resp.status);
     var data = await resp.json();
-    githubFileSha = data.sha;
-    var jsonStr = atob(data.content.replace(/\n/g,''));
-    var estado = JSON.parse(jsonStr);
-    /* Restaurar el estado */
-    restaurarEstado(estado);
-    historialCargado = true;
-    showToast('✓ Historial cargado — '+Object.keys(estado.rendiciones||{}).length+' rendición(es)');
-  } catch(e){
+    _ghFileSha = data.sha;
+    historialData = JSON.parse(data.content);
+    if(!Array.isArray(historialData)) historialData = [];
+  }catch(e){
     console.error('Error cargando historial:', e);
-    showToast('⚠ No se pudo cargar el historial: ' + e.message);
+    showToast('⚠️ No se pudo cargar el historial: ' + e.message);
   }
 }
-
-/* Guardar historial en GitHub — con checksum para evitar writes redundantes */
-var _lastSavedHash = null;
 async function guardarHistorial(){
-  if(GITHUB_TOKEN === 'INGRESA_TU_TOKEN_AQUI') return;
-  try {
-    var estado = capturarEstado();
-    var jsonStr = JSON.stringify(estado, null, 2);
-    /* Evitar commit si no cambió nada */
-    var hash = jsonStr.length + ':' + jsonStr.slice(0,100);
-    if(hash === _lastSavedHash){ console.log('Sin cambios — omitir guardado'); return; }
-    var b64 = btoa(unescape(encodeURIComponent(jsonStr)));
-    var url = 'https://api.github.com/repos/'+GITHUB_REPO+'/contents/'+GITHUB_FILE;
+  var WORKER_URL = 'https://altavia-historial.nicolasitd.workers.dev';
+  try{
+    var checksum = JSON.stringify(historialData);
+    if(checksum === _lastSavedChecksum){ return; }
     var body = {
-      message: 'Actualización automática — ' + new Date().toLocaleString('es-CL'),
-      content: b64
+      content: JSON.stringify(historialData, null, 2),
+      sha: _ghFileSha,
+      message: 'Update historial'
     };
-    if(githubFileSha) body.sha = githubFileSha;
-    var resp = await fetch(url, {
+    var resp = await fetch(WORKER_URL, {
       method: 'PUT',
-      headers: ghHeaders(),
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body)
     });
-    if(!resp.ok) throw new Error('GitHub save error: ' + resp.status);
-    var data = await resp.json();
-    githubFileSha = data.content.sha;
-    _lastSavedHash = hash;
-    console.log('Historial guardado en GitHub');
-    var ghEl = document.getElementById('gh-status');
-    if(ghEl){ var now=new Date(); ghEl.textContent='💾 Historial guardado — '+String(now.getHours()).padStart(2,'0')+':'+String(now.getMinutes()).padStart(2,'0')+':'+String(now.getSeconds()).padStart(2,'0'); }
-  } catch(e){
+    if(!resp.ok){
+      var err = await resp.json();
+      throw new Error(JSON.stringify(err));
+    }
+    var result = await resp.json();
+    if(result && result.content && result.content.sha){
+      _ghFileSha = result.content.sha;
+    }
+    _lastSavedChecksum = checksum;
+    showToast('✅ Historial guardado');
+  }catch(e){
     console.error('Error guardando historial:', e);
-    showToast('⚠ No se pudo guardar el historial: ' + e.message);
+    showToast('⚠️ No se pudo guardar el historial: ' + e.message);
   }
 }
-
-/* Capturar el estado actual del dashboard en un objeto serializable */
 function capturarEstado(){
   var rendiciones = {};
   Object.keys(rendidorMap).forEach(function(id){

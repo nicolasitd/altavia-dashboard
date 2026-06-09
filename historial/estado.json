@@ -1,72 +1,20 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T16:58:01.729Z",
+  "timestamp": "2026-06-09T17:19:41.523Z",
   "rendiciones": {
-    "RND_PRUEBA_001": {
-      "codigo": "RND-PRUEBA-001",
-      "xlsxName": "RND_PRUEBA_001.xlsx",
-      "rendidor": "Carlos Fuentes",
-      "fechaRend": "09-06-2026",
+    "NT_20260603__1_": {
+      "codigo": "NT-20260603 (1)",
+      "xlsxName": "NT-20260603 (1).xlsx",
+      "rendidor": "Nicolás Torres",
+      "fechaRend": "03-06-2026",
       "fechaValid": "",
       "fechaPago": "",
-      "monto": 95500,
-      "montoAprobado": 95500,
-      "validado": true,
+      "monto": 70482,
+      "montoAprobado": 0,
+      "validado": false,
       "autorizado": 0,
       "enNomina": false,
-      "lineas": {
-        "0": "approved",
-        "1": "approved",
-        "2": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Almuerzo con cliente",
-          "tipo": "BL",
-          "fecha": "09-06-2026",
-          "cc": "Ventas",
-          "prov": "Restaurant El Patio",
-          "folio": "F-2233",
-          "monto": 45000
-        },
-        "1": {
-          "desc": "Taxi al aeropuerto",
-          "tipo": "FC",
-          "fecha": "09-06-2026",
-          "cc": "Operaciones",
-          "prov": "Cabify",
-          "folio": "T-9910",
-          "monto": 18500
-        },
-        "2": {
-          "desc": "Material de oficina",
-          "tipo": "FV",
-          "fecha": "09-06-2026",
-          "cc": "Admin",
-          "prov": "Staples Chile",
-          "folio": "FV-441",
-          "monto": 32000
-        }
-      }
-    },
-    "NT_20260603": {
-      "codigo": "NT-20260603",
-      "xlsxName": "NT-20260603.xlsx",
-      "rendidor": "Nicolas Torres Diaz",
-      "fechaRend": "03-06-2026",
-      "fechaValid": "09-06-2026",
-      "fechaPago": "",
-      "monto": 294482,
-      "montoAprobado": 294482,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": false,
-      "lineas": {
-        "0": "approved",
-        "1": "approved",
-        "2": "approved"
-      },
+      "lineas": {},
       "motivos": {},
       "lineasDatos": {
         "0": {
@@ -75,33 +23,12 @@
           "fecha": "24-04-2026",
           "cc": "AV3S-Gcomer",
           "prov": "Basualdo Misto Jaime",
-          "folio": "725162",
+          "folio": "12345656",
           "monto": 70482
-        },
-        "1": {
-          "desc": "Equipamiento Camioneta",
-          "tipo": "FV",
-          "fecha": "27-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Soc Comercial de Repuestos SPA",
-          "folio": "3682715",
-          "monto": 203000
-        },
-        "2": {
-          "desc": "Artículos de Oficina",
-          "tipo": "FV",
-          "fecha": "16-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Distribuidora E y V SPA",
-          "folio": "309",
-          "monto": 21000
         }
       }
     }
   },
   "nominas": [],
-  "eliminadas_ids": [
-    "RND_PRUEBA_001",
-    "NT_20260603"
-  ]
+  "eliminadas_ids": []
 }

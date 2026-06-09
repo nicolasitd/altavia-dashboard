@@ -1,51 +1,7 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T16:50:47.222Z",
+  "timestamp": "2026-06-09T16:50:54.460Z",
   "rendiciones": {
-    "NT_20260526": {
-      "codigo": "TC46149",
-      "xlsxName": "NT-20260526.xlsx",
-      "rendidor": "Nicolas Torres Diaz",
-      "fechaRend": "26-05-2026",
-      "fechaValid": "",
-      "fechaPago": "",
-      "monto": 372981,
-      "montoAprobado": 0,
-      "validado": false,
-      "autorizado": 0,
-      "enNomina": false,
-      "lineas": {},
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Combustible",
-          "tipo": "FC",
-          "fecha": "24-04-2026",
-          "cc": "AV3S",
-          "prov": "Basualdo Misto Jaime",
-          "folio": "725162",
-          "monto": 70482
-        },
-        "1": {
-          "desc": "Equipamiento Camioneta",
-          "tipo": "FV",
-          "fecha": "27-04-2026",
-          "cc": "AV3S",
-          "prov": "Soc. Comerc. Repuestos SpA.",
-          "folio": "3682715",
-          "monto": 203000
-        },
-        "2": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "FV",
-          "fecha": "13-04-2026",
-          "cc": "AV3S",
-          "prov": "Restaurant MarÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a Castillo Perez",
-          "folio": "3308",
-          "monto": 99499
-        }
-      }
-    },
     "SP_20260526": {
       "codigo": "TC46149",
       "xlsxName": "SP-20260526.xlsx",
@@ -141,7 +97,6 @@
   },
   "nominas": [],
   "eliminadas_ids": [
-    "NT_20260526",
     "SP_20260526"
   ]
 }

@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T17:19:41.523Z",
+  "timestamp": "2026-06-09T22:31:03.622Z",
   "rendiciones": {
     "NT_20260603__1_": {
       "codigo": "NT-20260603 (1)",
       "xlsxName": "NT-20260603 (1).xlsx",
-      "rendidor": "Nicolás Torres",
+      "rendidor": "NicolÃ¡s Torres",
       "fechaRend": "03-06-2026",
       "fechaValid": "",
       "fechaPago": "",
@@ -30,5 +30,7 @@
     }
   },
   "nominas": [],
-  "eliminadas_ids": []
+  "eliminadas_ids": [
+    "NT_20260603__1_"
+  ]
 }

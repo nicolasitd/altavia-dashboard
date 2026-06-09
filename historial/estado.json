@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-08T22:29:31.692Z",
+  "timestamp": "2026-06-09T16:35:41.467Z",
   "rendiciones": {
     "NT_20260603": {
       "codigo": "NT-20260603",
@@ -40,7 +40,7 @@
           "monto": 203000
         },
         "2": {
-          "desc": "ArtÃÂÃÂ­culos de Oficina",
+          "desc": "ArtÃÂÃÂÃÂÃÂ­culos de Oficina",
           "tipo": "FV",
           "fecha": "16-04-2026",
           "cc": "AV3S-Gcomer",
@@ -110,7 +110,7 @@
           "monto": 50000
         },
         "2": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "30-04-2026",
           "cc": "AVINT-FH.P",
@@ -119,7 +119,7 @@
           "monto": 11800
         },
         "3": {
-          "desc": "MantenciÃÂÃÂ³n Camioneta",
+          "desc": "MantenciÃÂÃÂÃÂÃÂ³n Camioneta",
           "tipo": "FV",
           "fecha": "04-05-2026",
           "cc": "AVINT-FH.P",
@@ -155,7 +155,7 @@
           "monto": 20405
         },
         "7": {
-          "desc": "Pasaje AviÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "07-05-2026",
           "cc": "AVINT-FH.P",
@@ -164,7 +164,7 @@
           "monto": 103913
         },
         "8": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "28-04-2026",
           "cc": "AVINT-FH.P",
@@ -208,11 +208,11 @@
           "monto": 203000
         },
         "2": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "FV",
           "fecha": "13-04-2026",
           "cc": "AV3S",
-          "prov": "Restaurant MarÃÂÃÂ­a Castillo Perez",
+          "prov": "Restaurant MarÃÂÃÂÃÂÃÂ­a Castillo Perez",
           "folio": "3308",
           "monto": 99499
         }
@@ -234,7 +234,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AsesorÃÂÃÂ­as o Servicios para Proyectos",
+          "desc": "AsesorÃÂÃÂÃÂÃÂ­as o Servicios para Proyectos",
           "tipo": "FV",
           "fecha": "04-05-2026",
           "cc": "AdminAV SS-G.Grales",
@@ -243,7 +243,7 @@
           "monto": 1700365
         },
         "1": {
-          "desc": "ArtÃÂÃÂ­culos de Oficina",
+          "desc": "ArtÃÂÃÂÃÂÃÂ­culos de Oficina",
           "tipo": "FV",
           "fecha": "16-04-2026",
           "cc": "AdminAV SS-G.Grales",
@@ -252,7 +252,7 @@
           "monto": 21000
         },
         "2": {
-          "desc": "ArtÃÂÃÂ­culos de Oficina",
+          "desc": "ArtÃÂÃÂÃÂÃÂ­culos de Oficina",
           "tipo": "FV",
           "fecha": "25-05-2026",
           "cc": "AdminAV SS-G.Grales",

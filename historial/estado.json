@@ -1,179 +1,7 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T16:41:25.505Z",
+  "timestamp": "2026-06-09T16:50:47.222Z",
   "rendiciones": {
-    "NT_20260603": {
-      "codigo": "NT-20260603",
-      "xlsxName": "NT-20260603.xlsx",
-      "rendidor": "Nicolas Torres Diaz",
-      "fechaRend": "03-06-2026",
-      "fechaValid": "08-06-2026",
-      "fechaPago": "",
-      "monto": 294482,
-      "montoAprobado": 294482,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": false,
-      "lineas": {
-        "0": "approved",
-        "1": "approved",
-        "2": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Combustible",
-          "tipo": "F.COMB",
-          "fecha": "24-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Basualdo Misto Jaime",
-          "folio": "725162",
-          "monto": 70482
-        },
-        "1": {
-          "desc": "Equipamiento Camioneta",
-          "tipo": "FV",
-          "fecha": "27-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Soc Comercial de Repuestos SPA",
-          "folio": "3682715",
-          "monto": 203000
-        },
-        "2": {
-          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
-          "tipo": "FV",
-          "fecha": "16-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Distribuidora E y V SPA",
-          "folio": "309",
-          "monto": 21000
-        }
-      }
-    },
-    "NT_20260603__1_": {
-      "codigo": "NT-20260603 (1)",
-      "xlsxName": "NT-20260603 (1).xlsx",
-      "rendidor": "Nicolas Torres Diaz",
-      "fechaRend": "03-06-2026",
-      "fechaValid": "",
-      "fechaPago": "",
-      "monto": 70482,
-      "montoAprobado": 0,
-      "validado": false,
-      "autorizado": 0,
-      "enNomina": false,
-      "lineas": {},
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Combustible",
-          "tipo": "F.COMB",
-          "fecha": "24-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Basualdo Misto Jaime",
-          "folio": "12345656",
-          "monto": 70482
-        }
-      }
-    },
-    "FH_20260511": {
-      "codigo": "FH-P46153",
-      "xlsxName": "FH-20260511.xlsx",
-      "rendidor": "Felipe Halles",
-      "fechaRend": "11-05-2026",
-      "fechaValid": "",
-      "fechaPago": "",
-      "monto": 2058450,
-      "montoAprobado": 0,
-      "validado": false,
-      "autorizado": 0,
-      "enNomina": false,
-      "lineas": {},
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Combustible",
-          "tipo": "FC",
-          "fecha": "17-04-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "Petrobras Chile Red Ltda.",
-          "folio": "8799043",
-          "monto": 113820
-        },
-        "1": {
-          "desc": "Combustible",
-          "tipo": "FC",
-          "fecha": "07-05-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "Petrobras Chile Red Ltda.",
-          "folio": "8837575",
-          "monto": 50000
-        },
-        "2": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "30-04-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 11800
-        },
-        "3": {
-          "desc": "MantenciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n Camioneta",
-          "tipo": "FV",
-          "fecha": "04-05-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "Comercial Neumann SpA.",
-          "folio": "40416",
-          "monto": 1539828
-        },
-        "4": {
-          "desc": "Equipos Computacionales",
-          "tipo": "FV",
-          "fecha": "28-04-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "Ingenieria e Informatica Asociada Ltda",
-          "folio": "506851",
-          "monto": 178989
-        },
-        "5": {
-          "desc": "Estacionamiento",
-          "tipo": "FV",
-          "fecha": "08-05-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "OK Parking SPA",
-          "folio": "7670",
-          "monto": 16695
-        },
-        "6": {
-          "desc": "Estacionamiento",
-          "tipo": "FE",
-          "fecha": "08-05-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "OK Parking SPA",
-          "folio": "7670",
-          "monto": 20405
-        },
-        "7": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "FE",
-          "fecha": "07-05-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7300029",
-          "monto": 103913
-        },
-        "8": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "FE",
-          "fecha": "28-04-2026",
-          "cc": "AVINT-FH.P",
-          "prov": "Ricardo Varas Borquez",
-          "folio": "373",
-          "monto": 23000
-        }
-      }
-    },
     "NT_20260526": {
       "codigo": "TC46149",
       "xlsxName": "NT-20260526.xlsx",
@@ -208,11 +36,11 @@
           "monto": 203000
         },
         "2": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FV",
           "fecha": "13-04-2026",
           "cc": "AV3S",
-          "prov": "Restaurant MarÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a Castillo Perez",
+          "prov": "Restaurant MarÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a Castillo Perez",
           "folio": "3308",
           "monto": 99499
         }
@@ -234,7 +62,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AsesorÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­as o Servicios para Proyectos",
+          "desc": "AsesorÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­as o Servicios para Proyectos",
           "tipo": "FV",
           "fecha": "04-05-2026",
           "cc": "AdminAV SS-G.Grales",
@@ -243,7 +71,7 @@
           "monto": 1700365
         },
         "1": {
-          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
+          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
           "tipo": "FV",
           "fecha": "16-04-2026",
           "cc": "AdminAV SS-G.Grales",
@@ -252,7 +80,7 @@
           "monto": 21000
         },
         "2": {
-          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
+          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
           "tipo": "FV",
           "fecha": "25-05-2026",
           "cc": "AdminAV SS-G.Grales",
@@ -313,9 +141,6 @@
   },
   "nominas": [],
   "eliminadas_ids": [
-    "NT_20260603",
-    "NT_20260603__1_",
-    "FH_20260511",
     "NT_20260526",
     "SP_20260526"
   ]

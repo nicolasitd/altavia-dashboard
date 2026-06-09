@@ -274,7 +274,7 @@ var TESORERIA='tesoreria@altavia.cl';
    - GITHUB_REPO:  usuario/repositorio (ej: nicolasitd/altavia-dashboard)
    - GITHUB_FILE:  ruta del archivo JSON dentro del repo
    ══════════════════════════════════════════════════════════════ */
-var GITHUB_TOKEN = 'INGRESA_TU_TOKEN_AQUI';   /* ghp_... */
+var GITHUB_TOKEN = localStorage.getItem('altavia_gh_token') || '';
 var GITHUB_REPO  = 'nicolasitd/altavia-dashboard'; /* usuario/repo */
 var GITHUB_FILE  = 'historial/estado.json';
 

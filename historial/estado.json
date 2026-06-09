@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-09T16:52:22.851Z",
+  "timestamp": "2026-06-09T16:58:01.729Z",
   "rendiciones": {
     "RND_PRUEBA_001": {
       "codigo": "RND-PRUEBA-001",
@@ -101,6 +101,7 @@
   },
   "nominas": [],
   "eliminadas_ids": [
-    "RND_PRUEBA_001"
+    "RND_PRUEBA_001",
+    "NT_20260603"
   ]
 }

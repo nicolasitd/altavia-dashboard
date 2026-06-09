@@ -1541,9 +1541,9 @@ function parseWorkbook(wb,filename){
   function ci(name){var idx=-1;headers.forEach(function(h,i){if(h.toLowerCase()===name.toLowerCase())idx=i;});return idx;}
   var iQ=ci('Quien'),iFR=ci('Fecha R'),iCC=ci('CentroCostos'),iTD=ci('Tipo D'),iCp=ci('Concepto Compra'),iFD=ci('Fecha D'),iPr=ci('Proveedor'),iFo=ci('Folio'),iT=ci('TOTAL');
   var dRows=raw.slice(hdrIdx+1);
-  var quien=iQ>=0&&dRows[0]?String(dRows[0][iQ]||'').trim():'';
+    var colZ=dRows[0]?String(dRows[0][25]||'').trim():''; var quien=iQ>=0&&dRows[0]?String(dRows[0][iQ]||'').trim():'';
   var fRaw=iFR>=0&&dRows[0]?dRows[0][iFR]:'';
-  var rendidor=resolverNombre(wb,quien,codigoRend);
+    var rendidor=colZ||resolverNombre(wb,quien,codigoRend);
   var lineas=[];
   dRows.forEach(function(row){if(!row||!row.length)return;var monto=iT>=0?parseNum(row[iT]):0;if(monto<=0)return;lineas.push({desc:String(iCp>=0?row[iCp]||'—':'—').trim(),tipo:String(iTD>=0?row[iTD]||'':'').trim().toUpperCase(),fecha:fmtDate(iFD>=0?row[iFD]:''),cc:String(iCC>=0?row[iCC]||'—':'—').trim(),prov:String(iPr>=0?row[iPr]||'—':'—').trim(),folio:String(iFo>=0?row[iFo]||'—':'—').trim(),monto:monto});});
   return {codigo:codigoRend,rendidor:rendidor,lineas:lineas,fechaRend:fmtDate(fRaw)};

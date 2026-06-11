@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-11T14:27:25.277Z",
+  "timestamp": "2026-06-11T14:28:06.180Z",
   "rendiciones": {
     "NT_20260603__1_": {
       "codigo": "NT-20260603 (1)",
@@ -212,9 +212,12 @@
         "6": "approved",
         "7": "approved",
         "8": "approved",
-        "9": "approved"
+        "9": "approved",
+        "10": "rejected"
       },
-      "motivos": {},
+      "motivos": {
+        "10": "El Monto Ingresado No es correcto"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Materiales de Proyectos",

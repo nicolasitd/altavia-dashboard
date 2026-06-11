@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-11T16:56:46.438Z",
+  "timestamp": "2026-06-11T16:57:02.349Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -707,6 +707,205 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 2350
+        }
+      }
+    },
+    "API_20260608": {
+      "codigo": "API-20260608",
+      "xlsxName": "API-20260608.xlsx",
+      "rendidor": "Astrid Pinto",
+      "fechaRend": "08-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 687425,
+      "montoAprobado": 535225,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "13-05-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Callegari e Hijos Ltda.",
+          "folio": "329527",
+          "monto": 535225
+        },
+        "1": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "05-06-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3000
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "24-03-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "3": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "02-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4290
+        },
+        "4": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "07-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5990
+        },
+        "5": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "09-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5890
+        },
+        "6": {
+          "desc": "Artículos de Oficina",
+          "tipo": "BL",
+          "fecha": "12-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8490
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "14-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "8": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "15-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3190
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "15-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15500
+        },
+        "10": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "28-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1750
+        },
+        "11": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "28-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8000
+        },
+        "12": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "28-04-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8000
+        },
+        "13": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "BL",
+          "fecha": "07-05-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 16990
+        },
+        "14": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8460
+        },
+        "15": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "15-05-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8390
+        },
+        "16": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 16000
+        },
+        "17": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "28-05-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5780
+        },
+        "18": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "02-06-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4990
+        },
+        "19": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "09-06-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4990
         }
       }
     }

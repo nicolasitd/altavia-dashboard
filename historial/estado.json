@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-11T14:18:34.119Z",
+  "timestamp": "2026-06-11T14:24:13.094Z",
   "rendiciones": {
     "NT_20260603__1_": {
       "codigo": "NT-20260603 (1)",
@@ -187,6 +187,160 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 21913
+        }
+      }
+    },
+    "PF_20260609": {
+      "codigo": "PF-20260609",
+      "xlsxName": "PF-20260609.xlsx",
+      "rendidor": "Pedro Fariña",
+      "fechaRend": "09-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 1153379,
+      "montoAprobado": 11800,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "03-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11800
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22500
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23150
+        },
+        "3": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7000
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11000
+        },
+        "5": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "07-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35293
+        },
+        "6": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "08-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 61040
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3500
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "08-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 100000
+        },
+        "9": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "29-05-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Metalmecanica Marfelli Spa",
+          "folio": "441",
+          "monto": 440300
+        },
+        "10": {
+          "desc": "Estacionamiento",
+          "tipo": "FV",
+          "fecha": "09-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Mc Parking",
+          "folio": "—",
+          "monto": 167100
+        },
+        "11": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "07-05-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 45800
+        },
+        "12": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "08-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Aguas Antofagasta  SA.",
+          "folio": "—",
+          "monto": 218196
+        },
+        "13": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "09-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "14": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "09-06-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
         }
       }
     }

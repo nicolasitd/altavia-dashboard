@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-11T15:17:51.097Z",
+  "timestamp": "2026-06-11T15:18:17.095Z",
   "rendiciones": {
     "NT_20260603": {
       "codigo": "NT-20260603",
@@ -755,12 +755,13 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 360939,
-      "montoAprobado": 106800,
+      "montoAprobado": 149480,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
       "lineas": {
-        "0": "approved"
+        "0": "approved",
+        "1": "approved"
       },
       "motivos": {},
       "lineasDatos": {

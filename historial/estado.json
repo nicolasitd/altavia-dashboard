@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-11T14:11:55.157Z",
+  "timestamp": "2026-06-11T14:18:28.136Z",
   "rendiciones": {
     "NT_20260603__1_": {
       "codigo": "NT-20260603 (1)",
@@ -149,6 +149,44 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 23990
+        }
+      }
+    },
+    "JO_20260609": {
+      "codigo": "JO-20260609",
+      "xlsxName": "JO-20260609.xlsx",
+      "rendidor": "Jhonny Osorio",
+      "fechaRend": "09-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 43110,
+      "montoAprobado": 43110,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Desarrollo e Innovación",
+          "tipo": "BL",
+          "fecha": "08-05-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21197
+        },
+        "1": {
+          "desc": "Desarrollo e Innovación",
+          "tipo": "BL",
+          "fecha": "08-06-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21913
         }
       }
     }

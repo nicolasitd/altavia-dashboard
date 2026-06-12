@@ -412,7 +412,7 @@ function restaurarEstado(estado){
   Object.keys(rends).forEach(function(id){
     var r = rends[id];
     /* Restaurar mapas globales */
-    rendidorMap[id]  = r.rendidor;
+    rendidorMap[id]  = fixMojibake(r.rendidor);
     codigoMap[id]    = r.codigo;
     xlsxNameMap[id]  = r.xlsxName;
     fechaMap[id]     = r.fechaRend;
@@ -424,7 +424,7 @@ function restaurarEstado(estado){
     enNomina[id]     = r.enNomina;
     ls[id]           = r.lineas||{};
     rejMotivos[id]   = r.motivos||{};
-    lineasMap[id]    = r.lineasDatos||{};
+    var _ld=r.lineasDatos||{};lineasMap[id]=Object.fromEntries(Object.keys(_ld).map(function(k){var l=_ld[k];return[k,l?Object.assign({},l,{desc:fixMojibake(l.desc||''),prov:fixMojibake(l.prov||''),cc:fixMojibake(l.cc||''),folio:fixMojibake(l.folio||'')}):l];}));
     /* Reconstruir lineas como array para montarRendicion */
     var lineasArr = Object.keys(r.lineasDatos||{})
       .sort(function(a,b){return +a-+b;})

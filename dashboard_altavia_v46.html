@@ -424,14 +424,14 @@ function restaurarEstado(estado){
     enNomina[id]     = r.enNomina;
     ls[id]           = r.lineas||{};
     rejMotivos[id]   = r.motivos||{};
-    var _ld=r.lineasDatos||{};lineasMap[id]=Object.fromEntries(Object.keys(_ld).map(function(k){var l=_ld[k];return[k,l?Object.assign({},l,{desc:fixMojibake(l.desc||''),prov:fixMojibake(l.prov||''),cc:fixMojibake(l.cc||''),folio:fixMojibake(l.folio||'')}):l];}));
+    lineasMap[id]    = r.lineasDatos||{};
     /* Reconstruir lineas como array para montarRendicion */
     var lineasArr = Object.keys(r.lineasDatos||{})
       .sort(function(a,b){return +a-+b;})
-      .map(function(i){ return r.lineasDatos[i]; });
+      .map(function(i){ var l=r.lineasDatos[i];return l?Object.assign({},l,{desc:fixMojibake(l.desc||''),prov:fixMojibake(l.prov||''),cc:fixMojibake(l.cc||''),folio:fixMojibake(l.folio||'')}):l; });
     /* Montar la rendición en el DOM */
     if(lineasArr.length > 0){
-      montarRendicion(r.codigo, r.rendidor, lineasArr, r.fechaRend, null, r.xlsxName);
+      montarRendicion(r.codigo, fixMojibake(r.rendidor), lineasArr, r.fechaRend, null, r.xlsxName);
       /* Restaurar estados de líneas */
       Object.keys(r.lineas||{}).forEach(function(i){
         var estado_lin = r.lineas[i];

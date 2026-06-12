@@ -262,6 +262,15 @@ body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;bac
 </div>
 <div class="toast" id="toast"></div>
 <script>
+function fixMojibake(s){
+  if(typeof s!=='string')return s;
+  s=s.replace(/ÃÂÃÂ([-¿])/g,function(m,c){return String.fromCharCode(c.charCodeAt(0)+0x40);});
+  s=s.replace(/ÃÂ([-¿])/g,function(m,c){return String.fromCharCode(c.charCodeAt(0)+0x40);});
+  s=s.replace(/Ã([-¿])/g,function(m,c){return String.fromCharCode(c.charCodeAt(0)+0x40);});
+  s=s.replace(/â([-¿])([-¿])/g,function(m,b1,b2){return String.fromCodePoint(((0xE2&0x0F)<<12)|((b1.charCodeAt(0)&0x3F)<<6)|(b2.charCodeAt(0)&0x3F));});
+  return s;
+}
+
 // ── Logo
 
 var TESORERIA='tesoreria@altavia.cl';
@@ -1529,11 +1538,11 @@ function parseWorkbook(wb,filename){
   function ci(name){var idx=-1;headers.forEach(function(h,i){if(h.toLowerCase()===name.toLowerCase())idx=i;});return idx;}
   var iQ=ci('Quien'),iFR=ci('Fecha R'),iCC=ci('CentroCostos'),iTD=ci('Tipo D'),iCp=ci('Concepto Compra'),iFD=ci('Fecha D'),iPr=ci('Proveedor'),iFo=ci('Folio'),iT=ci('TOTAL');
   var dRows=raw.slice(hdrIdx+1);
-    var colZ=dRows[0]?String(dRows[0][25]||'').trim():''; var quien=iQ>=0&&dRows[0]?String(dRows[0][iQ]||'').trim():'';
+    var colZ=dRows[0]?String(dRows[0][25]||'').trim():''; var quien=iQ>=0&&dRows[0]?fixMojibake(String(dRows[0][iQ]||'').trim()):'';
   var fRaw=iFR>=0&&dRows[0]?dRows[0][iFR]:'';
     var rendidor=colZ||resolverNombre(wb,quien,codigoRend);
   var lineas=[];
-  dRows.forEach(function(row){if(!row||!row.length)return;var monto=iT>=0?parseNum(row[iT]):0;if(monto<=0)return;lineas.push({desc:String(iCp>=0?row[iCp]||'—':'—').trim(),tipo:String(iTD>=0?row[iTD]||'':'').trim().toUpperCase(),fecha:fmtDate(iFD>=0?row[iFD]:''),cc:String(iCC>=0?row[iCC]||'—':'—').trim(),prov:String(iPr>=0?row[iPr]||'—':'—').trim(),folio:String(iFo>=0?row[iFo]||'—':'—').trim(),monto:monto});});
+  dRows.forEach(function(row){if(!row||!row.length)return;var monto=iT>=0?parseNum(row[iT]):0;if(monto<=0)return;lineas.push({desc:fixMojibake(String(iCp>=0?row[iCp]||'—':'—').trim()),tipo:String(iTD>=0?row[iTD]||'':'').trim().toUpperCase(),fecha:fmtDate(iFD>=0?row[iFD]:''),cc:fixMojibake(String(iCC>=0?row[iCC]||'—':'—').trim()),prov:fixMojibake(String(iPr>=0?row[iPr]||'—':'—').trim()),folio:fixMojibake(String(iFo>=0?row[iFo]||'—':'—').trim()),monto:monto});});
   return {codigo:codigoRend,rendidor:rendidor,lineas:lineas,fechaRend:fmtDate(fRaw)};
 }
 
@@ -1544,11 +1553,11 @@ function resolverNombre(wb,quien,codigoRend){
   var hdrs=rawM[0].map(function(h){return String(h).trim().toLowerCase();});
   var iR=hdrs.indexOf('rut');if(iR<0)iR=0;var iP=hdrs.indexOf('proveedor');if(iP<0)iP=1;
   var datos=rawM.slice(1);
-  for(var i=0;i<datos.length;i++){if(String(datos[i][iR]||'').trim()===quien)return String(datos[i][iP]||quien).trim();}
+  for(var i=0;i<datos.length;i++){if(String(datos[i][iR]||'').trim()===quien)return fixMojibake(String(datos[i][iP]||quien).trim());}
   var code=quien.replace(/-[A-Za-z]$/,'').replace(/[^A-Za-z]/g,'').toUpperCase();var nL=Math.min(code.length,3);
-  if(nL>=2){for(var j=0;j<datos.length;j++){var nom=String(datos[j][iP]||'').trim();var pal=nom.split(/\s+/).filter(function(w){return w.length>1;});if(pal.length>=nL){var ini='';for(var p=0;p<nL;p++)ini+=(pal[p][0]||'').toUpperCase();if(ini===code.substring(0,nL))return nom;}}}
+  if(nL>=2){for(var j=0;j<datos.length;j++){var nom=fixMojibake(String(datos[j][iP]||'').trim());var pal=nom.split(/\s+/).filter(function(w){return w.length>1;});if(pal.length>=nL){var ini='';for(var p=0;p<nL;p++)ini+=(pal[p][0]||'').toUpperCase();if(ini===code.substring(0,nL))return nom;}}}
   var ac=codigoRend.replace(/[^A-Za-z]/g,'').toUpperCase();
-  if(ac&&ac!==code){var nL2=Math.min(ac.length,3);for(var k=0;k<datos.length;k++){var nom2=String(datos[k][iP]||'').trim();var pal2=nom2.split(/\s+/).filter(function(w){return w.length>1;});if(pal2.length>=nL2){var ini2='';for(var p2=0;p2<nL2;p2++)ini2+=(pal2[p2][0]||'').toUpperCase();if(ini2===ac.substring(0,nL2))return nom2;}}}
+  if(ac&&ac!==code){var nL2=Math.min(ac.length,3);for(var k=0;k<datos.length;k++){var nom2=fixMojibake(String(datos[k][iP]||'').trim());var pal2=nom2.split(/\s+/).filter(function(w){return w.length>1;});if(pal2.length>=nL2){var ini2='';for(var p2=0;p2<nL2;p2++)ini2+=(pal2[p2][0]||'').toUpperCase();if(ini2===ac.substring(0,nL2))return nom2;}}}
   return quien;
 }
 

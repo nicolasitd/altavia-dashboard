@@ -2,7 +2,6 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Altavia — Revisión de Rendiciones</title>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
@@ -78,7 +77,7 @@ body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;bac
 .labtn.paid{background:#E1F5EE;border-color:#5DCAA5;color:#085041}
 .labtn.rej{background:#fdf0f0;border-color:#F09595;color:#A32D2D}
 .rjbtn{font-size:12px;font-weight:500;padding:5px 10px;border-radius:7px;border:1px solid #F09595;cursor:pointer;background:#FCEBEB;color:#A32D2D;white-space:nowrap;font-family:inherit;min-width:58px;text-align:center;transition:all .12s}
-.labtn:disabled,.rjbtn:disabled,.abtn:disabled{opacity:.35;cursor:not-allowed;pointer-events:none;}
+.labtn[disabled],.rjbtn[disabled],.abtn[disabled]{opacity:.35;cursor:not-allowed;pointer-events:none;}
 .rjbtn:hover:not([disabled]){background:#F09595;color:#fff}
 .revbtn{font-size:11px;padding:3px 7px;border-radius:6px;border:1px solid rgba(0,0,0,.13);cursor:pointer;background:#f5f4f1;color:#6b6b66;white-space:nowrap;font-family:inherit;transition:all .12s}
 .revbtn:hover{background:#eceae3}

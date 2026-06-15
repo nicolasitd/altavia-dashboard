@@ -431,6 +431,7 @@ function restaurarEstado(estado){
       .map(function(i){ var l=r.lineasDatos[i];return l?Object.assign({},l,{desc:fixMojibake(l.desc||''),prov:fixMojibake(l.prov||''),cc:fixMojibake(l.cc||''),folio:fixMojibake(l.folio||'')}):l; });
     /* Montar la rendición en el DOM */
     if(lineasArr.length > 0){
+      if(r.autorizado) ra[id]=1;
       montarRendicion(r.codigo, fixMojibake(r.rendidor), lineasArr, r.fechaRend, null, r.xlsxName);
       /* Restaurar estados de líneas */
       Object.keys(r.lineas||{}).forEach(function(i){

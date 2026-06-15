@@ -327,7 +327,7 @@ async function cargarHistorial(){
     githubFileSha = data.sha;
     var estado = JSON.parse(data.content);
     /* Restaurar el estado */
-    restaurarEstado(estado
+    restaurarEstado(estado);
     /* Post-render: deshabilitar botones solo para rendiciones con estado Pagado (fecha de pago confirmada) */
     Object.keys(ra).forEach(function(rid){
       if(!ra[rid]) return;

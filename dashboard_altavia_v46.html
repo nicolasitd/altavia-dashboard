@@ -328,6 +328,13 @@ async function cargarHistorial(){
     var estado = JSON.parse(data.content);
     /* Restaurar el estado */
     restaurarEstado(estado);
+    /* Post-render: deshabilitar botones para rendiciones pagadas (ra[id]=1) */
+    Object.keys(ra).forEach(function(rid){
+      if(!ra[rid]) return;
+      var row = document.getElementById('row'+rid);
+      if(!row) return;
+      row.querySelectorAll('[data-action="appr"],[data-action="rej"],[data-action="aa"]').forEach(function(btn){ btn.disabled=true; });
+    });
     historialCargado = true;
   }catch(e){
     console.error('Error cargando historial:', e);

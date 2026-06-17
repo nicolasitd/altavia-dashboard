@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-17T22:15:53.284Z",
+  "timestamp": "2026-06-17T22:15:56.502Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -1347,12 +1347,12 @@
       "xlsxName": "AP-20260617.xlsx",
       "rendidor": "Aldo polanco",
       "fechaRend": "17-06-2026",
-      "fechaValid": "",
+      "fechaValid": "17-06-2026",
       "fechaPago": "",
       "monto": 615285,
       "montoAprobado": 615285,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

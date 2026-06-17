@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-17T20:28:58.850Z",
+  "timestamp": "2026-06-17T20:30:43.376Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -1240,12 +1240,12 @@
       "rendidor": "Nicolas Torres Diaz",
       "fechaRend": "03-06-2026",
       "fechaValid": "17-06-2026",
-      "fechaPago": "",
+      "fechaPago": "17-06-2026",
       "monto": 294482,
       "montoAprobado": 91482,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "rejected",
@@ -1298,6 +1298,13 @@
         "CR_20260609"
       ],
       "total": 2159676
+    },
+    {
+      "fecha": "17-06-2026",
+      "ids": [
+        "NT_20260603"
+      ],
+      "total": 91482
     }
   ],
   "eliminadas_ids": []

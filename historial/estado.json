@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-17T22:10:59.084Z",
+  "timestamp": "2026-06-17T22:12:48.029Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -1339,6 +1339,223 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 28000
+        }
+      }
+    },
+    "AP_20260617": {
+      "codigo": "AP-20260617",
+      "xlsxName": "AP-20260617.xlsx",
+      "rendidor": "Aldo polanco",
+      "fechaRend": "17-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 615285,
+      "montoAprobado": 249900,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alojamiento",
+          "tipo": "FV",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Norma Conajagua",
+          "folio": "477",
+          "monto": 249900
+        },
+        "1": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21549
+        },
+        "2": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "09-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Bioquimica.cl.s.a",
+          "folio": "41422",
+          "monto": 22736
+        },
+        "3": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "12-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2500
+        },
+        "4": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "FV",
+          "fecha": "16-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Fermin Reyna Yucra",
+          "folio": "1148",
+          "monto": 35700
+        },
+        "5": {
+          "desc": "Lavado de Camioneta",
+          "tipo": "FV",
+          "fecha": "12-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Raul Ulises vallada Malinarich",
+          "folio": "245",
+          "monto": 85001
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18600
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13000
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18000
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 24000
+        },
+        "10": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23150
+        },
+        "11": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23150
+        },
+        "12": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "13": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "14": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "15": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "16": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "16-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
+        },
+        "17": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9900
+        },
+        "18": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2800
+        },
+        "19": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3399
+        },
+        "20": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9500
+        },
+        "21": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
         }
       }
     }

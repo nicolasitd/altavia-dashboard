@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-18T01:50:19.525Z",
+  "timestamp": "2026-06-18T01:51:08.903Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -2561,6 +2561,52 @@
           "prov": "Comercial Beldue Ltda.",
           "folio": "158358",
           "monto": 71128
+        }
+      }
+    },
+    "JC_20260615": {
+      "codigo": "JC-20260615",
+      "xlsxName": "JC-20260615.xlsx",
+      "rendidor": "JOSÉ CARREÑO",
+      "fechaRend": "15-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 86000,
+      "montoAprobado": 35000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "01-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35000
+        },
+        "1": {
+          "desc": "Estacionamiento",
+          "tipo": "FV",
+          "fecha": "10-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "OK Parking SPA",
+          "folio": "7930",
+          "monto": 22950
+        },
+        "2": {
+          "desc": "Estacionamiento",
+          "tipo": "FE",
+          "fecha": "10-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "OK Parking SPA",
+          "folio": "7930",
+          "monto": 28050
         }
       }
     }

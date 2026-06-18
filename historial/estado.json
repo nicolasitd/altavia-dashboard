@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-18T21:45:59.214Z",
+  "timestamp": "2026-06-18T21:46:03.336Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -3227,9 +3227,12 @@
       "autorizado": 0,
       "enNomina": false,
       "lineas": {
-        "0": "approved"
+        "0": "approved",
+        "1": "rejected"
       },
-      "motivos": {},
+      "motivos": {
+        "1": "No corresponde a políticas de gasto"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Combustible",

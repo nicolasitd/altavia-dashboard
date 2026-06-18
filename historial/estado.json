@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-18T01:42:11.481Z",
+  "timestamp": "2026-06-18T01:42:39.894Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -2018,9 +2018,12 @@
         "16": "approved",
         "17": "approved",
         "18": "approved",
-        "19": "approved"
+        "19": "approved",
+        "20": "rejected"
       },
-      "motivos": {},
+      "motivos": {
+        "20": "Boleta Repetida 3=21"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Alimentación",

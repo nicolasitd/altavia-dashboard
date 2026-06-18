@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-18T01:46:30.023Z",
+  "timestamp": "2026-06-18T01:46:45.388Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -1994,7 +1994,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 347590,
-      "montoAprobado": 298610,
+      "montoAprobado": 301960,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -2035,7 +2035,8 @@
         "33": "approved",
         "34": "approved",
         "35": "approved",
-        "36": "approved"
+        "36": "approved",
+        "37": "approved"
       },
       "motivos": {
         "20": "Boleta Repetida 3=21"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-18T02:00:21.648Z",
+  "timestamp": "2026-06-18T02:00:50.036Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -2983,6 +2983,259 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 4250
+        }
+      }
+    },
+    "WA_20260616": {
+      "codigo": "WA-20260616",
+      "xlsxName": "WA-20260616.xlsx",
+      "rendidor": "Wladimir Arancibia Chávez",
+      "fechaRend": "16-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 930950,
+      "montoAprobado": 9500,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9500
+        },
+        "1": {
+          "desc": "Mantención Camioneta",
+          "tipo": "BL",
+          "fecha": "13-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14280
+        },
+        "2": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "14-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22050
+        },
+        "3": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9449
+        },
+        "4": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14800
+        },
+        "5": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "08-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20200
+        },
+        "6": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "14-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21070
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "06-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28390
+        },
+        "8": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5500
+        },
+        "10": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 24000
+        },
+        "11": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9000
+        },
+        "12": {
+          "desc": "Mantención oficinas",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 27600
+        },
+        "13": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 27000
+        },
+        "14": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23500
+        },
+        "15": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "10-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 109549
+        },
+        "16": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 27000
+        },
+        "17": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "03-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Easy Retail S.A.",
+          "folio": "38340261",
+          "monto": 163680
+        },
+        "18": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 600
+        },
+        "19": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Sodimac S.A.",
+          "folio": "147626595",
+          "monto": 158642
+        },
+        "20": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22000
+        },
+        "21": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "09-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 138040
+        },
+        "22": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-05-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11100
+        },
+        "23": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "09-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13400
+        },
+        "24": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "02-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10300
+        },
+        "25": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10300
         }
       }
     }

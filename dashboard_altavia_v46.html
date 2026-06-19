@@ -263,14 +263,14 @@ body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;bac
 <div class="toast" id="toast"></div>
 <script>
 function fixMojibake(s){
-  if(typeof s!=='string')return s;
-  s=s.replace(/ÃÂÃÂ([-¿])/g,function(m,c){return String.fromCharCode(c.charCodeAt(0)+0x40);});
-  s=s.replace(/ÃÂ([-¿])/g,function(m,c){return String.fromCharCode(c.charCodeAt(0)+0x40);});
-  s=s.replace(/Ã([-¿])/g,function(m,c){return String.fromCharCode(c.charCodeAt(0)+0x40);});
-  s=s.replace(/â([-¿])([-¿])/g,function(m,b1,b2){return String.fromCodePoint(((0xE2&0x0F)<<12)|((b1.charCodeAt(0)&0x3F)<<6)|(b2.charCodeAt(0)&0x3F));});
-  return s;
+      if(typeof s!=='string')return s;
+      var prev;
+      do{
+              prev=s;
+              try{s=decodeURIComponent(escape(s));}catch(e){break;}
+      }while(s!==prev&&s.length<prev.length*2);
+      return s;
 }
-
 // ── Logo
 
 var TESORERIA='tesoreria@altavia.cl';

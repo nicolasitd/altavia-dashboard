@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-25T02:32:17.320Z",
+  "timestamp": "2026-06-25T02:32:19.503Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -3863,12 +3863,12 @@
       "xlsxName": "CZ-20260609 (1).xlsx",
       "rendidor": "Claudio zamora",
       "fechaRend": "09-06-2026",
-      "fechaValid": "",
+      "fechaValid": "24-06-2026",
       "fechaPago": "",
       "monto": 213203,
       "montoAprobado": 213203,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

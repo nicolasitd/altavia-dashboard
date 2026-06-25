@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-25T02:36:22.580Z",
+  "timestamp": "2026-06-25T02:36:24.445Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -4149,12 +4149,12 @@
       "xlsxName": "NV-20260618.xlsx",
       "rendidor": "NICOLE VERGARA",
       "fechaRend": "18-06-2026",
-      "fechaValid": "",
+      "fechaValid": "24-06-2026",
       "fechaPago": "",
       "monto": 76650,
       "montoAprobado": 76650,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

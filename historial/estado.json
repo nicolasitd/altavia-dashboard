@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-25T02:37:22.622Z",
+  "timestamp": "2026-06-25T02:38:14.555Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -4239,9 +4239,12 @@
         "1": "approved",
         "2": "approved",
         "3": "approved",
-        "4": "approved"
+        "4": "approved",
+        "5": "rejected"
       },
-      "motivos": {},
+      "motivos": {
+        "5": "No corresponde a políticas de gasto"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Peajes",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-25T02:26:37.614Z",
+  "timestamp": "2026-06-25T02:26:46.185Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -3628,7 +3628,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 464182,
-      "montoAprobado": 124000,
+      "montoAprobado": 146000,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -3637,7 +3637,8 @@
         "1": "approved",
         "2": "approved",
         "3": "approved",
-        "4": "approved"
+        "4": "approved",
+        "5": "approved"
       },
       "motivos": {},
       "lineasDatos": {

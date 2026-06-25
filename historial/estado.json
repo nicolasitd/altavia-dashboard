@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-25T02:43:17.010Z",
+  "timestamp": "2026-06-25T02:43:48.628Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -4589,6 +4589,61 @@
           "prov": "Cosmoplas SA",
           "folio": "—",
           "monto": 117116
+        }
+      }
+    },
+    "RC_20260623": {
+      "codigo": "RC-20260623",
+      "xlsxName": "RC-20260623.xlsx",
+      "rendidor": "Roberto Contreras",
+      "fechaRend": "23-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 144121,
+      "montoAprobado": 10180,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "22-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10180
+        },
+        "1": {
+          "desc": "Pasaje Avión",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 98730
+        },
+        "2": {
+          "desc": "Mantención Camioneta",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "TG-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28211
         }
       }
     }

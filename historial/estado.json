@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-25T02:43:12.613Z",
+  "timestamp": "2026-06-25T02:43:17.010Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -4227,12 +4227,12 @@
       "xlsxName": "PF-20260622.xlsx",
       "rendidor": "Pedro Fariña",
       "fechaRend": "22-06-2026",
-      "fechaValid": "",
+      "fechaValid": "24-06-2026",
       "fechaPago": "",
       "monto": 1170657,
       "montoAprobado": 1164377,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

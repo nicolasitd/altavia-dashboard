@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-06-25T02:29:30.366Z",
+  "timestamp": "2026-06-25T02:30:03.630Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -3855,6 +3855,142 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 50000
+        }
+      }
+    },
+    "CZ_20260609__1_": {
+      "codigo": "CZ-20260609 (1)",
+      "xlsxName": "CZ-20260609 (1).xlsx",
+      "rendidor": "Claudio zamora",
+      "fechaRend": "09-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 213203,
+      "montoAprobado": 6090,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "08-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6090
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6680
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "04-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2900
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "08-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2900
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2900
+        },
+        "5": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6680
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9425
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "8": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5950
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6090
+        },
+        "10": {
+          "desc": "Mantención oficinas",
+          "tipo": "FV",
+          "fecha": "15-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "FERRETERIA FRONTERA SPA",
+          "folio": "68042",
+          "monto": 1349
+        },
+        "11": {
+          "desc": "Alimentación",
+          "tipo": "FV",
+          "fecha": "11-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Supermercado Frontera SpA.",
+          "folio": "44000",
+          "monto": 127439
+        },
+        "12": {
+          "desc": "Gastos Comunes",
+          "tipo": "FV",
+          "fecha": "18-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Supermercado Frontera SpA.",
+          "folio": "35028",
+          "monto": 19800
         }
       }
     }

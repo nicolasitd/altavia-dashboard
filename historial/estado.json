@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-01T19:58:34.809Z",
+  "timestamp": "2026-07-01T19:59:04.506Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -5063,6 +5063,79 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 47500
+        }
+      }
+    },
+    "FD_20260630": {
+      "codigo": "FD-20260630",
+      "xlsxName": "FD-20260630.xlsx",
+      "rendidor": "Felipe Díaz",
+      "fechaRend": "30-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 60000,
+      "montoAprobado": 10000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "09-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "16-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "02-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
         }
       }
     }

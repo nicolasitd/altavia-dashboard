@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-01T19:59:35.884Z",
+  "timestamp": "2026-07-01T20:00:23.500Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -5141,6 +5141,43 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 10000
+        }
+      }
+    },
+    "HG_20260630": {
+      "codigo": "HG-20260630",
+      "xlsxName": "HG-20260630.xlsx",
+      "rendidor": "HECTOR GUTIERREZ",
+      "fechaRend": "30-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 36400,
+      "montoAprobado": 34100,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "09-06-2026",
+          "cc": "AVIng-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 34100
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVIng-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2300
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-01T20:03:10.114Z",
+  "timestamp": "2026-07-01T20:03:13.194Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -5187,12 +5187,12 @@
       "xlsxName": "LR-20260630.xlsx",
       "rendidor": "Luis Rojo",
       "fechaRend": "30-06-2026",
-      "fechaValid": "",
+      "fechaValid": "01-07-2026",
       "fechaPago": "",
       "monto": 280400,
       "montoAprobado": 280400,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

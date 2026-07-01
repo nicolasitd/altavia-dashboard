@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-01T20:00:28.513Z",
+  "timestamp": "2026-07-01T20:02:28.494Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -5149,12 +5149,12 @@
       "xlsxName": "HG-20260630.xlsx",
       "rendidor": "HECTOR GUTIERREZ",
       "fechaRend": "30-06-2026",
-      "fechaValid": "",
+      "fechaValid": "01-07-2026",
       "fechaPago": "",
       "monto": 36400,
       "montoAprobado": 36400,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",
@@ -5179,6 +5179,158 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 2300
+        }
+      }
+    },
+    "LR_20260630": {
+      "codigo": "LR-20260630",
+      "xlsxName": "LR-20260630.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "30-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 280400,
+      "montoAprobado": 170700,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved",
+        "7": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "29-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30900
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4100
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 19250
+        },
+        "3": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1050
+        },
+        "4": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 70000
+        },
+        "5": {
+          "desc": "Instalación Faenas",
+          "tipo": "BL",
+          "fecha": "26-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 17900
+        },
+        "6": {
+          "desc": "Lavado de Camioneta",
+          "tipo": "BL",
+          "fecha": "29-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2500
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25000
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "02-07-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25000
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35000
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35000
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "12": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "29-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2350
+        },
+        "13": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-TeckQB",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2350
         }
       }
     }

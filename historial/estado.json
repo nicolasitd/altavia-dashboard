@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-01T20:05:01.757Z",
+  "timestamp": "2026-07-01T20:05:26.502Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -5405,6 +5405,79 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 12800
+        }
+      }
+    },
+    "RC_20260630": {
+      "codigo": "RC-20260630",
+      "xlsxName": "RC-20260630.xlsx",
+      "rendidor": "Roberto Contreras",
+      "fechaRend": "30-06-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 29673,
+      "montoAprobado": 3350,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "24-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "24-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5662
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10611
         }
       }
     }

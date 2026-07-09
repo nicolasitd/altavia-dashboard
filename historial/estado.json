@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-09T18:29:58.264Z",
+  "timestamp": "2026-07-09T18:30:16.193Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -6513,11 +6513,17 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 182000,
-      "montoAprobado": 0,
-      "validado": false,
+      "montoAprobado": 182000,
+      "validado": true,
       "autorizado": 0,
       "enNomina": false,
-      "lineas": {},
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved"
+      },
       "motivos": {},
       "lineasDatos": {
         "0": {
@@ -6572,12 +6578,12 @@
       "xlsxName": "NR-20260707.xlsx",
       "rendidor": "NIA RECABARREN",
       "fechaRend": "07-07-2026",
-      "fechaValid": "",
+      "fechaValid": "09-07-2026",
       "fechaPago": "",
       "monto": 128380,
       "montoAprobado": 128380,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

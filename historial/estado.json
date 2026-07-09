@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-09T18:27:25.070Z",
+  "timestamp": "2026-07-09T18:27:29.878Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -7303,12 +7303,12 @@
       "xlsxName": "FZ-20260701.xlsx",
       "rendidor": "FABIAN ZURITA",
       "fechaRend": "01-07-2026",
-      "fechaValid": "",
+      "fechaValid": "09-07-2026",
       "fechaPago": "",
       "monto": 40000,
       "montoAprobado": 40000,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

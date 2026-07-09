@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-09T18:27:29.878Z",
+  "timestamp": "2026-07-09T18:27:59.488Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -7215,12 +7215,12 @@
       "xlsxName": "WAC-20260707.xlsx",
       "rendidor": "Williams Arredondo",
       "fechaRend": "07-07-2026",
-      "fechaValid": "",
+      "fechaValid": "09-07-2026",
       "fechaPago": "",
       "monto": 159185,
       "montoAprobado": 159185,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

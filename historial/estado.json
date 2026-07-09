@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-09T18:46:51.954Z",
+  "timestamp": "2026-07-09T18:52:40.071Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -7170,12 +7170,12 @@
       "rendidor": "Tarjeta de credito",
       "fechaRend": "06-07-2026",
       "fechaValid": "09-07-2026",
-      "fechaPago": "",
+      "fechaPago": "09-07-2026",
       "monto": 3340238,
       "montoAprobado": 3340238,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -7396,12 +7396,12 @@
       "rendidor": "Williams Arredondo",
       "fechaRend": "07-07-2026",
       "fechaValid": "09-07-2026",
-      "fechaPago": "",
+      "fechaPago": "09-07-2026",
       "monto": 159185,
       "montoAprobado": 159185,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -7601,6 +7601,14 @@
         "FZ_20260701"
       ],
       "total": 3528602
+    },
+    {
+      "fecha": "09-07-2026",
+      "ids": [
+        "WAC_20260707",
+        "TC_20260706"
+      ],
+      "total": 3499423
     }
   ],
   "eliminadas_ids": [

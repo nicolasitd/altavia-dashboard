@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-09T18:32:37.503Z",
+  "timestamp": "2026-07-09T18:32:41.621Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -6027,12 +6027,12 @@
       "xlsxName": "EV-20260702.xlsx",
       "rendidor": "Eric Vera",
       "fechaRend": "02-07-2026",
-      "fechaValid": "",
+      "fechaValid": "09-07-2026",
       "fechaPago": "",
       "monto": 228230,
       "montoAprobado": 228230,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

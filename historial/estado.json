@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-09T18:29:50.745Z",
+  "timestamp": "2026-07-09T18:29:58.264Z",
   "rendiciones": {
     "iR_20260605": {
       "codigo": "iR-20260605",
@@ -6575,11 +6575,19 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 128380,
-      "montoAprobado": 0,
-      "validado": false,
+      "montoAprobado": 128380,
+      "validado": true,
       "autorizado": 0,
       "enNomina": false,
-      "lineas": {},
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved"
+      },
       "motivos": {},
       "lineasDatos": {
         "0": {
@@ -6652,12 +6660,12 @@
       "xlsxName": "NV-20260705.xlsx",
       "rendidor": "NICOLE VERGARA",
       "fechaRend": "05-07-2026",
-      "fechaValid": "",
+      "fechaValid": "09-07-2026",
       "fechaPago": "",
       "monto": 47877,
       "montoAprobado": 47877,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

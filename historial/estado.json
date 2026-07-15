@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-15T02:14:03.548Z",
+  "timestamp": "2026-07-15T15:19:32.204Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -831,6 +831,34 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 23150
+        }
+      }
+    },
+    "FH_20260715": {
+      "codigo": "FH-20260715",
+      "xlsxName": "FH-20260715.xlsx",
+      "rendidor": "FELIPE HALLES",
+      "fechaRend": "15-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 2589566,
+      "montoAprobado": 2589566,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Asesorías o Servicios para Proyectos",
+          "tipo": "FE",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "—",
+          "folio": "C2026-070",
+          "monto": 2589566
         }
       }
     }

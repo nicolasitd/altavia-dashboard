@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-15T02:04:32.971Z",
+  "timestamp": "2026-07-15T02:04:49.046Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -154,7 +154,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 557344,
-      "montoAprobado": 458244,
+      "montoAprobado": 487044,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -186,7 +186,8 @@
         "24": "approved",
         "25": "approved",
         "26": "approved",
-        "27": "approved"
+        "27": "approved",
+        "28": "approved"
       },
       "motivos": {
         "22": "Se necesitan el comprobante de los 3 pasajes"

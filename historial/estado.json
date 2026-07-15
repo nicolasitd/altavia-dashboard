@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-15T01:53:22.240Z",
+  "timestamp": "2026-07-15T01:54:25.119Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -67,6 +67,44 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 52000
+        }
+      }
+    },
+    "FD_20260713": {
+      "codigo": "FD-20260713",
+      "xlsxName": "FD-20260713.xlsx",
+      "rendidor": "Felipe Díaz Salgado",
+      "fechaRend": "13-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 20000,
+      "montoAprobado": 20000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
         }
       }
     }

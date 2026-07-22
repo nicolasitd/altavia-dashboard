@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T23:21:29.820Z",
+  "timestamp": "2026-07-22T23:21:37.761Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -1166,7 +1166,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 367773,
-      "montoAprobado": 296623,
+      "montoAprobado": 299473,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -1195,7 +1195,8 @@
         "21": "approved",
         "22": "approved",
         "23": "approved",
-        "24": "approved"
+        "24": "approved",
+        "25": "approved"
       },
       "motivos": {},
       "lineasDatos": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T23:38:55.422Z",
+  "timestamp": "2026-07-22T23:39:36.847Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -2011,6 +2011,223 @@
           "prov": "Supermercado Frontera SpA.",
           "folio": "35845",
           "monto": 66830
+        }
+      }
+    },
+    "PF_20260721": {
+      "codigo": "PF-20260721",
+      "xlsxName": "PF-20260721.xlsx",
+      "rendidor": "Pedro Fariña",
+      "fechaRend": "21-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 1295276,
+      "montoAprobado": 7500,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5000
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6150
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "5": {
+          "desc": "Aseo",
+          "tipo": "FV",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Cencosud Retail S.A.",
+          "folio": "27281944",
+          "monto": 69701
+        },
+        "6": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Treck S.A.",
+          "folio": "3065289",
+          "monto": 96985
+        },
+        "7": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Soc. Com. Oscar Nuñez SPA",
+          "folio": "7335",
+          "monto": 115850
+        },
+        "8": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Imaser SPA",
+          "folio": "66575",
+          "monto": 216104
+        },
+        "9": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Metalmecanica Marfeli SPA",
+          "folio": "459",
+          "monto": 190400
+        },
+        "10": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Aguas Antofagasta S.A",
+          "folio": "1465099",
+          "monto": 218724
+        },
+        "11": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "19-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 39662
+        },
+        "12": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "14": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "15": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "16": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "17": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "18": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "19": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "20": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 100000
+        },
+        "21": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 120000
         }
       }
     }

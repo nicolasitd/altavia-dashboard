@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T23:14:48.637Z",
+  "timestamp": "2026-07-22T23:15:39.681Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -1155,6 +1155,457 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 50000
+        }
+      }
+    },
+    "EPP_20260721": {
+      "codigo": "EPP-20260721",
+      "xlsxName": "EPP-20260721.xlsx",
+      "rendidor": "Esteban Pérez Ponce",
+      "fechaRend": "21-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 367773,
+      "montoAprobado": 15750,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15750
+        },
+        "1": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15750
+        },
+        "2": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "06-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23800
+        },
+        "3": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 19950
+        },
+        "4": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "22-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23800
+        },
+        "5": {
+          "desc": "Traslado Camioneta",
+          "tipo": "BL",
+          "fecha": "08-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7161
+        },
+        "6": {
+          "desc": "Traslado Camioneta",
+          "tipo": "BL",
+          "fecha": "02-06-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14872
+        },
+        "7": {
+          "desc": "Alojamiento",
+          "tipo": "FV",
+          "fecha": "06-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Hoteles N Diecinueve Enea SA",
+          "folio": "42839",
+          "monto": 86080
+        },
+        "8": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "FV",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Hernán Fonseca Illanes",
+          "folio": "—",
+          "monto": 17000
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7690
+        },
+        "10": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "07-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1800
+        },
+        "11": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3600
+        },
+        "12": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "25-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4190
+        },
+        "13": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "06-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5980
+        },
+        "14": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "06-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4400
+        },
+        "15": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "25-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2400
+        },
+        "16": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9090
+        },
+        "17": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1200
+        },
+        "18": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4490
+        },
+        "19": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "22-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9780
+        },
+        "20": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "BL",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2000
+        },
+        "21": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1290
+        },
+        "22": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8850
+        },
+        "23": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "24": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "24-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "25": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "25-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "26": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "27": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "28": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "02-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "29": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "30": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "22-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1150
+        },
+        "31": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "25-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "32": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "33": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "25-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "34": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "22-06-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5350
+        },
+        "35": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "36": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "24-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "37": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "38": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "25-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "39": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1150
+        },
+        "40": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "41": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "42": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "43": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "01-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "44": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "01-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "45": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "46": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "47": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "02-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
         }
       }
     }

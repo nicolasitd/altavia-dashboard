@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T23:35:53.976Z",
+  "timestamp": "2026-07-22T23:36:44.347Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -1903,6 +1903,106 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 9990
+        }
+      }
+    },
+    "NV_20260718": {
+      "codigo": "NV-20260718",
+      "xlsxName": "NV-20260718.xlsx",
+      "rendidor": "NICOLE VERGARA",
+      "fechaRend": "18-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 737186,
+      "montoAprobado": 7780,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "07-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7780
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5598
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12800
+        },
+        "4": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6780
+        },
+        "5": {
+          "desc": "Artículos de Oficina",
+          "tipo": "BL",
+          "fecha": "15-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5400
+        },
+        "6": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "17-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2000
+        },
+        "7": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "17-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "AHART Comercial y mecanica Integral",
+          "folio": "7781",
+          "monto": 619998
+        },
+        "8": {
+          "desc": "Alimentación",
+          "tipo": "FV",
+          "fecha": "18-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Supermercado Frontera SpA.",
+          "folio": "35845",
+          "monto": 66830
         }
       }
     }

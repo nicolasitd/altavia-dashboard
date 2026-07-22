@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T23:33:04.127Z",
+  "timestamp": "2026-07-22T23:33:13.023Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -1805,12 +1805,12 @@
       "xlsxName": "NP-20260720.xlsx",
       "rendidor": "Ninivel Pereira",
       "fechaRend": "20-07-2026",
-      "fechaValid": "",
+      "fechaValid": "22-07-2026",
       "fechaPago": "",
       "monto": 41720,
       "montoAprobado": 41720,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

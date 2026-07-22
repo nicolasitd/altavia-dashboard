@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T23:30:06.391Z",
+  "timestamp": "2026-07-22T23:30:08.572Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -1699,12 +1699,12 @@
       "xlsxName": "JG-20260722.xlsx",
       "rendidor": "Jocelyne Garrido",
       "fechaRend": "22-07-2026",
-      "fechaValid": "",
+      "fechaValid": "22-07-2026",
       "fechaPago": "",
       "monto": 24995,
       "montoAprobado": 24995,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

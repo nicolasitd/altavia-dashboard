@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T23:29:07.792Z",
+  "timestamp": "2026-07-22T23:29:52.856Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -1691,6 +1691,43 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 699
+        }
+      }
+    },
+    "JG_20260722": {
+      "codigo": "JG-20260722",
+      "xlsxName": "JG-20260722.xlsx",
+      "rendidor": "Jocelyne Garrido",
+      "fechaRend": "22-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 24995,
+      "montoAprobado": 3490,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Bienestar",
+          "tipo": "BL",
+          "fecha": "08-07-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3490
+        },
+        "1": {
+          "desc": "Bienestar",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21505
         }
       }
     }

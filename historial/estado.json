@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-22T23:33:13.023Z",
+  "timestamp": "2026-07-22T23:34:04.768Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -1845,6 +1845,61 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 13000
+        }
+      }
+    },
+    "NR_20260721": {
+      "codigo": "NR-20260721",
+      "xlsxName": "NR-20260721.xlsx",
+      "rendidor": "Nia Recabarren",
+      "fechaRend": "21-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 39960,
+      "montoAprobado": 9990,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9990
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9990
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9990
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9990
         }
       }
     }

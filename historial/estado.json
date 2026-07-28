@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-28T14:34:21.548Z",
+  "timestamp": "2026-07-28T14:34:26.452Z",
   "rendiciones": {
     "CN_20260714": {
       "codigo": "CN-20260714",
@@ -2313,9 +2313,12 @@
       "autorizado": 0,
       "enNomina": false,
       "lineas": {
-        "0": "approved"
+        "0": "approved",
+        "1": "rejected"
       },
-      "motivos": {},
+      "motivos": {
+        "1": "No corresponde a políticas de gasto"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Combustible",

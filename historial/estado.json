@@ -1,867 +1,7 @@
 {
   "version": 1,
-  "timestamp": "2026-07-28T14:35:11.797Z",
+  "timestamp": "2026-07-28T14:43:20.831Z",
   "rendiciones": {
-    "CN_20260714": {
-      "codigo": "CN-20260714",
-      "xlsxName": "CN-20260714.xlsx",
-      "rendidor": "Claudio Navarro",
-      "fechaRend": "14-07-2026",
-      "fechaValid": "14-07-2026",
-      "fechaPago": "15-07-2026",
-      "monto": 133867,
-      "montoAprobado": 133867,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": true,
-      "lineas": {
-        "0": "approved",
-        "1": "approved",
-        "2": "approved",
-        "3": "approved",
-        "4": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Materiales de Proyectos",
-          "tipo": "FV",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Easy Retail S.A.",
-          "folio": "38553729",
-          "monto": 29280
-        },
-        "1": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 19280
-        },
-        "2": {
-          "desc": "Materiales de Proyectos",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 13307
-        },
-        "3": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 20000
-        },
-        "4": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 52000
-        }
-      }
-    },
-    "FD_20260713": {
-      "codigo": "FD-20260713",
-      "xlsxName": "FD-20260713.xlsx",
-      "rendidor": "Felipe Díaz Salgado",
-      "fechaRend": "13-07-2026",
-      "fechaValid": "14-07-2026",
-      "fechaPago": "15-07-2026",
-      "monto": 20000,
-      "montoAprobado": 20000,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": true,
-      "lineas": {
-        "0": "approved",
-        "1": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-CMLP22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 10000
-        },
-        "1": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-CMLP22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 10000
-        }
-      }
-    },
-    "JC_20260708": {
-      "codigo": "JC-20260708",
-      "xlsxName": "JC-20260708.xlsx",
-      "rendidor": "José Carreño",
-      "fechaRend": "08-07-2026",
-      "fechaValid": "14-07-2026",
-      "fechaPago": "15-07-2026",
-      "monto": 90500,
-      "montoAprobado": 90500,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": true,
-      "lineas": {
-        "0": "approved",
-        "1": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Estacionamiento",
-          "tipo": "FACTMIXTA",
-          "fecha": "06-07-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "OK Parking SPA",
-          "folio": "8114",
-          "monto": 55500
-        },
-        "1": {
-          "desc": "Combustible",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 35000
-        }
-      }
-    },
-    "LR_20260713": {
-      "codigo": "LR-20260713",
-      "xlsxName": "LR-20260713.xlsx",
-      "rendidor": "Luis Rojo",
-      "fechaRend": "13-07-2026",
-      "fechaValid": "14-07-2026",
-      "fechaPago": "15-07-2026",
-      "monto": 557344,
-      "montoAprobado": 491344,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": true,
-      "lineas": {
-        "0": "approved",
-        "1": "approved",
-        "2": "approved",
-        "3": "approved",
-        "4": "approved",
-        "5": "approved",
-        "6": "approved",
-        "7": "approved",
-        "8": "approved",
-        "9": "approved",
-        "10": "approved",
-        "11": "approved",
-        "12": "approved",
-        "13": "approved",
-        "14": "approved",
-        "15": "approved",
-        "16": "approved",
-        "17": "approved",
-        "18": "approved",
-        "19": "approved",
-        "20": "approved",
-        "21": "approved",
-        "22": "rejected",
-        "23": "approved",
-        "24": "approved",
-        "25": "approved",
-        "26": "approved",
-        "27": "approved",
-        "28": "approved",
-        "29": "approved"
-      },
-      "motivos": {
-        "22": "Se necesitan el comprobante de los 3 pasajes"
-      },
-      "lineasDatos": {
-        "0": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "06-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 2350
-        },
-        "1": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "04-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 25000
-        },
-        "2": {
-          "desc": "Alojamiento",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 140420
-        },
-        "3": {
-          "desc": "Alojamiento",
-          "tipo": "BL",
-          "fecha": "03-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 59000
-        },
-        "4": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 4680
-        },
-        "5": {
-          "desc": "Combustible",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 49556
-        },
-        "6": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 20000
-        },
-        "7": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 13300
-        },
-        "8": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 6390
-        },
-        "9": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 2350
-        },
-        "10": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 1550
-        },
-        "11": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3150
-        },
-        "12": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 2900
-        },
-        "13": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3150
-        },
-        "14": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 1750
-        },
-        "15": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 1700
-        },
-        "16": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 4250
-        },
-        "17": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 4250
-        },
-        "18": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 4250
-        },
-        "19": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "10-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 2900
-        },
-        "20": {
-          "desc": "MantenciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n Camioneta",
-          "tipo": "BL",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 6000
-        },
-        "21": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 24500
-        },
-        "22": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 66000
-        },
-        "23": {
-          "desc": "Alojamiento",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 63598
-        },
-        "24": {
-          "desc": "Lavado de Camioneta",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 2200
-        },
-        "25": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3350
-        },
-        "26": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3350
-        },
-        "27": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 2350
-        },
-        "28": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 28800
-        },
-        "29": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-TeckQB",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 4300
-        }
-      }
-    },
-    "PF_20260714": {
-      "codigo": "PF-20260714",
-      "xlsxName": "PF-20260714.xlsx",
-      "rendidor": "PEDRO FARIÑA",
-      "fechaRend": "14-07-2026",
-      "fechaValid": "14-07-2026",
-      "fechaPago": "15-07-2026",
-      "monto": 1562611,
-      "montoAprobado": 1562611,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": true,
-      "lineas": {
-        "0": "approved",
-        "1": "approved",
-        "2": "approved",
-        "3": "approved",
-        "4": "approved",
-        "5": "approved",
-        "6": "approved",
-        "7": "approved",
-        "8": "approved",
-        "9": "approved",
-        "10": "approved",
-        "11": "approved",
-        "12": "approved",
-        "13": "approved",
-        "14": "approved",
-        "15": "approved",
-        "16": "approved",
-        "17": "approved",
-        "18": "approved",
-        "19": "approved",
-        "20": "approved",
-        "21": "approved",
-        "22": "approved",
-        "23": "approved",
-        "24": "approved",
-        "25": "approved",
-        "26": "approved",
-        "27": "approved",
-        "28": "approved",
-        "29": "approved",
-        "30": "approved",
-        "31": "approved",
-        "32": "approved",
-        "33": "approved",
-        "34": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Lavado de Ropa",
-          "tipo": "BL",
-          "fecha": "01-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 6000
-        },
-        "1": {
-          "desc": "Lavado de Ropa",
-          "tipo": "BL",
-          "fecha": "02-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 8800
-        },
-        "2": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 5160
-        },
-        "3": {
-          "desc": "Ropa, Elementos de Seguridad RRHH",
-          "tipo": "FV",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Segurycel S.A.",
-          "folio": "1966838",
-          "monto": 11817
-        },
-        "4": {
-          "desc": "Materiales de Proyectos",
-          "tipo": "FV",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Fluinort Ltda",
-          "folio": "65677",
-          "monto": 240380
-        },
-        "5": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 5500
-        },
-        "6": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 2850
-        },
-        "7": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "07-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 2850
-        },
-        "8": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3350
-        },
-        "9": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3350
-        },
-        "10": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 23150
-        },
-        "11": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 23150
-        },
-        "12": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "08-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 7500
-        },
-        "13": {
-          "desc": "Materiales de Proyectos",
-          "tipo": "FV",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Electricidad Gobantes S.A.",
-          "folio": "6968173",
-          "monto": 52649
-        },
-        "14": {
-          "desc": "Materiales de Proyectos",
-          "tipo": "FV",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Wenche Cata Tunning SPA",
-          "folio": "ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ",
-          "monto": 45000
-        },
-        "15": {
-          "desc": "Materiales de Proyectos",
-          "tipo": "FV",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Cencosud Retail S.A.",
-          "folio": "ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ",
-          "monto": 19079
-        },
-        "16": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3350
-        },
-        "17": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3350
-        },
-        "18": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 3350
-        },
-        "19": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 23150
-        },
-        "20": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 23150
-        },
-        "21": {
-          "desc": "Materiales de Proyectos",
-          "tipo": "FV",
-          "fecha": "09-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Aguas Antofagasta S.A",
-          "folio": "1463819",
-          "monto": 218724
-        },
-        "22": {
-          "desc": "Combustible",
-          "tipo": "BL",
-          "fecha": "12-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 39662
-        },
-        "23": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 5990
-        },
-        "24": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 100000
-        },
-        "25": {
-          "desc": "Arriendo Camioneta",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 540000
-        },
-        "26": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 7500
-        },
-        "27": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 7500
-        },
-        "28": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 7500
-        },
-        "29": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 7500
-        },
-        "30": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 7500
-        },
-        "31": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 7500
-        },
-        "32": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 50000
-        },
-        "33": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 23150
-        },
-        "34": {
-          "desc": "Peajes",
-          "tipo": "BL",
-          "fecha": "13-07-2026",
-          "cc": "AVSS-PSG",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 23150
-        }
-      }
-    },
-    "FH_20260715": {
-      "codigo": "FH-20260715",
-      "xlsxName": "FH-20260715.xlsx",
-      "rendidor": "FELIPE HALLES",
-      "fechaRend": "15-07-2026",
-      "fechaValid": "",
-      "fechaPago": "",
-      "monto": 2589566,
-      "montoAprobado": 2589566,
-      "validado": true,
-      "autorizado": 0,
-      "enNomina": false,
-      "lineas": {
-        "0": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "AsesorÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­as o Servicios para Proyectos",
-          "tipo": "FE",
-          "fecha": "15-07-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ",
-          "folio": "C2026-070",
-          "monto": 2589566
-        }
-      }
-    },
     "CN_20260721": {
       "codigo": "CN-20260721",
       "xlsxName": "CN-20260721.xlsx",
@@ -890,7 +30,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Spence22",
@@ -899,7 +39,7 @@
           "monto": 20600
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Spence22",
@@ -908,7 +48,7 @@
           "monto": 20600
         },
         "2": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Spence22",
@@ -917,7 +57,7 @@
           "monto": 32450
         },
         "3": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Spence22",
@@ -926,7 +66,7 @@
           "monto": 47470
         },
         "4": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Spence22",
@@ -935,7 +75,7 @@
           "monto": 25750
         },
         "5": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Spence22",
@@ -944,7 +84,7 @@
           "monto": 25750
         },
         "6": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Spence22",
@@ -953,7 +93,7 @@
           "monto": 20600
         },
         "7": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Spence22",
@@ -962,7 +102,7 @@
           "monto": 20600
         },
         "8": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "15-07-2026",
           "cc": "AVSS-Spence22",
@@ -971,7 +111,7 @@
           "monto": 6580
         },
         "9": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "15-07-2026",
           "cc": "AVSS-Spence22",
@@ -980,7 +120,7 @@
           "monto": 20779
         },
         "10": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-Spence22",
@@ -1022,7 +162,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "08-07-2026",
           "cc": "AVSS-Cen25",
@@ -1031,7 +171,7 @@
           "monto": 46470
         },
         "1": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "09-07-2026",
           "cc": "AVSS-Cen25",
@@ -1040,7 +180,7 @@
           "monto": 5980
         },
         "2": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "09-07-2026",
           "cc": "AVSS-Cen25",
@@ -1049,7 +189,7 @@
           "monto": 37900
         },
         "3": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-07-2026",
           "cc": "AVSS-Cen25",
@@ -1058,7 +198,7 @@
           "monto": 13100
         },
         "4": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "15-07-2026",
           "cc": "AVSS-Cen25",
@@ -1067,7 +207,7 @@
           "monto": 37900
         },
         "5": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-Cen25",
@@ -1076,7 +216,7 @@
           "monto": 13100
         },
         "6": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-07-2026",
           "cc": "AVSS-Cen25",
@@ -1085,7 +225,7 @@
           "monto": 5500
         },
         "7": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-Cen25",
@@ -1094,7 +234,7 @@
           "monto": 22000
         },
         "8": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-Cen25",
@@ -1103,7 +243,7 @@
           "monto": 22000
         },
         "9": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-Cen25",
@@ -1112,7 +252,7 @@
           "monto": 4500
         },
         "10": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "09-07-2026",
           "cc": "AVSS-Cen25",
@@ -1121,7 +261,7 @@
           "monto": 50000
         },
         "11": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-07-2026",
           "cc": "AVSS-Cen25",
@@ -1130,7 +270,7 @@
           "monto": 60000
         },
         "12": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-Cen25",
@@ -1139,7 +279,7 @@
           "monto": 50000
         },
         "13": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "15-07-2026",
           "cc": "AVSS-Cen25",
@@ -1148,7 +288,7 @@
           "monto": 50000
         },
         "14": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-Cen25",
@@ -1299,12 +439,12 @@
           "tipo": "FV",
           "fecha": "21-07-2026",
           "cc": "AVSS-LB24",
-          "prov": "HernÃÂÃÂ¡n Fonseca Illanes",
-          "folio": "ÃÂ¢ÃÂÃÂ",
+          "prov": "HernÃÂÃÂÃÂÃÂ¡n Fonseca Illanes",
+          "folio": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ",
           "monto": 17000
         },
         "9": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "15-07-2026",
           "cc": "AVSS-GG",
@@ -1313,7 +453,7 @@
           "monto": 7690
         },
         "10": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "07-07-2026",
           "cc": "AVSS-RT26",
@@ -1322,7 +462,7 @@
           "monto": 1800
         },
         "11": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-LB24",
@@ -1331,7 +471,7 @@
           "monto": 3600
         },
         "12": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "25-06-2026",
           "cc": "AVSS-Spence22",
@@ -1340,7 +480,7 @@
           "monto": 4190
         },
         "13": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "06-07-2026",
           "cc": "AVSS-RT26",
@@ -1349,7 +489,7 @@
           "monto": 5980
         },
         "14": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "06-07-2026",
           "cc": "AVSS-RT26",
@@ -1358,7 +498,7 @@
           "monto": 4400
         },
         "15": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "25-06-2026",
           "cc": "AVSS-LB24",
@@ -1367,7 +507,7 @@
           "monto": 2400
         },
         "16": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "30-06-2026",
           "cc": "AVSS-Spence22",
@@ -1376,7 +516,7 @@
           "monto": 9090
         },
         "17": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "23-06-2026",
           "cc": "AVSS-LB24",
@@ -1385,7 +525,7 @@
           "monto": 1200
         },
         "18": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-07-2026",
           "cc": "AVSS-LB24",
@@ -1394,7 +534,7 @@
           "monto": 4490
         },
         "19": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "22-06-2026",
           "cc": "AVSS-LB24",
@@ -1412,7 +552,7 @@
           "monto": 2000
         },
         "21": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-LB24",
@@ -1421,7 +561,7 @@
           "monto": 1290
         },
         "22": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-LB24",
@@ -1675,7 +815,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Servicios InformÃÂÃÂ¡ticos",
+          "desc": "Servicios InformÃÂÃÂÃÂÃÂ¡ticos",
           "tipo": "BL",
           "fecha": "13-07-2026",
           "cc": "AVIng-GG",
@@ -1684,7 +824,7 @@
           "monto": 22241
         },
         "1": {
-          "desc": "Servicios InformÃÂÃÂ¡ticos",
+          "desc": "Servicios InformÃÂÃÂÃÂÃÂ¡ticos",
           "tipo": "BL",
           "fecha": "15-07-2026",
           "cc": "AVIng-GG",
@@ -1754,7 +894,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "09-07-2026",
           "cc": "AVSS-LB24",
@@ -1763,7 +903,7 @@
           "monto": 9800
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-07-2026",
           "cc": "AVSS-LB24",
@@ -1772,7 +912,7 @@
           "monto": 10500
         },
         "2": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-07-2026",
           "cc": "AVSS-LB24",
@@ -1781,7 +921,7 @@
           "monto": 18600
         },
         "3": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "15-07-2026",
           "cc": "AVSS-LB24",
@@ -1790,7 +930,7 @@
           "monto": 13000
         },
         "4": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-07-2026",
           "cc": "AVSS-LB24",
@@ -1820,7 +960,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-LB24",
@@ -1829,7 +969,7 @@
           "monto": 18600
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-LB24",
@@ -1838,7 +978,7 @@
           "monto": 10120
         },
         "2": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-LB24",
@@ -1869,7 +1009,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-RT26",
@@ -1878,7 +1018,7 @@
           "monto": 9990
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-RT26",
@@ -1887,7 +1027,7 @@
           "monto": 9990
         },
         "2": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-RT26",
@@ -1896,7 +1036,7 @@
           "monto": 9990
         },
         "3": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-RT26",
@@ -1932,7 +1072,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "07-07-2026",
           "cc": "AVSS-CMLP22",
@@ -1941,7 +1081,7 @@
           "monto": 7780
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-CMLP22",
@@ -1950,7 +1090,7 @@
           "monto": 10000
         },
         "2": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-CMLP22",
@@ -1959,7 +1099,7 @@
           "monto": 5598
         },
         "3": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "12-07-2026",
           "cc": "AVSS-CMLP22",
@@ -1968,7 +1108,7 @@
           "monto": 12800
         },
         "4": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-CMLP22",
@@ -1977,7 +1117,7 @@
           "monto": 6780
         },
         "5": {
-          "desc": "ArtÃÂÃÂ­culos de Oficina",
+          "desc": "ArtÃÂÃÂÃÂÃÂ­culos de Oficina",
           "tipo": "BL",
           "fecha": "15-07-2026",
           "cc": "AVSS-CMLP22",
@@ -1986,7 +1126,7 @@
           "monto": 5400
         },
         "6": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "17-07-2026",
           "cc": "AVSS-CMLP22",
@@ -1995,7 +1135,7 @@
           "monto": 2000
         },
         "7": {
-          "desc": "MantenciÃÂÃÂ³n Camioneta",
+          "desc": "MantenciÃÂÃÂÃÂÃÂ³n Camioneta",
           "tipo": "FV",
           "fecha": "17-07-2026",
           "cc": "AVSS-CMLP22",
@@ -2004,7 +1144,7 @@
           "monto": 619998
         },
         "8": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "FV",
           "fecha": "18-07-2026",
           "cc": "AVSS-CMLP22",
@@ -2053,7 +1193,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-PSG",
@@ -2062,7 +1202,7 @@
           "monto": 7500
         },
         "1": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-PSG",
@@ -2071,7 +1211,7 @@
           "monto": 5000
         },
         "2": {
-          "desc": "AlimentaciÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "14-07-2026",
           "cc": "AVSS-PSG",
@@ -2120,7 +1260,7 @@
           "tipo": "FV",
           "fecha": "15-07-2026",
           "cc": "AVSS-PSG",
-          "prov": "Soc. Com. Oscar NuÃÂÃÂ±ez SPA",
+          "prov": "Soc. Com. Oscar NuÃÂÃÂÃÂÃÂ±ez SPA",
           "folio": "7335",
           "monto": 115850
         },
@@ -2161,7 +1301,7 @@
           "monto": 39662
         },
         "12": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2170,7 +1310,7 @@
           "monto": 50000
         },
         "13": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2179,7 +1319,7 @@
           "monto": 7500
         },
         "14": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2188,7 +1328,7 @@
           "monto": 7500
         },
         "15": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2197,7 +1337,7 @@
           "monto": 7500
         },
         "16": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2206,7 +1346,7 @@
           "monto": 7500
         },
         "17": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2215,7 +1355,7 @@
           "monto": 7500
         },
         "18": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2224,7 +1364,7 @@
           "monto": 7500
         },
         "19": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2233,7 +1373,7 @@
           "monto": 7500
         },
         "20": {
-          "desc": "MovilizaciÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-PSG",
@@ -2272,7 +1412,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-LB24",
@@ -2281,7 +1421,7 @@
           "monto": 25370
         },
         "1": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-07-2026",
           "cc": "AVSS-LB24",
@@ -2290,63 +1430,13 @@
           "monto": 10820
         },
         "2": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-07-2026",
           "cc": "AVSS-LB24",
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 35000
-        }
-      }
-    },
-    "NT_20260603": {
-      "codigo": "NT-20260603",
-      "xlsxName": "NT-20260603.xlsx",
-      "rendidor": "Nicolas Torres Diaz",
-      "fechaRend": "03-06-2026",
-      "fechaValid": "28-07-2026",
-      "fechaPago": "",
-      "monto": 294482,
-      "montoAprobado": 91482,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": false,
-      "lineas": {
-        "0": "approved",
-        "1": "rejected",
-        "2": "approved"
-      },
-      "motivos": {
-        "1": "No corresponde a políticas de gasto"
-      },
-      "lineasDatos": {
-        "0": {
-          "desc": "Combustible",
-          "tipo": "F.COMB",
-          "fecha": "24-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Basualdo Misto Jaime",
-          "folio": "725162",
-          "monto": 70482
-        },
-        "1": {
-          "desc": "Equipamiento Camioneta",
-          "tipo": "FV",
-          "fecha": "27-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Soc Comercial de Repuestos SPA",
-          "folio": "3682715",
-          "monto": 203000
-        },
-        "2": {
-          "desc": "Artículos de Oficina",
-          "tipo": "FV",
-          "fecha": "16-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Distribuidora E y V SPA",
-          "folio": "309",
-          "monto": 21000
         }
       }
     }
@@ -2381,13 +1471,5 @@
       "total": 3388569
     }
   ],
-  "eliminadas_ids": [
-    "FH_20260715",
-    "PF_20260714",
-    "LR_20260713",
-    "JC_20260708",
-    "FD_20260713",
-    "CN_20260714",
-    "NT_20260603"
-  ]
+  "eliminadas_ids": []
 }

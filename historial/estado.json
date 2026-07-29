@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-29T18:02:29.102Z",
+  "timestamp": "2026-07-29T18:02:44.521Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -8,12 +8,12 @@
       "rendidor": "Cristian Lübbert",
       "fechaRend": "27-07-2026",
       "fechaValid": "28-07-2026",
-      "fechaPago": "",
+      "fechaPago": "29-07-2026",
       "monto": 380120,
       "montoAprobado": 380120,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -388,6 +388,13 @@
         "LR_20260721"
       ],
       "total": 3388569
+    },
+    {
+      "fecha": "29-07-2026",
+      "ids": [
+        "CL_20260727"
+      ],
+      "total": 380120
     }
   ],
   "eliminadas_ids": []

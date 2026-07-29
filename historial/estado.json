@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-29T00:57:44.146Z",
+  "timestamp": "2026-07-29T00:58:48.598Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -177,6 +177,178 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 50000
+        }
+      }
+    },
+    "CN_20260728": {
+      "codigo": "CN-20260728",
+      "xlsxName": "CN-20260728.xlsx",
+      "rendidor": "Claudio Navarro",
+      "fechaRend": "28-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 931661,
+      "montoAprobado": 120000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 120000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "5": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Electricidad Gobantes S.A.",
+          "folio": "—",
+          "monto": 292249
+        },
+        "6": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Rawi Spa",
+          "folio": "—",
+          "monto": 230000
+        },
+        "7": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Sonepar",
+          "folio": "—",
+          "monto": 24883
+        },
+        "8": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Sodimac S.A.",
+          "folio": "—",
+          "monto": 38181
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6500
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18988
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "12": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28150
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2940
+        },
+        "14": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7580
+        },
+        "15": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50550
+        },
+        "16": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 56640
         }
       }
     }

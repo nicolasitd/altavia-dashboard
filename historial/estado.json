@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-29T00:55:16.719Z",
+  "timestamp": "2026-07-29T00:55:25.714Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -10,12 +10,13 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 380120,
-      "montoAprobado": 5950,
+      "montoAprobado": 22440,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
       "lineas": {
-        "0": "approved"
+        "0": "approved",
+        "1": "approved"
       },
       "motivos": {},
       "lineasDatos": {

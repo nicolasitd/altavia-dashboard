@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T15:05:38.576Z",
+  "timestamp": "2026-07-30T15:06:21.509Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -775,6 +775,344 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 35000
+        }
+      }
+    },
+    "PF_20260728": {
+      "codigo": "PF-20260728",
+      "xlsxName": "PF-20260728.xlsx",
+      "rendidor": "Pedro Fariña",
+      "fechaRend": "28-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 1164974,
+      "montoAprobado": 1164974,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved",
+        "7": "approved",
+        "8": "approved",
+        "9": "approved",
+        "10": "approved",
+        "11": "approved",
+        "12": "approved",
+        "13": "approved",
+        "14": "approved",
+        "15": "approved",
+        "16": "approved",
+        "17": "approved",
+        "18": "approved",
+        "19": "approved",
+        "20": "approved",
+        "21": "approved",
+        "22": "approved",
+        "23": "approved",
+        "24": "approved",
+        "25": "approved",
+        "26": "approved",
+        "27": "approved",
+        "28": "approved",
+        "29": "approved",
+        "30": "approved",
+        "31": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Ferreteria Hidraulica Tecfull",
+          "folio": "7362",
+          "monto": 44304
+        },
+        "1": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Hydrocar Chile S.A.",
+          "folio": "99474",
+          "monto": 59500
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5600
+        },
+        "3": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 49720
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "6": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8500
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8440
+        },
+        "8": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9590
+        },
+        "9": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "CAO Ing. y Serv. Ltda",
+          "folio": "7709",
+          "monto": 71400
+        },
+        "10": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3700
+        },
+        "11": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "12": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "13": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Sodimac S.A.",
+          "folio": "148411061",
+          "monto": 15990
+        },
+        "14": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Fermin Reyna Yucra",
+          "folio": "1169",
+          "monto": 66640
+        },
+        "15": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Hydrocar Chile S.A.",
+          "folio": "99486",
+          "monto": 55930
+        },
+        "16": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Apro Ltda.",
+          "folio": "370958",
+          "monto": 19278
+        },
+        "17": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Electroram Telecomunicaciones Ltda.",
+          "folio": "10688",
+          "monto": 179095
+        },
+        "18": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Aguas Antofagasta S.A",
+          "folio": "1466823",
+          "monto": 218724
+        },
+        "19": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "26-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 39662
+        },
+        "20": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "21": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "22": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "23": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "24": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "25": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "26": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "27": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "28": {
+          "desc": "Lavado de Ropa",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "29": {
+          "desc": "Alojamiento",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35000
+        },
+        "30": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 145000
+        },
+        "31": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1
         }
       }
     }

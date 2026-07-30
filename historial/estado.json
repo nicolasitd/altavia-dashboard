@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T15:07:02.822Z",
+  "timestamp": "2026-07-30T15:07:35.181Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1191,6 +1191,134 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 20595
+        }
+      }
+    },
+    "TC_20260728": {
+      "codigo": "TC-20260728",
+      "xlsxName": "TC-20260728.xlsx",
+      "rendidor": "Raul Mundaca",
+      "fechaRend": "28-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 591086,
+      "montoAprobado": 591086,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved",
+        "7": "approved",
+        "8": "approved",
+        "9": "approved",
+        "10": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "2": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Sodimac S.A.",
+          "folio": "147332517",
+          "monto": 51650
+        },
+        "3": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1950
+        },
+        "4": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "77304031-1",
+          "folio": "72869",
+          "monto": 168615
+        },
+        "5": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-RT26",
+          "prov": "MercadoLibre Chile Ltda.",
+          "folio": "13614780",
+          "monto": 87270
+        },
+        "6": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "26-05-2026",
+          "cc": "AVSS-RT26",
+          "prov": "MercadoLibre Chile Ltda.",
+          "folio": "13614799",
+          "monto": 87270
+        },
+        "7": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "27-05-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "8": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "27-05-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "9": {
+          "desc": "Alojamiento",
+          "tipo": "FV",
+          "fecha": "02-06-2026",
+          "cc": "AVSS-TeckCDA25",
+          "prov": "Inv. E Inmob. PAT Ltda.",
+          "folio": "6403",
+          "monto": 160000
+        },
+        "10": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "18-06-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "27513649-2",
+          "folio": "19003",
+          "monto": 20931
         }
       }
     }

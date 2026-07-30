@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T15:06:25.167Z",
+  "timestamp": "2026-07-30T15:06:56.922Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1113,6 +1113,84 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 1
+        }
+      }
+    },
+    "RC_20260727": {
+      "codigo": "RC-20260727",
+      "xlsxName": "RC-20260727.xlsx",
+      "rendidor": "Roberto Contreras",
+      "fechaRend": "27-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 44958,
+      "montoAprobado": 44958,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10963
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20595
         }
       }
     }

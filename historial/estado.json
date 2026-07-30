@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T15:05:03.627Z",
+  "timestamp": "2026-07-30T15:05:36.117Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -727,6 +727,54 @@
           "prov": "SERVICIOS HECTOR ROJAS GARATE SPA",
           "folio": "182423",
           "monto": 67249
+        }
+      }
+    },
+    "MT_20260728": {
+      "codigo": "MT-20260728",
+      "xlsxName": "MT-20260728.xlsx",
+      "rendidor": "Melissa Tapia Manque",
+      "fechaRend": "28-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 111000,
+      "montoAprobado": 111000,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "06-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 38000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 38000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35000
         }
       }
     }

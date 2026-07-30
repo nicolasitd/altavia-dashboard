@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T15:07:35.181Z",
+  "timestamp": "2026-07-30T15:07:37.893Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1199,12 +1199,12 @@
       "xlsxName": "TC-20260728.xlsx",
       "rendidor": "Raul Mundaca",
       "fechaRend": "28-07-2026",
-      "fechaValid": "",
+      "fechaValid": "30-07-2026",
       "fechaPago": "",
       "monto": 591086,
       "montoAprobado": 591086,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

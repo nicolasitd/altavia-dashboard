@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T15:06:56.922Z",
+  "timestamp": "2026-07-30T15:07:02.822Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1121,12 +1121,12 @@
       "xlsxName": "RC-20260727.xlsx",
       "rendidor": "Roberto Contreras",
       "fechaRend": "27-07-2026",
-      "fechaValid": "",
+      "fechaValid": "30-07-2026",
       "fechaPago": "",
       "monto": 44958,
       "montoAprobado": 44958,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

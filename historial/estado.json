@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T15:04:23.805Z",
+  "timestamp": "2026-07-30T15:04:59.524Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -559,6 +559,174 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 27080
+        }
+      }
+    },
+    "LS_20260728": {
+      "codigo": "LS-20260728",
+      "xlsxName": "LS-20260728.xlsx",
+      "rendidor": "Laura Segura Benussi",
+      "fechaRend": "28-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 542210,
+      "montoAprobado": 542210,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved",
+        "7": "approved",
+        "8": "approved",
+        "9": "approved",
+        "10": "approved",
+        "11": "approved",
+        "12": "approved",
+        "13": "approved",
+        "14": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "08-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "14-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10300
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12000
+        },
+        "4": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "EPP Multiservic spa",
+          "folio": "5726",
+          "monto": 55206
+        },
+        "5": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "FV",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "MCL Multiservic SPA",
+          "folio": "78704",
+          "monto": 97964
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11900
+        },
+        "7": {
+          "desc": "Artículos de Oficina",
+          "tipo": "FV",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "TIMBRES Y GRABADOS.CL LTDA",
+          "folio": "3570",
+          "monto": 13900
+        },
+        "8": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "25-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "—",
+          "folio": "769914",
+          "monto": 94541
+        },
+        "9": {
+          "desc": "Revisión Técnica",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28350
+        },
+        "10": {
+          "desc": "Artículos de Oficina",
+          "tipo": "FV",
+          "fecha": "24-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "ELECTRONICA RETAIL LTDA",
+          "folio": "1262684",
+          "monto": 19980
+        },
+        "11": {
+          "desc": "Muebles Oficina",
+          "tipo": "BL",
+          "fecha": "24-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 89990
+        },
+        "12": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "24-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1350
+        },
+        "13": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "24-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9480
+        },
+        "14": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "24-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "SERVICIOS HECTOR ROJAS GARATE SPA",
+          "folio": "182423",
+          "monto": 67249
         }
       }
     }

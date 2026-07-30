@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-30T15:02:33.268Z",
+  "timestamp": "2026-07-30T15:03:15.740Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -403,6 +403,64 @@
           "prov": "OK Parking SPA",
           "folio": "8228",
           "monto": 50625
+        }
+      }
+    },
+    "JO_20260727": {
+      "codigo": "JO-20260727",
+      "xlsxName": "JO-20260727.xlsx",
+      "rendidor": "Jhonny Osorio",
+      "fechaRend": "27-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 54734,
+      "montoAprobado": 54734,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Desarrollo e Innovación",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22227
+        },
+        "1": {
+          "desc": "Desarrollo e Innovación",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10504
+        },
+        "2": {
+          "desc": "Desarrollo e Innovación",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10959
+        },
+        "3": {
+          "desc": "Desarrollo e Innovación",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11044
         }
       }
     }

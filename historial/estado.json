@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-31T18:17:53.232Z",
+  "timestamp": "2026-07-31T18:18:13.490Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1321,50 +1321,6 @@
           "monto": 20931
         }
       }
-    },
-    "NT_20260603": {
-      "codigo": "NT-20260603",
-      "xlsxName": "NT-20260603.xlsx",
-      "rendidor": "Nicolas Torres Diaz",
-      "fechaRend": "03-06-2026",
-      "fechaValid": "",
-      "fechaPago": "",
-      "monto": 294482,
-      "montoAprobado": 0,
-      "validado": false,
-      "autorizado": 0,
-      "enNomina": false,
-      "lineas": {},
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Combustible",
-          "tipo": "F.COMB",
-          "fecha": "24-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Basualdo Misto Jaime",
-          "folio": "725162",
-          "monto": 70482
-        },
-        "1": {
-          "desc": "Equipamiento Camioneta",
-          "tipo": "FV",
-          "fecha": "27-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Soc Comercial de Repuestos SPA",
-          "folio": "3682715",
-          "monto": 203000
-        },
-        "2": {
-          "desc": "Artículos de Oficina",
-          "tipo": "FV",
-          "fecha": "16-04-2026",
-          "cc": "AV3S-Gcomer",
-          "prov": "Distribuidora E y V SPA",
-          "folio": "309",
-          "monto": 21000
-        }
-      }
     }
   },
   "nominas": [
@@ -1419,7 +1375,5 @@
       "total": 3836908
     }
   ],
-  "eliminadas_ids": [
-    "NT_20260603"
-  ]
+  "eliminadas_ids": []
 }

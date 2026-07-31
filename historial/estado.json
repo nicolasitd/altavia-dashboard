@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-07-31T18:20:12.813Z",
+  "timestamp": "2026-07-31T18:20:35.150Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1425,5 +1425,7 @@
       "total": 3836908
     }
   ],
-  "eliminadas_ids": []
+  "eliminadas_ids": [
+    "NT_20260603"
+  ]
 }

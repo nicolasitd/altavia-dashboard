@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-04T22:48:23.651Z",
+  "timestamp": "2026-08-04T22:49:01.173Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -2059,6 +2059,223 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 50000
+        }
+      }
+    },
+    "CN_20260804": {
+      "codigo": "CN-20260804",
+      "xlsxName": "CN-20260804.xlsx",
+      "rendidor": "Claudio Navarro",
+      "fechaRend": "04-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 520090,
+      "montoAprobado": 16480,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 16480
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22660
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20600
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50975
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50975
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22660
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20600
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20600
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7580
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 47980
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25750
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20600
+        },
+        "12": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20600
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 43260
+        },
+        "14": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25750
+        },
+        "15": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "29-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28150
+        },
+        "16": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "29-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Alborada Comercial SPA",
+          "folio": "—",
+          "monto": 19170
+        },
+        "17": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "18": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "19": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "29-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4200
+        },
+        "20": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "30-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6500
+        },
+        "21": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "03-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
         }
       }
     }

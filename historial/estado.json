@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-04T22:38:40.150Z",
+  "timestamp": "2026-08-04T22:44:21.672Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1901,6 +1901,151 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 23150
+        }
+      }
+    },
+    "CR_20260804": {
+      "codigo": "CR-20260804",
+      "xlsxName": "CR-20260804.xlsx",
+      "rendidor": "Cristian Andrés Rojo González",
+      "fechaRend": "04-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 493423,
+      "montoAprobado": 44990,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Artículos de Oficina",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 44990
+        },
+        "1": {
+          "desc": "Artículos de Oficina",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 19980
+        },
+        "2": {
+          "desc": "Artículos de Oficina",
+          "tipo": "FV",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Falabella Retail S.A.",
+          "folio": "—",
+          "monto": 25474
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22660
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "04-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22660
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 37900
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 27981
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "30-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28678
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "03-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13100
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "12": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "30-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "03-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
         }
       }
     }

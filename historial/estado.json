@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-04T14:32:55.262Z",
+  "timestamp": "2026-08-04T14:32:56.889Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1543,12 +1543,12 @@
       "xlsxName": "TF-20260803.xlsx",
       "rendidor": "Tamara Falcón",
       "fechaRend": "03-08-2026",
-      "fechaValid": "",
+      "fechaValid": "04-08-2026",
       "fechaPago": "",
       "monto": 52000,
       "montoAprobado": 52000,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

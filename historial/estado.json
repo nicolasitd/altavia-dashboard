@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-04T14:18:41.562Z",
+  "timestamp": "2026-08-04T14:25:49.879Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1369,6 +1369,61 @@
           "prov": "Distribuidora E y V SPA",
           "folio": "309",
           "monto": 21000
+        }
+      }
+    },
+    "FZ_20260731": {
+      "codigo": "FZ-20260731",
+      "xlsxName": "FZ-20260731.xlsx",
+      "rendidor": "Fabián Zurita",
+      "fechaRend": "31-07-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 80000,
+      "montoAprobado": 10000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "22-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "08-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "07-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
         }
       }
     }

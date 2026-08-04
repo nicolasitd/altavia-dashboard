@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-04T22:38:28.442Z",
+  "timestamp": "2026-08-04T22:38:37.694Z",
   "rendiciones": {
     "CL_20260727": {
       "codigo": "CL-20260727",
@@ -1852,14 +1852,15 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 127880,
-      "montoAprobado": 82650,
+      "montoAprobado": 105800,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
       "lineas": {
         "0": "approved",
         "1": "approved",
-        "2": "rejected"
+        "2": "rejected",
+        "3": "approved"
       },
       "motivos": {
         "2": "El precio rendido no es el mismo que en el boleto. El total es de 20.000"

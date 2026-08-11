@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-11T19:30:51.001Z",
+  "timestamp": "2026-08-11T19:34:28.253Z",
   "rendiciones": {
     "FZ_20260731": {
       "codigo": "FZ-20260731",
@@ -1159,6 +1159,43 @@
           "prov": "Bizama Damke Iván",
           "folio": "459930",
           "monto": 74057
+        }
+      }
+    },
+    "JC_20260811": {
+      "codigo": "JC-20260811",
+      "xlsxName": "JC-20260811.xlsx",
+      "rendidor": "JOSÉ CARREÑO",
+      "fechaRend": "11-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 80000,
+      "montoAprobado": 35000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35000
+        },
+        "1": {
+          "desc": "Estacionamiento",
+          "tipo": "FACTMIXTA",
+          "fecha": "06-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "OK Parking SPA",
+          "folio": "8310",
+          "monto": 45000
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-11T19:47:11.357Z",
+  "timestamp": "2026-08-11T19:47:17.355Z",
   "rendiciones": {
     "FZ_20260731": {
       "codigo": "FZ-20260731",
@@ -1344,7 +1344,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 843456,
-      "montoAprobado": 603456,
+      "montoAprobado": 703456,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -1370,7 +1370,8 @@
         "18": "approved",
         "19": "approved",
         "20": "approved",
-        "21": "approved"
+        "21": "approved",
+        "22": "approved"
       },
       "motivos": {},
       "lineasDatos": {

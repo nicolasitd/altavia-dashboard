@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-18T19:48:33.251Z",
+  "timestamp": "2026-08-18T19:49:05.726Z",
   "rendiciones": {
     "FZ_20260731": {
       "codigo": "FZ-20260731",
@@ -2691,6 +2691,61 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 22277
+        }
+      }
+    },
+    "MT_20260818": {
+      "codigo": "MT-20260818",
+      "xlsxName": "MT-20260818.xlsx",
+      "rendidor": "Melissa Tapia Manque",
+      "fechaRend": "18-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 100848,
+      "montoAprobado": 38000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 38000
+        },
+        "1": {
+          "desc": "Encomiendas, fletes, correo",
+          "tipo": "BL",
+          "fecha": "18-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 32848
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "18-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12500
+        },
+        "3": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "18-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "—",
+          "folio": "99",
+          "monto": 17500
         }
       }
     }

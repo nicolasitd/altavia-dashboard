@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-25T20:05:39.205Z",
+  "timestamp": "2026-08-25T20:05:43.240Z",
   "rendiciones": {
     "CN_20260825": {
       "codigo": "CN-20260825",
@@ -409,12 +409,12 @@
       "xlsxName": "JC-20260824.xlsx",
       "rendidor": "JOSE CARREÑO",
       "fechaRend": "24-08-2026",
-      "fechaValid": "",
+      "fechaValid": "25-08-2026",
       "fechaPago": "",
       "monto": 77409,
       "montoAprobado": 77409,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

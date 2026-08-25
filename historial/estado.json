@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-25T20:02:48.616Z",
+  "timestamp": "2026-08-25T20:02:56.302Z",
   "rendiciones": {
     "CN_20260825": {
       "codigo": "CN-20260825",
@@ -228,7 +228,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 109801,
-      "montoAprobado": 99801,
+      "montoAprobado": 109801,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -240,7 +240,8 @@
         "4": "approved",
         "5": "approved",
         "6": "approved",
-        "7": "approved"
+        "7": "approved",
+        "8": "approved"
       },
       "motivos": {},
       "lineasDatos": {

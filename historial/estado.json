@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-25T20:04:48.638Z",
+  "timestamp": "2026-08-25T20:05:24.601Z",
   "rendiciones": {
     "CN_20260825": {
       "codigo": "CN-20260825",
@@ -401,6 +401,43 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 26905
+        }
+      }
+    },
+    "JC_20260824": {
+      "codigo": "JC-20260824",
+      "xlsxName": "JC-20260824.xlsx",
+      "rendidor": "JOSE CARREÑO",
+      "fechaRend": "24-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 77409,
+      "montoAprobado": 45000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Estacionamiento",
+          "tipo": "FACTMIXTA",
+          "fecha": "14-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "OK Parking SPA",
+          "folio": "8391",
+          "monto": 45000
+        },
+        "1": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "09-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 32409
         }
       }
     }

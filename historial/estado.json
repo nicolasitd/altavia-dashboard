@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-25T20:03:07.476Z",
+  "timestamp": "2026-08-25T20:03:53.170Z",
   "rendiciones": {
     "CN_20260825": {
       "codigo": "CN-20260825",
@@ -321,6 +321,52 @@
           "desc": "Movilización",
           "tipo": "BL",
           "fecha": "10-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        }
+      }
+    },
+    "FD_20260825": {
+      "codigo": "FD-20260825",
+      "xlsxName": "FD-20260825.xlsx",
+      "rendidor": "Felipe Díaz",
+      "fechaRend": "25-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 30000,
+      "montoAprobado": 10000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "2": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "18-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
           "cc": "AVSS-CMLP22",
           "prov": "Boletas Varias",
           "folio": "xxx",

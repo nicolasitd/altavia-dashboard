@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-25T20:01:01.813Z",
+  "timestamp": "2026-08-25T20:01:49.164Z",
   "rendiciones": {
     "CN_20260825": {
       "codigo": "CN-20260825",
@@ -217,6 +217,106 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 52000
+        }
+      }
+    },
+    "CZ_20260825": {
+      "codigo": "CZ-20260825",
+      "xlsxName": "CZ-20260825.xlsx",
+      "rendidor": "Claudio Zamora Clavero",
+      "fechaRend": "25-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 109801,
+      "montoAprobado": 3600,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "09-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3600
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "09-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 17183
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 19019
+        },
+        "4": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "FV",
+          "fecha": "13-07-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Agustin hernan araya tabilo comercial y mecanica integral empresa in",
+          "folio": "7769",
+          "monto": 16001
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18598
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5400
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
         }
       }
     }

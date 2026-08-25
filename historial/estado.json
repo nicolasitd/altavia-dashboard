@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-25T20:02:56.302Z",
+  "timestamp": "2026-08-25T20:03:07.476Z",
   "rendiciones": {
     "CN_20260825": {
       "codigo": "CN-20260825",
@@ -225,12 +225,12 @@
       "xlsxName": "CZ-20260825.xlsx",
       "rendidor": "Claudio Zamora Clavero",
       "fechaRend": "25-08-2026",
-      "fechaValid": "",
+      "fechaValid": "25-08-2026",
       "fechaPago": "",
       "monto": 109801,
       "montoAprobado": 109801,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

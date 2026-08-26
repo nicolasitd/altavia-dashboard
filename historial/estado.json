@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-08-26T21:24:15.453Z",
+  "timestamp": "2026-08-26T21:24:16.965Z",
   "rendiciones": {
     "CN_20260825": {
       "codigo": "CN-20260825",
@@ -791,12 +791,12 @@
       "xlsxName": "NT-20260603.xlsx",
       "rendidor": "Nicolas Torres Diaz",
       "fechaRend": "03-06-2026",
-      "fechaValid": "",
+      "fechaValid": "26-08-2026",
       "fechaPago": "",
       "monto": 294482,
       "montoAprobado": 294482,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

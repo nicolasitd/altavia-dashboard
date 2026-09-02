@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:40:05.262Z",
+  "timestamp": "2026-09-02T01:40:21.687Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -1147,12 +1147,12 @@
       "xlsxName": "PF-20260901.xlsx",
       "rendidor": "Pedro Fariña",
       "fechaRend": "01-09-2026",
-      "fechaValid": "",
+      "fechaValid": "01-09-2026",
       "fechaPago": "",
       "monto": 1151188,
       "montoAprobado": 1151188,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

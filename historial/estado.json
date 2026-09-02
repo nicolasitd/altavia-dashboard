@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:40:52.993Z",
+  "timestamp": "2026-09-02T01:41:12.116Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -1204,7 +1204,7 @@
           "monto": 2850
         },
         "1": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "Alimentación",
           "tipo": "BL",
           "fecha": "20-08-2026",
           "cc": "AVSS-PSG",
@@ -1213,7 +1213,7 @@
           "monto": 5700
         },
         "2": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "Movilización",
           "tipo": "BL",
           "fecha": "24-08-2026",
           "cc": "AVSS-PSG",
@@ -1222,7 +1222,7 @@
           "monto": 50000
         },
         "3": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "Alimentación",
           "tipo": "BL",
           "fecha": "25-08-2026",
           "cc": "AVSS-PSG",
@@ -1267,7 +1267,7 @@
           "monto": 3350
         },
         "8": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "Alimentación",
           "tipo": "BL",
           "fecha": "27-08-2026",
           "cc": "AVSS-PSG",
@@ -1276,7 +1276,7 @@
           "monto": 5350
         },
         "9": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "Alimentación",
           "tipo": "BL",
           "fecha": "26-08-2026",
           "cc": "AVSS-PSG",
@@ -1312,7 +1312,7 @@
           "monto": 3350
         },
         "13": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "Alimentación",
           "tipo": "BL",
           "fecha": "28-08-2026",
           "cc": "AVSS-PSG",
@@ -1321,7 +1321,7 @@
           "monto": 7500
         },
         "14": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "Alimentación",
           "tipo": "BL",
           "fecha": "29-08-2026",
           "cc": "AVSS-PSG",
@@ -1330,7 +1330,7 @@
           "monto": 6000
         },
         "15": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "Alimentación",
           "tipo": "BL",
           "fecha": "29-08-2026",
           "cc": "AVSS-PSG",
@@ -1348,7 +1348,7 @@
           "monto": 40305
         },
         "17": {
-          "desc": "Pasaje AviÃ³n",
+          "desc": "Pasaje Avión",
           "tipo": "BL",
           "fecha": "30-08-2026",
           "cc": "AVSS-PSG",
@@ -1411,7 +1411,7 @@
           "monto": 90000
         },
         "24": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "Movilización",
           "tipo": "BL",
           "fecha": "31-08-2026",
           "cc": "AVSS-PSG",
@@ -1420,7 +1420,7 @@
           "monto": 7500
         },
         "25": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "Movilización",
           "tipo": "BL",
           "fecha": "31-08-2026",
           "cc": "AVSS-PSG",
@@ -1429,7 +1429,7 @@
           "monto": 7500
         },
         "26": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "Movilización",
           "tipo": "BL",
           "fecha": "31-08-2026",
           "cc": "AVSS-PSG",
@@ -1438,7 +1438,7 @@
           "monto": 7500
         },
         "27": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "Movilización",
           "tipo": "BL",
           "fecha": "31-08-2026",
           "cc": "AVSS-PSG",
@@ -1447,7 +1447,7 @@
           "monto": 7500
         },
         "28": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "Movilización",
           "tipo": "BL",
           "fecha": "31-08-2026",
           "cc": "AVSS-PSG",
@@ -1456,7 +1456,7 @@
           "monto": 7500
         },
         "29": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "Movilización",
           "tipo": "BL",
           "fecha": "31-08-2026",
           "cc": "AVSS-PSG",
@@ -1465,7 +1465,7 @@
           "monto": 7500
         },
         "30": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "Movilización",
           "tipo": "BL",
           "fecha": "31-08-2026",
           "cc": "AVSS-PSG",
@@ -1492,7 +1492,7 @@
           "monto": 3350
         },
         "33": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "Alimentación",
           "tipo": "BL",
           "fecha": "01-09-2026",
           "cc": "AVSS-PSG",
@@ -1636,7 +1636,5 @@
       "total": 1710795
     }
   ],
-  "eliminadas_ids": [
-    "PF_20260901"
-  ]
+  "eliminadas_ids": []
 }

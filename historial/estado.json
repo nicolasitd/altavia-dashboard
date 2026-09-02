@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:40:21.687Z",
+  "timestamp": "2026-09-02T01:40:52.993Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -1636,5 +1636,7 @@
       "total": 1710795
     }
   ],
-  "eliminadas_ids": []
+  "eliminadas_ids": [
+    "PF_20260901"
+  ]
 }

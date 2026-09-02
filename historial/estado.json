@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T21:54:16.142Z",
+  "timestamp": "2026-09-02T21:59:18.339Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -1927,6 +1927,34 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 183431
+        }
+      }
+    },
+    "FH_PINM_20260829": {
+      "codigo": "FH-PINM-20260829",
+      "xlsxName": "FH-PINM-20260829.xlsx",
+      "rendidor": "FH para AV Inmob.",
+      "fechaRend": "29-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 1878824,
+      "montoAprobado": 1878824,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Asesorías o Servicios para Proyectos",
+          "tipo": "FE",
+          "fecha": "05-08-2026",
+          "cc": "FH-P",
+          "prov": "TOPOSUR",
+          "folio": "1434",
+          "monto": 1878824
         }
       }
     }

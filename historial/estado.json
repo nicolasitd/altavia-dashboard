@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:04:41.152Z",
+  "timestamp": "2026-09-02T01:04:43.039Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -263,12 +263,12 @@
       "xlsxName": "CRG-20260901.xlsx",
       "rendidor": "Cristian Andrés Rojo González",
       "fechaRend": "01-09-2026",
-      "fechaValid": "",
+      "fechaValid": "01-09-2026",
       "fechaPago": "",
       "monto": 443801,
       "montoAprobado": 443801,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

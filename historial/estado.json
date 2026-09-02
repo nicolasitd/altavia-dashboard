@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:11:01.464Z",
+  "timestamp": "2026-09-02T01:12:50.682Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -711,6 +711,61 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 10990
+        }
+      }
+    },
+    "FZ_20260828": {
+      "codigo": "FZ-20260828",
+      "xlsxName": "FZ-20260828.xlsx",
+      "rendidor": "Fabián Zurita",
+      "fechaRend": "28-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 75000,
+      "montoAprobado": 25000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "18-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "04-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "05-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
         }
       }
     }

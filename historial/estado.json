@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T21:54:13.177Z",
+  "timestamp": "2026-09-02T21:54:16.142Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -1907,12 +1907,12 @@
       "xlsxName": "FHING-20260828.xlsx",
       "rendidor": "Felipe Halles (AV Ingenieria)",
       "fechaRend": "28-08-2026",
-      "fechaValid": "",
+      "fechaValid": "02-09-2026",
       "fechaPago": "",
       "monto": 183431,
       "montoAprobado": 183431,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved"

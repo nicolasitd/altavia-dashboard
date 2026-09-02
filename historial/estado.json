@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:21:56.615Z",
+  "timestamp": "2026-09-02T01:22:39.763Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -1139,6 +1139,349 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 12800
+        }
+      }
+    },
+    "PF_20260901": {
+      "codigo": "PF-20260901",
+      "xlsxName": "PF-20260901.xlsx",
+      "rendidor": "Pedro Fariña",
+      "fechaRend": "01-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 1151188,
+      "montoAprobado": 2850,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "12-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "20-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5700
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "3": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6900
+        },
+        "4": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "26-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Electrozeta SPA",
+          "folio": "9899",
+          "monto": 53698
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "6": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "26-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Cao Ingenieria y Servicios SPA",
+          "folio": "7731",
+          "monto": 71400
+        },
+        "7": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "8": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5350
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "26-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6300
+        },
+        "10": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Alfredo Meynet Osses EIRL",
+          "folio": "9527",
+          "monto": 13685
+        },
+        "11": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-09-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "12": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "13": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "28-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "14": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "29-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6000
+        },
+        "15": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "29-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6000
+        },
+        "16": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "30-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40305
+        },
+        "17": {
+          "desc": "Pasaje Avión",
+          "tipo": "BL",
+          "fecha": "30-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 131024
+        },
+        "18": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "19": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "20": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28150
+        },
+        "21": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "IMASER SPA",
+          "folio": "67479",
+          "monto": 136850
+        },
+        "22": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Aguas Antofagasta S.A",
+          "folio": "1475211",
+          "monto": 218879
+        },
+        "23": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 90000
+        },
+        "24": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "25": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "26": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "27": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "28": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "29": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7500
+        },
+        "30": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 100000
+        },
+        "31": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "32": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "33": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9280
+        },
+        "34": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Cencosud Retail S.A.",
+          "folio": "27605875",
+          "monto": 44717
+        },
+        "35": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "05-08-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 45800
         }
       }
     }

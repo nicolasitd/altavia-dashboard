@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T00:57:26.536Z",
+  "timestamp": "2026-09-02T00:58:13.641Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -157,6 +157,97 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 6200
+        }
+      }
+    },
+    "CN_20260901": {
+      "codigo": "CN-20260901",
+      "xlsxName": "CN-20260901.xlsx",
+      "rendidor": "Claudio Navarro",
+      "fechaRend": "01-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 262519,
+      "montoAprobado": 20000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2650
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20900
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 26539
+        },
+        "4": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12179
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 120000
+        },
+        "6": {
+          "desc": "Artículos de Oficina",
+          "tipo": "FV",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Cencosud Retail S.A.",
+          "folio": "27605876",
+          "monto": 16451
+        },
+        "7": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Implementos S.A.",
+          "folio": "6885655",
+          "monto": 43800
         }
       }
     }

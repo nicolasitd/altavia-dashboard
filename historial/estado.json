@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:14:40.461Z",
+  "timestamp": "2026-09-02T01:14:41.833Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -777,12 +777,12 @@
       "xlsxName": "JGarrido-20260826.xlsx",
       "rendidor": "Jocelyne Garrido",
       "fechaRend": "26-08-2026",
-      "fechaValid": "",
+      "fechaValid": "01-09-2026",
       "fechaPago": "",
       "monto": 36000,
       "montoAprobado": 36000,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

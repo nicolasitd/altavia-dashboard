@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:41:12.116Z",
+  "timestamp": "2026-09-02T01:44:01.592Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -1517,6 +1517,115 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 45800
+        }
+      }
+    },
+    "RC_20260831": {
+      "codigo": "RC-20260831",
+      "xlsxName": "RC-20260831.xlsx",
+      "rendidor": "Roberto Contreras",
+      "fechaRend": "31-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 46124,
+      "montoAprobado": 20394,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20394
+        },
+        "1": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "12-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3850
+        },
+        "2": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "04-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 530
+        },
+        "3": {
+          "desc": "Aditivos e Insumos de Proyectos",
+          "tipo": "BL",
+          "fecha": "04-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1250
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "6": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "7": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "8": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "9": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
         }
       }
     }

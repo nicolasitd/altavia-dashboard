@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T00:59:53.541Z",
+  "timestamp": "2026-09-02T01:01:42.620Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -255,6 +255,196 @@
           "prov": "Implementos S.A.",
           "folio": "6885655",
           "monto": 43800
+        }
+      }
+    },
+    "CRG_20260901": {
+      "codigo": "CRG-20260901",
+      "xlsxName": "CRG-20260901.xlsx",
+      "rendidor": "Cristian Andrés Rojo González",
+      "fechaRend": "01-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 443801,
+      "montoAprobado": 2948,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2948
+        },
+        "1": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7829
+        },
+        "2": {
+          "desc": "Artículos de Oficina",
+          "tipo": "BL",
+          "fecha": "19-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3400
+        },
+        "3": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "19-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23000
+        },
+        "4": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "20-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2600
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 26573
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13100
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2600
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22660
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22660
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25441
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "12": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5990
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "14": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "15": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "16": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "17": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
+        },
+        "18": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
         }
       }
     }

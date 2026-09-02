@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:04:43.039Z",
+  "timestamp": "2026-09-02T01:06:04.140Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -463,6 +463,232 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 15000
+        }
+      }
+    },
+    "FH_P_20260831": {
+      "codigo": "FH-P-20260831",
+      "xlsxName": "FH-P-20260831.xlsx",
+      "rendidor": "Felipe Halles",
+      "fechaRend": "31-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 2215000,
+      "montoAprobado": 80000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Combustible",
+          "tipo": "F.COMB",
+          "fecha": "08-07-2026",
+          "cc": "FH-P",
+          "prov": "Petrobras Chile Red Ltda.",
+          "folio": "8994171",
+          "monto": 80000
+        },
+        "1": {
+          "desc": "Combustible",
+          "tipo": "F.COMB",
+          "fecha": "05-08-2026",
+          "cc": "FH-P",
+          "prov": "Petrobras Chile Red Ltda.",
+          "folio": "9055470",
+          "monto": 80000
+        },
+        "2": {
+          "desc": "Combustible",
+          "tipo": "F.COMB",
+          "fecha": "28-07-2026",
+          "cc": "FH-P",
+          "prov": "Soc. Comercial Dampaul Ltda.",
+          "folio": "1009751",
+          "monto": 40000
+        },
+        "3": {
+          "desc": "Combustible",
+          "tipo": "F.COMB",
+          "fecha": "09-08-2026",
+          "cc": "FH-P",
+          "prov": "Comercial MyR Ltda.",
+          "folio": "184313",
+          "monto": 79583
+        },
+        "4": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "18-08-2026",
+          "cc": "FH-P",
+          "prov": "Easy Retail S.A.",
+          "folio": "38416972",
+          "monto": 50730
+        },
+        "5": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "08-08-2026",
+          "cc": "FH-P",
+          "prov": "LEIVHAUS FERRETERIA SPA",
+          "folio": "20723",
+          "monto": 76830
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-07-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23000
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23000
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-08-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23000
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23000
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "30-06-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 36000
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 33000
+        },
+        "12": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-08-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 33000
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-07-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 33000
+        },
+        "14": {
+          "desc": "Movilización",
+          "tipo": "FE",
+          "fecha": "21-07-2026",
+          "cc": "FH-P",
+          "prov": "Oscar Corrales Villegas",
+          "folio": "52",
+          "monto": 35000
+        },
+        "15": {
+          "desc": "Movilización",
+          "tipo": "FE",
+          "fecha": "23-06-2026",
+          "cc": "FH-P",
+          "prov": "Oscar Corrales Villegas",
+          "folio": "50",
+          "monto": 35000
+        },
+        "16": {
+          "desc": "Movilización",
+          "tipo": "FE",
+          "fecha": "06-08-2026",
+          "cc": "FH-P",
+          "prov": "Oscar Corrales Villegas",
+          "folio": "54",
+          "monto": 40000
+        },
+        "17": {
+          "desc": "Pasaje Avión",
+          "tipo": "FE",
+          "fecha": "30-08-2026",
+          "cc": "FH-P",
+          "prov": "Latam Airlines Group S.A.",
+          "folio": "7547142",
+          "monto": 77726
+        },
+        "18": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "24-07-2026",
+          "cc": "FH-P",
+          "prov": "—",
+          "folio": "653",
+          "monto": 1242622
+        },
+        "19": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23000
+        },
+        "20": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23000
+        },
+        "21": {
+          "desc": "Combustible",
+          "tipo": "F.COMB",
+          "fecha": "23-08-2026",
+          "cc": "FH-P",
+          "prov": "Comercial La Rochelle Ltda.",
+          "folio": "144434",
+          "monto": 93519
+        },
+        "22": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "FH-P",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10990
         }
       }
     }

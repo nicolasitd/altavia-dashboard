@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-02T01:14:41.833Z",
+  "timestamp": "2026-09-02T01:15:36.597Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -847,6 +847,52 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 6000
+        }
+      }
+    },
+    "MT_20260831": {
+      "codigo": "MT-20260831",
+      "xlsxName": "MT-20260831.xlsx",
+      "rendidor": "Melissa Tapia Manque",
+      "fechaRend": "31-08-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 96000,
+      "montoAprobado": 20000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "22-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 38000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 38000
         }
       }
     }

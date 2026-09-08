@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-08T18:43:35.578Z",
+  "timestamp": "2026-09-08T18:47:55.694Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -1963,12 +1963,12 @@
       "xlsxName": "AD-20260902.xlsx",
       "rendidor": "Agnes Dekock",
       "fechaRend": "02-09-2026",
-      "fechaValid": "",
+      "fechaValid": "08-09-2026",
       "fechaPago": "",
       "monto": 27990,
       "montoAprobado": 27990,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved"
@@ -1983,6 +1983,68 @@
           "prov": "—",
           "folio": "—",
           "monto": 27990
+        }
+      }
+    },
+    "IR_20260903": {
+      "codigo": "IR-20260903",
+      "xlsxName": "IR-20260903.xlsx",
+      "rendidor": "IGNACIO RODRIGUEZ",
+      "fechaRend": "03-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 0,
+      "montoAprobado": 0,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {},
+      "motivos": {},
+      "lineasDatos": {}
+    },
+    "LR_20260908": {
+      "codigo": "LR-20260908",
+      "xlsxName": "LR-20260908.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "08-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 201150,
+      "montoAprobado": 80000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Lavado de Camioneta",
+          "tipo": "FV",
+          "fecha": "04-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "RAUL ULISES VALLADARES MALINARICH",
+          "folio": "266",
+          "monto": 80000
+        },
+        "1": {
+          "desc": "Mantención Camioneta",
+          "tipo": "BL",
+          "fecha": "04-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "2": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "04-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "FERMIN REYNA YUCRA",
+          "folio": "1207",
+          "monto": 101150
         }
       }
     }

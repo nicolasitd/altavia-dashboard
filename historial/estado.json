@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-08T18:59:43.439Z",
+  "timestamp": "2026-09-08T18:59:45.026Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -2365,12 +2365,12 @@
       "xlsxName": "NP-20260907.xlsx",
       "rendidor": "Ninivel Pereira",
       "fechaRend": "07-09-2026",
-      "fechaValid": "",
+      "fechaValid": "08-09-2026",
       "fechaPago": "",
       "monto": 53100,
       "montoAprobado": 53100,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

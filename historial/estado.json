@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-08T18:48:16.511Z",
+  "timestamp": "2026-09-08T18:48:51.694Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -2047,6 +2047,286 @@
           "prov": "FERMIN REYNA YUCRA",
           "folio": "1207",
           "monto": 101150
+        }
+      }
+    },
+    "LS_20260902": {
+      "codigo": "LS-20260902",
+      "xlsxName": "LS-20260902.xlsx",
+      "rendidor": "Laura Segura Benussi",
+      "fechaRend": "02-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 1156404,
+      "montoAprobado": 11900,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "04-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11900
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-07-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12900
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "02-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13400
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11900
+        },
+        "4": {
+          "desc": "Revisión Técnica",
+          "tipo": "BL",
+          "fecha": "03-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8550
+        },
+        "5": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "03-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Multiservic",
+          "folio": "80031",
+          "monto": 15000
+        },
+        "6": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "05-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "FCJ Empress Spa",
+          "folio": "1851",
+          "monto": 252280
+        },
+        "7": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "04-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Multiservic Spa",
+          "folio": "5923",
+          "monto": 59583
+        },
+        "8": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "06-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Easy Retail S.A.",
+          "folio": "38708872",
+          "monto": 35940
+        },
+        "9": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "06-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "77304031-1",
+          "folio": "80456",
+          "monto": 11500
+        },
+        "10": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "07-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Textil Nallar",
+          "folio": "4311801",
+          "monto": 17457
+        },
+        "11": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9500
+        },
+        "12": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "06-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Segurycel S.A.",
+          "folio": "1977217",
+          "monto": 5293
+        },
+        "13": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "06-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Segurycel S.A.",
+          "folio": "1977194",
+          "monto": 105246
+        },
+        "14": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "06-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Segurycel S.A.",
+          "folio": "1977195",
+          "monto": 19321
+        },
+        "15": {
+          "desc": "Encomiendas, fletes, correo",
+          "tipo": "BL",
+          "fecha": "17-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 64015
+        },
+        "16": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "FV",
+          "fecha": "26-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Implementos S.A.",
+          "folio": "6846841",
+          "monto": 8794
+        },
+        "17": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "27-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Reliper Comercial Ltda.",
+          "folio": "756043",
+          "monto": 107795
+        },
+        "18": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "FV",
+          "fecha": "29-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Guido Ticona Aruquipa",
+          "folio": "1122",
+          "monto": 239000
+        },
+        "19": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "29-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "20": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "30-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25000
+        },
+        "21": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "29-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 19980
+        },
+        "22": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "30-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "23": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "18-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14100
+        },
+        "24": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "18-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8500
+        },
+        "25": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "18-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12000
+        },
+        "26": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11400
+        },
+        "27": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10700
+        },
+        "28": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15350
         }
       }
     }

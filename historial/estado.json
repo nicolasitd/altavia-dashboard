@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-08T18:48:07.697Z",
+  "timestamp": "2026-09-08T18:48:14.533Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -2010,13 +2010,14 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 201150,
-      "montoAprobado": 100000,
-      "validado": false,
+      "montoAprobado": 201150,
+      "validado": true,
       "autorizado": 0,
       "enNomina": false,
       "lineas": {
         "0": "approved",
-        "1": "approved"
+        "1": "approved",
+        "2": "approved"
       },
       "motivos": {},
       "lineasDatos": {

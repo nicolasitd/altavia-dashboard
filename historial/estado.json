@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-09T01:22:03.514Z",
+  "timestamp": "2026-09-09T01:22:05.680Z",
   "rendiciones": {
     "CL_20260831": {
       "codigo": "CL-20260831",
@@ -2743,12 +2743,12 @@
       "xlsxName": "CN-20260908.xlsx",
       "rendidor": "Claudio Navarro",
       "fechaRend": "08-09-2026",
-      "fechaValid": "",
+      "fechaValid": "08-09-2026",
       "fechaPago": "",
       "monto": 208885,
       "montoAprobado": 208885,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-17T13:25:05.125Z",
+  "timestamp": "2026-09-17T13:25:27.444Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -17,6 +17,64 @@
       "lineas": {},
       "motivos": {},
       "lineasDatos": {}
+    },
+    "CN_20260915": {
+      "codigo": "CN-20260915",
+      "xlsxName": "CN-20260915.xlsx",
+      "rendidor": "Claudio Navarro",
+      "fechaRend": "15-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 81296,
+      "montoAprobado": 81296,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 17296
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "2": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "BL",
+          "fecha": "15-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
+        },
+        "3": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "15-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4000
+        }
+      }
     }
   },
   "nominas": [

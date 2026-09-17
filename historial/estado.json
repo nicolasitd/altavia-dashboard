@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-17T13:25:48.993Z",
+  "timestamp": "2026-09-17T13:26:10.193Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -181,6 +181,104 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 2968
+        }
+      }
+    },
+    "LR_20260915": {
+      "codigo": "LR-20260915",
+      "xlsxName": "LR-20260915.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "15-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 126010,
+      "montoAprobado": 126010,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved",
+        "7": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22080
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 17000
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1150
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "5": {
+          "desc": "Mantención Camioneta",
+          "tipo": "BL",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18000
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22080
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
         }
       }
     }

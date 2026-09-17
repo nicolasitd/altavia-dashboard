@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-17T13:27:37.874Z",
+  "timestamp": "2026-09-17T13:27:56.376Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -861,6 +861,124 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 21479
+        }
+      }
+    },
+    "TF_20260911": {
+      "codigo": "TF-20260911",
+      "xlsxName": "TF-20260911.xlsx",
+      "rendidor": "Tamara Falcón",
+      "fechaRend": "11-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 241646,
+      "montoAprobado": 241646,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved",
+        "7": "approved",
+        "8": "approved",
+        "9": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "07-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 17080
+        },
+        "1": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40774
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 44090
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "07-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28420
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "07-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 46732
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 27850
+        },
+        "6": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "08-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "7": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "08-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "07-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "08-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
         }
       }
     }

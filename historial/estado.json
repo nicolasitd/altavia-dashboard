@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-17T13:27:16.009Z",
+  "timestamp": "2026-09-17T13:27:34.142Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -703,6 +703,164 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 6000
+        }
+      }
+    },
+    "TC_20260915": {
+      "codigo": "TC-20260915",
+      "xlsxName": "TC-20260915.xlsx",
+      "rendidor": "Tarjeta de credito",
+      "fechaRend": "15-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 847817,
+      "montoAprobado": 847817,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved",
+        "7": "approved",
+        "8": "approved",
+        "9": "approved",
+        "10": "approved",
+        "11": "approved",
+        "12": "approved",
+        "13": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-07-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Droguett y Cía. Ltda.",
+          "folio": "57399",
+          "monto": 125900
+        },
+        "1": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Comercial Gomilandia Ltda.",
+          "folio": "148480",
+          "monto": 39000
+        },
+        "2": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "23-06-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6600
+        },
+        "3": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "01-07-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Dataglobal Ltda.",
+          "folio": "18866",
+          "monto": 52990
+        },
+        "4": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "24-06-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "PCRock Computación SPA",
+          "folio": "505",
+          "monto": 83000
+        },
+        "5": {
+          "desc": "Encomiendas, fletes, correo",
+          "tipo": "FV",
+          "fecha": "25-06-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Transportes, Tecnologia y Giros EGT Ltda.",
+          "folio": "13526700",
+          "monto": 41010
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18194
+        },
+        "7": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "26-06-2026",
+          "cc": "AVSS-LB24",
+          "prov": "MercadoLibre Chile Ltda.",
+          "folio": "14011001",
+          "monto": 299970
+        },
+        "8": {
+          "desc": "Encomiendas, fletes, correo",
+          "tipo": "FV",
+          "fecha": "07-07-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Latam Airlines Group S.A.",
+          "folio": "2546460",
+          "monto": 44706
+        },
+        "9": {
+          "desc": "Gastos Comunes",
+          "tipo": "BL",
+          "fecha": "10-07-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22400
+        },
+        "10": {
+          "desc": "Lavado de Camioneta",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6600
+        },
+        "11": {
+          "desc": "Gastos Comunes",
+          "tipo": "BL",
+          "fecha": "20-07-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 58536
+        },
+        "12": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 27432
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-07-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21479
         }
       }
     }

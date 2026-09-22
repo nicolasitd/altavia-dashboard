@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-22T17:37:44.857Z",
+  "timestamp": "2026-09-22T17:39:08.816Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -351,12 +351,12 @@
       "xlsxName": "FD-20260922.xlsx",
       "rendidor": "Felipe Díaz",
       "fechaRend": "22-09-2026",
-      "fechaValid": "",
+      "fechaValid": "22-09-2026",
       "fechaPago": "",
       "monto": 38990,
       "montoAprobado": 38990,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",
@@ -401,6 +401,70 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 8990
+        }
+      }
+    },
+    "FZ_20260921": {
+      "codigo": "FZ-20260921",
+      "xlsxName": "FZ-20260921.xlsx",
+      "rendidor": "FABIAN ZURITA",
+      "fechaRend": "21-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 234514,
+      "montoAprobado": 25000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25000
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15490
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 174024
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "02-09-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
         }
       }
     }

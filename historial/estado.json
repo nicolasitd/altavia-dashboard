@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-22T17:43:07.806Z",
+  "timestamp": "2026-09-22T17:43:11.839Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -505,12 +505,12 @@
       "xlsxName": "NP-20260921.xlsx",
       "rendidor": "Ninivel Pereira",
       "fechaRend": "21-09-2026",
-      "fechaValid": "",
+      "fechaValid": "22-09-2026",
       "fechaPago": "",
       "monto": 67800,
       "montoAprobado": 67800,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

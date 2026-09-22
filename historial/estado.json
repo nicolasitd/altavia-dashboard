@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-22T17:50:04.495Z",
+  "timestamp": "2026-09-22T17:50:29.851Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -575,6 +575,34 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 18600
+        }
+      }
+    },
+    "RC_20260921": {
+      "codigo": "RC-20260921",
+      "xlsxName": "RC-20260921.xlsx",
+      "rendidor": "Roberto Contreras",
+      "fechaRend": "21-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 8300,
+      "montoAprobado": 8300,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Mantención Camioneta",
+          "tipo": "BL",
+          "fecha": "21-09-2026",
+          "cc": "AVIng-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8300
         }
       }
     }

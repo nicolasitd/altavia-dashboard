@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-23T16:02:22.585Z",
+  "timestamp": "2026-09-23T16:02:34.587Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -882,7 +882,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 900147,
-      "montoAprobado": 409427,
+      "montoAprobado": 509427,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -898,7 +898,8 @@
         "8": "approved",
         "9": "approved",
         "10": "approved",
-        "11": "approved"
+        "11": "approved",
+        "12": "approved"
       },
       "motivos": {
         "5": "Se repite la misma boleta de la rendicion anterior."

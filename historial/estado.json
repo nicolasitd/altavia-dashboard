@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-23T16:00:56.950Z",
+  "timestamp": "2026-09-23T16:01:20.820Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -891,9 +891,12 @@
         "1": "approved",
         "2": "approved",
         "3": "approved",
-        "4": "approved"
+        "4": "approved",
+        "5": "rejected"
       },
-      "motivos": {},
+      "motivos": {
+        "5": "Se repite la misma boleta de la rendicion anterior."
+      },
       "lineasDatos": {
         "0": {
           "desc": "Peajes",

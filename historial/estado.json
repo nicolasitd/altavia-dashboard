@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-23T16:05:02.465Z",
+  "timestamp": "2026-09-24T12:28:02.876Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -24,12 +24,12 @@
       "rendidor": "Esteban Pérez Ponce",
       "fechaRend": "16-09-2026",
       "fechaValid": "22-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 221530,
       "montoAprobado": 221530,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -237,7 +237,7 @@
           "monto": 5350
         },
         "19": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-07-2026",
           "cc": "AVSS-LB24",
@@ -246,7 +246,7 @@
           "monto": 3500
         },
         "20": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "30-07-2026",
           "cc": "AVSS-LB24",
@@ -255,7 +255,7 @@
           "monto": 4730
         },
         "21": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "10-08-2026",
           "cc": "AVSS-LB24",
@@ -264,7 +264,7 @@
           "monto": 4690
         },
         "22": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "11-08-2026",
           "cc": "AVSS-LB24",
@@ -273,7 +273,7 @@
           "monto": 13200
         },
         "23": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "13-08-2026",
           "cc": "AVSS-LB24",
@@ -282,7 +282,7 @@
           "monto": 5050
         },
         "24": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "24-09-2026",
           "cc": "AVSS-LB24",
@@ -291,7 +291,7 @@
           "monto": 7690
         },
         "25": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-09-2026",
           "cc": "AVSS-RT26",
@@ -352,12 +352,12 @@
       "rendidor": "Felipe Díaz",
       "fechaRend": "22-09-2026",
       "fechaValid": "22-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 38990,
       "montoAprobado": 38990,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -367,7 +367,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "08-09-2026",
           "cc": "AVSS-CMLP22",
@@ -376,7 +376,7 @@
           "monto": 10000
         },
         "1": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "15-09-2026",
           "cc": "AVSS-CMLP22",
@@ -385,7 +385,7 @@
           "monto": 10000
         },
         "2": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-CMLP22",
@@ -410,12 +410,12 @@
       "rendidor": "FABIAN ZURITA",
       "fechaRend": "21-09-2026",
       "fechaValid": "22-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 234514,
       "montoAprobado": 234514,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -426,7 +426,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "01-09-2026",
           "cc": "AVSS-Spence22",
@@ -435,7 +435,7 @@
           "monto": 25000
         },
         "1": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "01-09-2026",
           "cc": "AVSS-Spence22",
@@ -444,7 +444,7 @@
           "monto": 15490
         },
         "2": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "01-09-2026",
           "cc": "AVSS-Spence22",
@@ -453,7 +453,7 @@
           "monto": 10000
         },
         "3": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "17-09-2026",
           "cc": "AVSS-Spence22",
@@ -462,7 +462,7 @@
           "monto": 174024
         },
         "4": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-09-2026",
           "cc": "AVSS-Spence22",
@@ -478,19 +478,19 @@
       "rendidor": "Ignacio Rodriguez",
       "fechaRend": "17-09-2026",
       "fechaValid": "22-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 23056,
       "montoAprobado": 23056,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved"
       },
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Servicios InformÃ¡ticos",
+          "desc": "Servicios InformÃÂ¡ticos",
           "tipo": "BL",
           "fecha": "13-09-2026",
           "cc": "AVIng-GG",
@@ -506,12 +506,12 @@
       "rendidor": "Ninivel Pereira",
       "fechaRend": "21-09-2026",
       "fechaValid": "22-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 67800,
       "montoAprobado": 67800,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -523,7 +523,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "17-09-2026",
           "cc": "AVSS-LB24",
@@ -541,7 +541,7 @@
           "monto": 5700
         },
         "2": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "16-09-2026",
           "cc": "AVSS-LB24",
@@ -550,7 +550,7 @@
           "monto": 10000
         },
         "3": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-LB24",
@@ -559,7 +559,7 @@
           "monto": 10500
         },
         "4": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "24-09-2026",
           "cc": "AVSS-LB24",
@@ -568,7 +568,7 @@
           "monto": 13000
         },
         "5": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-LB24",
@@ -584,19 +584,19 @@
       "rendidor": "Roberto Contreras",
       "fechaRend": "21-09-2026",
       "fechaValid": "22-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 8300,
       "montoAprobado": 8300,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved"
       },
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MantenciÃ³n Camioneta",
+          "desc": "MantenciÃÂ³n Camioneta",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVIng-GG",
@@ -612,12 +612,12 @@
       "rendidor": "Cristian Andrés Rojo González",
       "fechaRend": "22-09-2026",
       "fechaValid": "22-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 561996,
       "montoAprobado": 561996,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -648,7 +648,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "03-09-2026",
           "cc": "AVSS-Cen25",
@@ -657,7 +657,7 @@
           "monto": 50000
         },
         "1": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "07-09-2026",
           "cc": "AVSS-Cen25",
@@ -666,7 +666,7 @@
           "monto": 50000
         },
         "2": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "08-09-2026",
           "cc": "AVSS-Cen25",
@@ -675,7 +675,7 @@
           "monto": 50000
         },
         "3": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "10-09-2026",
           "cc": "AVSS-Cen25",
@@ -684,7 +684,7 @@
           "monto": 50000
         },
         "4": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "14-09-2026",
           "cc": "AVSS-Cen25",
@@ -693,7 +693,7 @@
           "monto": 50000
         },
         "5": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "15-09-2026",
           "cc": "AVSS-Cen25",
@@ -702,7 +702,7 @@
           "monto": 15000
         },
         "6": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "16-09-2026",
           "cc": "AVSS-Cen25",
@@ -711,7 +711,7 @@
           "monto": 50000
         },
         "7": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-Cen25",
@@ -720,7 +720,7 @@
           "monto": 50000
         },
         "8": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "03-09-2026",
           "cc": "AVSS-Cen25",
@@ -729,7 +729,7 @@
           "monto": 25692
         },
         "9": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "07-09-2026",
           "cc": "AVSS-Cen25",
@@ -738,7 +738,7 @@
           "monto": 13100
         },
         "10": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "07-09-2026",
           "cc": "AVSS-Cen25",
@@ -747,7 +747,7 @@
           "monto": 3700
         },
         "11": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "10-09-2026",
           "cc": "AVSS-Cen25",
@@ -756,7 +756,7 @@
           "monto": 2600
         },
         "12": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "10-09-2026",
           "cc": "AVSS-Cen25",
@@ -765,7 +765,7 @@
           "monto": 25793
         },
         "13": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "14-09-2026",
           "cc": "AVSS-Cen25",
@@ -774,7 +774,7 @@
           "monto": 12990
         },
         "14": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "16-09-2026",
           "cc": "AVSS-Cen25",
@@ -783,7 +783,7 @@
           "monto": 25805
         },
         "15": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-Cen25",
@@ -792,7 +792,7 @@
           "monto": 1990
         },
         "16": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-Cen25",
@@ -810,7 +810,7 @@
           "monto": 3350
         },
         "18": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Cen25",
@@ -819,7 +819,7 @@
           "monto": 7400
         },
         "19": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Cen25",
@@ -846,7 +846,7 @@
           "monto": 1990
         },
         "22": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Cen25",
@@ -855,7 +855,7 @@
           "monto": 1980
         },
         "23": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Cen25",
@@ -864,7 +864,7 @@
           "monto": 2694
         },
         "24": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Cen25",
@@ -880,12 +880,12 @@
       "rendidor": "Pedro Fariña",
       "fechaRend": "21-09-2026",
       "fechaValid": "23-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 900147,
       "montoAprobado": 892647,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -927,7 +927,7 @@
           "monto": 3350
         },
         "2": {
-          "desc": "Mantención Camioneta",
+          "desc": "MantenciÃ³n Camioneta",
           "tipo": "FV",
           "fecha": "16-09-2026",
           "cc": "AVSS-PSG",
@@ -945,7 +945,7 @@
           "monto": 38700
         },
         "4": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
@@ -954,7 +954,7 @@
           "monto": 7500
         },
         "5": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
@@ -963,7 +963,7 @@
           "monto": 7500
         },
         "6": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
@@ -972,7 +972,7 @@
           "monto": 7500
         },
         "7": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
@@ -981,7 +981,7 @@
           "monto": 7500
         },
         "8": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
@@ -990,7 +990,7 @@
           "monto": 7500
         },
         "9": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
@@ -999,7 +999,7 @@
           "monto": 7500
         },
         "10": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
@@ -1017,7 +1017,7 @@
           "monto": 219467
         },
         "12": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
@@ -1035,7 +1035,7 @@
           "monto": 330000
         },
         "14": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "14-09-2026",
           "cc": "AVSS-PSG",
@@ -1049,7 +1049,7 @@
           "fecha": "21-09-2026",
           "cc": "AVSS-PSG",
           "prov": "Fermin Reyna Yucra",
-          "folio": "—",
+          "folio": "â",
           "monto": 45220
         }
       }
@@ -1060,12 +1060,12 @@
       "rendidor": "Claudio Navarro",
       "fechaRend": "22-09-2026",
       "fechaValid": "23-09-2026",
-      "fechaPago": "",
+      "fechaPago": "24-09-2026",
       "monto": 209820,
       "montoAprobado": 209820,
       "validado": true,
       "autorizado": 1,
-      "enNomina": false,
+      "enNomina": true,
       "lineas": {
         "0": "approved",
         "1": "approved",
@@ -1079,7 +1079,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "16-09-2026",
           "cc": "AVSS-Spence22",
@@ -1106,7 +1106,7 @@
           "monto": 35000
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "17-09-2026",
           "cc": "AVSS-Spence22",
@@ -1115,7 +1115,7 @@
           "monto": 15000
         },
         "4": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-Spence22",
@@ -1124,7 +1124,7 @@
           "monto": 20000
         },
         "5": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Spence22",
@@ -1133,7 +1133,7 @@
           "monto": 51500
         },
         "6": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Spence22",
@@ -1142,7 +1142,7 @@
           "monto": 22660
         },
         "7": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Spence22",
@@ -1317,6 +1317,21 @@
         "TC_20260915"
       ],
       "total": 2588092
+    },
+    {
+      "fecha": "24-09-2026",
+      "ids": [
+        "EP_20260916",
+        "FD_20260922",
+        "FZ_20260921",
+        "IR_20260917",
+        "NP_20260921",
+        "RC_20260921",
+        "CRG_20260922",
+        "PF_20260921",
+        "CN_20260922"
+      ],
+      "total": 2258653
     }
   ],
   "eliminadas_ids": []

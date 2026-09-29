@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-29T19:43:40.402Z",
+  "timestamp": "2026-09-29T19:43:53.045Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -643,12 +643,12 @@
       "xlsxName": "NVC-20260927.xlsx",
       "rendidor": "NICOLE VERGARA",
       "fechaRend": "27-09-2026",
-      "fechaValid": "",
+      "fechaValid": "29-09-2026",
       "fechaPago": "",
       "monto": 236581,
       "montoAprobado": 236581,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

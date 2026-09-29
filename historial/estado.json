@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-29T18:21:53.136Z",
+  "timestamp": "2026-09-29T19:20:12.397Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -17,6 +17,322 @@
       "lineas": {},
       "motivos": {},
       "lineasDatos": {}
+    },
+    "CZ_20260915": {
+      "codigo": "CZ-20260915",
+      "xlsxName": "CZ-20260915.xlsx",
+      "rendidor": "Claudio Zamora",
+      "fechaRend": "15-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 523514,
+      "montoAprobado": 10000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 26887
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "25-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4700
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "5": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "31-08-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3899
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "03-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "03-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3500
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "03-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "FV",
+          "fecha": "03-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Supermercado Frontera SpA.",
+          "folio": "36743",
+          "monto": 106670
+        },
+        "10": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "07-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5600
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "12": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "07-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18298
+        },
+        "14": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6200
+        },
+        "15": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9397
+        },
+        "16": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "17": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8000
+        },
+        "18": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7980
+        },
+        "19": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3050
+        },
+        "20": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9690
+        },
+        "21": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Sociedad comercial de repuestos y servicios salamanca limitada",
+          "folio": "67145",
+          "monto": 33000
+        },
+        "22": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Servex spa",
+          "folio": "7454",
+          "monto": 25548
+        },
+        "23": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "24": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25000
+        },
+        "25": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "21-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20298
+        },
+        "26": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "21-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5700
+        },
+        "27": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "21-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Servex SPA",
+          "folio": "7460",
+          "monto": 23999
+        },
+        "28": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "29": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "24-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5200
+        },
+        "30": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15898
+        },
+        "31": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "32": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-09-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        }
+      }
     }
   },
   "nominas": [

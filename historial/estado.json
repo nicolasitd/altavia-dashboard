@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-29T19:56:23.391Z",
+  "timestamp": "2026-09-29T19:57:07.301Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -734,7 +734,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 949350,
-      "montoAprobado": 480326,
+      "montoAprobado": 699924,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -755,7 +755,8 @@
         "13": "approved",
         "14": "approved",
         "15": "approved",
-        "16": "approved"
+        "16": "approved",
+        "17": "approved"
       },
       "motivos": {},
       "lineasDatos": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-29T19:36:19.315Z",
+  "timestamp": "2026-09-29T19:37:08.403Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -431,6 +431,79 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 17050
+        }
+      }
+    },
+    "LR_20260923": {
+      "codigo": "LR-20260923",
+      "xlsxName": "LR-20260923.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "23-09-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 87890,
+      "montoAprobado": 2850,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "1": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "23-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9900
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "3": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "23-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 17290
+        },
+        "4": {
+          "desc": "Mantención Camioneta",
+          "tipo": "BL",
+          "fecha": "18-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
         }
       }
     }

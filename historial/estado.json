@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-29T20:37:39.187Z",
+  "timestamp": "2026-09-29T20:38:33.477Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1039,12 +1039,12 @@
       "xlsxName": "CRG-20260929.xlsx",
       "rendidor": "Cristian Andrés Rojo González",
       "fechaRend": "29-09-2026",
-      "fechaValid": "",
+      "fechaValid": "29-09-2026",
       "fechaPago": "",
       "monto": 342258,
       "montoAprobado": 342258,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",
@@ -1189,6 +1189,34 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 50000
+        }
+      }
+    },
+    "JO_20260929": {
+      "codigo": "JO-20260929",
+      "xlsxName": "JO-20260929.xlsx",
+      "rendidor": "Jhonny Osorio",
+      "fechaRend": "29-09-2026",
+      "fechaValid": "29-09-2026",
+      "fechaPago": "",
+      "monto": 22872,
+      "montoAprobado": 22872,
+      "validado": true,
+      "autorizado": 1,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Desarrollo e Innovación",
+          "tipo": "BL",
+          "fecha": "29-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22872
         }
       }
     }

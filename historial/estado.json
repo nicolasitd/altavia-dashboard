@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-29T19:32:41.721Z",
+  "timestamp": "2026-09-29T19:36:19.315Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -371,12 +371,12 @@
       "xlsxName": "JPA-20260925.xlsx",
       "rendidor": "Juan Pablo",
       "fechaRend": "25-09-2026",
-      "fechaValid": "",
+      "fechaValid": "29-09-2026",
       "fechaPago": "",
       "monto": 30450,
       "montoAprobado": 30450,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-30T12:57:15.480Z",
+  "timestamp": "2026-09-30T13:03:19.091Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1540,5 +1540,7 @@
       "total": 2258653
     }
   ],
-  "eliminadas_ids": []
+  "eliminadas_ids": [
+    "CN_20260818"
+  ]
 }

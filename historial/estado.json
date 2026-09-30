@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-30T12:52:25.835Z",
+  "timestamp": "2026-09-30T12:52:44.643Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1219,141 +1219,6 @@
           "monto": 22872
         }
       }
-    },
-    "FH_P_20260817": {
-      "codigo": "FH-P-20260817",
-      "xlsxName": "FH-P-20260817.xlsx",
-      "rendidor": "Felipe Halles (FH-P)",
-      "fechaRend": "17-08-2026",
-      "fechaValid": "",
-      "fechaPago": "",
-      "monto": 2294120,
-      "montoAprobado": 1782219,
-      "validado": false,
-      "autorizado": 0,
-      "enNomina": false,
-      "lineas": {
-        "0": "approved",
-        "1": "approved",
-        "2": "approved",
-        "3": "approved",
-        "4": "approved",
-        "5": "approved",
-        "6": "approved",
-        "8": "approved",
-        "9": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "29-05-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7342571",
-          "monto": 163913
-        },
-        "1": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "03-06-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7360133",
-          "monto": 456514
-        },
-        "2": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "03-07-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7360313",
-          "monto": 162826
-        },
-        "3": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "05-06-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7365716",
-          "monto": 155484
-        },
-        "4": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "13-06-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7380588",
-          "monto": 86913
-        },
-        "5": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "02-07-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7417708",
-          "monto": 321913
-        },
-        "6": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "21-07-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7453300",
-          "monto": 174024
-        },
-        "7": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "02-07-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7417708",
-          "monto": 321913
-        },
-        "8": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "06-07-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7425090",
-          "monto": 189826
-        },
-        "9": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "24-07-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7463089",
-          "monto": 70806
-        },
-        "10": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "02-08-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7482367",
-          "monto": 98059
-        },
-        "11": {
-          "desc": "Pasaje AviÃ³n",
-          "tipo": "FE",
-          "fecha": "14-08-2026",
-          "cc": "FH-P",
-          "prov": "Latam Airlines Group S.A.",
-          "folio": "7510952",
-          "monto": 91929
-        }
-      }
     }
   },
   "nominas": [
@@ -1537,7 +1402,5 @@
       "total": 2258653
     }
   ],
-  "eliminadas_ids": [
-    "FH_P_20260817"
-  ]
+  "eliminadas_ids": []
 }

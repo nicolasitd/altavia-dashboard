@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-09-30T13:05:27.652Z",
+  "timestamp": "2026-09-30T13:07:57.530Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1220,144 +1220,6 @@
         }
       }
     },
-    "CN_20260818": {
-      "codigo": "CN-20260818",
-      "xlsxName": "CN-20260818.xlsx",
-      "rendidor": "Claudio Navarro",
-      "fechaRend": "18-08-2026",
-      "fechaValid": "30-09-2026",
-      "fechaPago": "",
-      "monto": 286863,
-      "montoAprobado": 286863,
-      "validado": true,
-      "autorizado": 1,
-      "enNomina": false,
-      "lineas": {
-        "0": "approved",
-        "1": "approved",
-        "2": "approved",
-        "3": "approved",
-        "4": "approved",
-        "5": "approved",
-        "6": "approved",
-        "7": "approved",
-        "8": "approved",
-        "9": "approved",
-        "10": "approved",
-        "11": "approved"
-      },
-      "motivos": {},
-      "lineasDatos": {
-        "0": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "18-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 22660
-        },
-        "1": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "18-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 22660
-        },
-        "2": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "18-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 26780
-        },
-        "3": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "18-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 44560
-        },
-        "4": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "18-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 66000
-        },
-        "5": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "13-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 20000
-        },
-        "6": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "17-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 20000
-        },
-        "7": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "17-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 20000
-        },
-        "8": {
-          "desc": "Movilización",
-          "tipo": "BL",
-          "fecha": "17-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 17493
-        },
-        "9": {
-          "desc": "Alimentación",
-          "tipo": "BL",
-          "fecha": "13-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 8520
-        },
-        "10": {
-          "desc": "Alimentación",
-          "tipo": "BL",
-          "fecha": "17-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 4490
-        },
-        "11": {
-          "desc": "Alimentación",
-          "tipo": "BL",
-          "fecha": "17-08-2026",
-          "cc": "AVSS-Spence22",
-          "prov": "Boletas Varias",
-          "folio": "xxx",
-          "monto": 13700
-        }
-      }
-    },
     "CN_20260929": {
       "codigo": "CN-20260929",
       "xlsxName": "CN-20260929.xlsx",
@@ -1658,7 +1520,5 @@
       "total": 2258653
     }
   ],
-  "eliminadas_ids": [
-    "CN_20260818"
-  ]
+  "eliminadas_ids": []
 }

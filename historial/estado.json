@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-07T17:09:51.716Z",
+  "timestamp": "2026-10-07T17:10:23.808Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -468,10 +468,12 @@
         "4": "approved",
         "5": "approved",
         "6": "approved",
-        "7": "approved"
+        "7": "approved",
+        "8": "rejected"
       },
       "motivos": {
-        "2": "Se descuenta 2350 de propina, queda en un total de 23.500"
+        "2": "Se descuenta 2350 de propina, queda en un total de 23.500",
+        "8": "Se descuenta 1.190 por propina queda en un total de 11900"
       },
       "lineasDatos": {
         "0": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-07T17:24:59.301Z",
+  "timestamp": "2026-10-07T17:39:16.381Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -476,6 +476,7 @@
         "12": "approved",
         "13": "approved",
         "14": "approved",
+        "15": "rejected",
         "16": "approved",
         "17": "approved",
         "18": "approved",
@@ -498,7 +499,8 @@
       },
       "motivos": {
         "2": "Se descuenta 2350 de propina, queda en un total de 23.500",
-        "8": "Se descuenta 1.190 por propina queda en un total de 11900"
+        "8": "Se descuenta 1.190 por propina queda en un total de 11900",
+        "15": "Valor de la factura ingresado incorrectamente, se descuenta 3302, quedando un total de 17380"
       },
       "lineasDatos": {
         "0": {
@@ -901,12 +903,12 @@
       "xlsxName": "TG-20261007.xlsx",
       "rendidor": "Tomas Graell",
       "fechaRend": "07-10-2026",
-      "fechaValid": "",
+      "fechaValid": "07-10-2026",
       "fechaPago": "",
       "monto": 1082991,
       "montoAprobado": 1082991,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-07T17:07:15.710Z",
+  "timestamp": "2026-10-07T17:08:17.393Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -462,9 +462,12 @@
       "enNomina": false,
       "lineas": {
         "0": "approved",
-        "1": "approved"
+        "1": "approved",
+        "2": "rejected"
       },
-      "motivos": {},
+      "motivos": {
+        "2": "Se descuenta 2350 de propina, queda en un total de 23.500"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Artículos de Oficina",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-07T17:18:58.508Z",
+  "timestamp": "2026-10-07T17:22:11.839Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -815,6 +815,79 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 11900
+        }
+      }
+    },
+    "RM_20261007": {
+      "codigo": "RM-20261007",
+      "xlsxName": "RM-20261007.xlsx",
+      "rendidor": "Raul Mundaca",
+      "fechaRend": "07-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 195767,
+      "montoAprobado": 21539,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Servicios Informáticos",
+          "tipo": "FE",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Anthropic PBC",
+          "folio": "QAUZQ284՞0001",
+          "monto": 21539
+        },
+        "1": {
+          "desc": "Servicios Informáticos",
+          "tipo": "FE",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Anthropic PBC",
+          "folio": "QAUZQ284՞0002",
+          "monto": 22253
+        },
+        "2": {
+          "desc": "Servicios Informáticos",
+          "tipo": "FE",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Anthropic PBC",
+          "folio": "QAUZQ284՞0003",
+          "monto": 21967
+        },
+        "3": {
+          "desc": "Servicios Informáticos",
+          "tipo": "FE",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Anthropic PBC",
+          "folio": "QAUZQ284՞0004",
+          "monto": 22467
+        },
+        "4": {
+          "desc": "Servicios Informáticos",
+          "tipo": "FE",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-Desarrollo",
+          "prov": "Anthropic PBC",
+          "folio": "QAUZQ284՞0005",
+          "monto": 19540
+        },
+        "5": {
+          "desc": "Equipos Computacionales",
+          "tipo": "FV",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Comercializadora Avharmony spa",
+          "folio": "101",
+          "monto": 88001
         }
       }
     }

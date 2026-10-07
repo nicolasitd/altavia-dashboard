@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-07T00:05:29.433Z",
+  "timestamp": "2026-10-07T17:07:01.719Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -58,7 +58,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-PSG",
@@ -67,7 +67,7 @@
           "monto": 12000
         },
         "1": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-PSG",
@@ -94,7 +94,7 @@
           "monto": 3350
         },
         "4": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "30-09-2026",
           "cc": "AVSS-PSG",
@@ -125,7 +125,7 @@
           "tipo": "FV",
           "fecha": "30-09-2026",
           "cc": "AVSS-RT26",
-          "prov": "Soc. Com. Fernández Y Cía.",
+          "prov": "Soc. Com. FernÃ¡ndez Y CÃ­a.",
           "folio": "146454",
           "monto": 40254
         },
@@ -193,7 +193,7 @@
           "monto": 2850
         },
         "15": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -202,7 +202,7 @@
           "monto": 4100
         },
         "16": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -211,7 +211,7 @@
           "monto": 100000
         },
         "17": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -220,7 +220,7 @@
           "monto": 50000
         },
         "18": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -229,7 +229,7 @@
           "monto": 7500
         },
         "19": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -238,7 +238,7 @@
           "monto": 7500
         },
         "20": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -247,7 +247,7 @@
           "monto": 7500
         },
         "21": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -256,7 +256,7 @@
           "monto": 7500
         },
         "22": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -287,7 +287,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "01-10-2026",
           "cc": "AVSS-LB24",
@@ -296,7 +296,7 @@
           "monto": 10000
         },
         "1": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-LB24",
@@ -305,7 +305,7 @@
           "monto": 10500
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-LB24",
@@ -314,7 +314,7 @@
           "monto": 18600
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "08-10-2026",
           "cc": "AVSS-LB24",
@@ -343,7 +343,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-CMLP22",
@@ -352,7 +352,7 @@
           "monto": 10000
         },
         "1": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-CMLP22",
@@ -411,7 +411,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "01-10-2026",
           "cc": "AVSS-Spence22",
@@ -429,7 +429,7 @@
           "monto": 369889
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-Spence22",
@@ -438,13 +438,347 @@
           "monto": 20000
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-Spence22",
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 68780
+        }
+      }
+    },
+    "LS_20261006": {
+      "codigo": "LS-20261006",
+      "xlsxName": "LS-20261006.xlsx",
+      "rendidor": "Laura Segura",
+      "fechaRend": "06-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 1234715,
+      "montoAprobado": 6560,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Artículos de Oficina",
+          "tipo": "BL",
+          "fecha": "04-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6560
+        },
+        "1": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25850
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "06-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "06-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "5": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "FV",
+          "fecha": "02-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "desarmaduria copiapo",
+          "folio": "57152",
+          "monto": 30000
+        },
+        "6": {
+          "desc": "Encomiendas, fletes, correo",
+          "tipo": "BL",
+          "fecha": "02-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8640
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "28-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9500
+        },
+        "8": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "06-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13090
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "21-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 24750
+        },
+        "10": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "05-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 17050
+        },
+        "11": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "03-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Cristian Broudissond",
+          "folio": "63331",
+          "monto": 24000
+        },
+        "12": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "16-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Easy Retail S.A.",
+          "folio": "37964901",
+          "monto": 67615
+        },
+        "13": {
+          "desc": "Arriendo Oficina",
+          "tipo": "FV",
+          "fecha": "16-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Easy Retail S.A.",
+          "folio": "37964902",
+          "monto": 7180
+        },
+        "14": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Soc. Com. Fernández Y Cía.",
+          "folio": "146105",
+          "monto": 156759
+        },
+        "15": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "FV",
+          "fecha": "22-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Implementos S.A.",
+          "folio": "6998259",
+          "monto": 20682
+        },
+        "16": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "25-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28500
+        },
+        "17": {
+          "desc": "Aseo",
+          "tipo": "FV",
+          "fecha": "05-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Elaboracion Insumos de Aseo",
+          "folio": "21115",
+          "monto": 29850
+        },
+        "18": {
+          "desc": "Encomiendas, fletes, correo",
+          "tipo": "FV",
+          "fecha": "05-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Transportes, Tecnologia y Giros EGT Ltda.",
+          "folio": "13686789",
+          "monto": 85760
+        },
+        "19": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "28-08-2026",
+          "cc": "AVSS-RT26",
+          "prov": "FCJ Empress Spa",
+          "folio": "2253",
+          "monto": 20587
+        },
+        "20": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "29-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Soc Distribuidora de Pernos Recoleta Ltda",
+          "folio": "77683",
+          "monto": 175287
+        },
+        "21": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "03-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Luka Tomas Lorca Zarate",
+          "folio": "75879",
+          "monto": 33504
+        },
+        "22": {
+          "desc": "Ropa, Elementos de Seguridad RRHH",
+          "tipo": "FV",
+          "fecha": "30-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Jam Abastecimiento Spa",
+          "folio": "6592",
+          "monto": 27370
+        },
+        "23": {
+          "desc": "Artículos de Oficina",
+          "tipo": "FV",
+          "fecha": "04-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Lzoa y CIa Ltda",
+          "folio": "353777",
+          "monto": 18590
+        },
+        "24": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "06-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Invesiones Miguel Olivares Spa",
+          "folio": "4051",
+          "monto": 24951
+        },
+        "25": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "06-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9000
+        },
+        "26": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "29-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "27": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13140
+        },
+        "28": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "23-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Guido Milton Ticona",
+          "folio": "1155",
+          "monto": 239000
+        },
+        "29": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "01-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14100
+        },
+        "30": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "08-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14600
+        },
+        "31": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13800
+        },
+        "32": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "22-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12300
+        },
+        "33": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14100
+        },
+        "34": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "06-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11900
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-14T17:19:02.941Z",
+  "timestamp": "2026-10-14T17:20:55.636Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -51,7 +51,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "01-10-2026",
           "cc": "AVSS-Cen25",
@@ -60,7 +60,7 @@
           "monto": 4000
         },
         "1": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "01-10-2026",
           "cc": "AVSS-Cen25",
@@ -69,7 +69,7 @@
           "monto": 25793
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-Cen25",
@@ -78,7 +78,7 @@
           "monto": 25358
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-Cen25",
@@ -87,7 +87,7 @@
           "monto": 22660
         },
         "4": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "13-10-2026",
           "cc": "AVSS-Cen25",
@@ -96,7 +96,7 @@
           "monto": 22660
         },
         "5": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "08-10-2026",
           "cc": "AVSS-Cen25",
@@ -105,7 +105,7 @@
           "monto": 4500
         },
         "6": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "08-10-2026",
           "cc": "AVSS-Cen25",
@@ -114,7 +114,7 @@
           "monto": 24254
         },
         "7": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "13-10-2026",
           "cc": "AVSS-Cen25",
@@ -123,7 +123,7 @@
           "monto": 20000
         },
         "8": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-Cen25",
@@ -132,7 +132,7 @@
           "monto": 27300
         },
         "9": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-Cen25",
@@ -141,7 +141,7 @@
           "monto": 15000
         },
         "10": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "01-10-2026",
           "cc": "AVSS-Cen25",
@@ -150,7 +150,7 @@
           "monto": 50000
         },
         "11": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-Cen25",
@@ -159,7 +159,7 @@
           "monto": 50000
         },
         "12": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-Cen25",
@@ -168,7 +168,7 @@
           "monto": 50000
         },
         "13": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "08-10-2026",
           "cc": "AVSS-Cen25",
@@ -177,7 +177,7 @@
           "monto": 50000
         },
         "14": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "13-10-2026",
           "cc": "AVSS-Cen25",
@@ -186,7 +186,7 @@
           "monto": 50000
         },
         "15": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "13-10-2026",
           "cc": "AVSS-Cen25",
@@ -218,9 +218,64 @@
           "tipo": "FV",
           "fecha": "14-10-2026",
           "cc": "AVSS-RT26",
-          "prov": "—",
+          "prov": "â",
           "folio": "39757",
           "monto": 199980
+        }
+      }
+    },
+    "LR_20261013": {
+      "codigo": "LR-20261013",
+      "xlsxName": "LR-20261013.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "13-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 118462,
+      "montoAprobado": 30482,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alojamiento",
+          "tipo": "BL",
+          "fecha": "21-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30482
+        },
+        "1": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "24-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12980
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "06-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35000
         }
       }
     }

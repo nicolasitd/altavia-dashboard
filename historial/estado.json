@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-08T20:21:24.333Z",
+  "timestamp": "2026-10-14T17:10:44.582Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -58,7 +58,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AlimentaciÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-PSG",
@@ -67,7 +67,7 @@
           "monto": 12000
         },
         "1": {
-          "desc": "AlimentaciÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-PSG",
@@ -94,7 +94,7 @@
           "monto": 3350
         },
         "4": {
-          "desc": "AlimentaciÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "30-09-2026",
           "cc": "AVSS-PSG",
@@ -125,7 +125,7 @@
           "tipo": "FV",
           "fecha": "30-09-2026",
           "cc": "AVSS-RT26",
-          "prov": "Soc. Com. FernÃÂ¡ndez Y CÃÂ­a.",
+          "prov": "Soc. Com. FernÃÂÃÂ¡ndez Y CÃÂÃÂ­a.",
           "folio": "146454",
           "monto": 40254
         },
@@ -193,7 +193,7 @@
           "monto": 2850
         },
         "15": {
-          "desc": "AlimentaciÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -202,7 +202,7 @@
           "monto": 4100
         },
         "16": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -211,7 +211,7 @@
           "monto": 100000
         },
         "17": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -220,7 +220,7 @@
           "monto": 50000
         },
         "18": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -229,7 +229,7 @@
           "monto": 7500
         },
         "19": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -238,7 +238,7 @@
           "monto": 7500
         },
         "20": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -247,7 +247,7 @@
           "monto": 7500
         },
         "21": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -256,7 +256,7 @@
           "monto": 7500
         },
         "22": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-PSG",
@@ -287,7 +287,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "01-10-2026",
           "cc": "AVSS-LB24",
@@ -296,7 +296,7 @@
           "monto": 10000
         },
         "1": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-LB24",
@@ -305,7 +305,7 @@
           "monto": 10500
         },
         "2": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-LB24",
@@ -314,7 +314,7 @@
           "monto": 18600
         },
         "3": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "08-10-2026",
           "cc": "AVSS-LB24",
@@ -343,7 +343,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-CMLP22",
@@ -352,7 +352,7 @@
           "monto": 10000
         },
         "1": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-CMLP22",
@@ -411,7 +411,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "01-10-2026",
           "cc": "AVSS-Spence22",
@@ -429,7 +429,7 @@
           "monto": 369889
         },
         "2": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-Spence22",
@@ -438,7 +438,7 @@
           "monto": 20000
         },
         "3": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-Spence22",
@@ -504,7 +504,7 @@
       },
       "lineasDatos": {
         "0": {
-          "desc": "ArtÃ­culos de Oficina",
+          "desc": "ArtÃÂ­culos de Oficina",
           "tipo": "BL",
           "fecha": "04-09-2026",
           "cc": "AVSS-RT26",
@@ -522,7 +522,7 @@
           "monto": 10000
         },
         "2": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "14-09-2026",
           "cc": "AVSS-RT26",
@@ -567,7 +567,7 @@
           "monto": 8640
         },
         "7": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "28-09-2026",
           "cc": "AVSS-RT26",
@@ -576,7 +576,7 @@
           "monto": 9500
         },
         "8": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "06-09-2026",
           "cc": "AVSS-RT26",
@@ -585,7 +585,7 @@
           "monto": 13090
         },
         "9": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "21-09-2026",
           "cc": "AVSS-RT26",
@@ -594,7 +594,7 @@
           "monto": 24750
         },
         "10": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-RT26",
@@ -634,7 +634,7 @@
           "tipo": "FV",
           "fecha": "23-09-2026",
           "cc": "AVSS-RT26",
-          "prov": "Soc. Com. FernÃ¡ndez Y CÃ­a.",
+          "prov": "Soc. Com. FernÃÂ¡ndez Y CÃÂ­a.",
           "folio": "146105",
           "monto": 156759
         },
@@ -648,7 +648,7 @@
           "monto": 20682
         },
         "16": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "25-09-2026",
           "cc": "AVSS-RT26",
@@ -711,7 +711,7 @@
           "monto": 27370
         },
         "23": {
-          "desc": "ArtÃ­culos de Oficina",
+          "desc": "ArtÃÂ­culos de Oficina",
           "tipo": "FV",
           "fecha": "04-09-2026",
           "cc": "AVSS-RT26",
@@ -729,7 +729,7 @@
           "monto": 24951
         },
         "25": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-RT26",
@@ -738,7 +738,7 @@
           "monto": 9000
         },
         "26": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-RT26",
@@ -747,7 +747,7 @@
           "monto": 20000
         },
         "27": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-RT26",
@@ -756,7 +756,7 @@
           "monto": 13140
         },
         "28": {
-          "desc": "MantenciÃ³n Camioneta",
+          "desc": "MantenciÃÂ³n Camioneta",
           "tipo": "FV",
           "fecha": "23-09-2026",
           "cc": "AVSS-RT26",
@@ -765,7 +765,7 @@
           "monto": 239000
         },
         "29": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "01-09-2026",
           "cc": "AVSS-RT26",
@@ -774,7 +774,7 @@
           "monto": 14100
         },
         "30": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "08-09-2026",
           "cc": "AVSS-RT26",
@@ -783,7 +783,7 @@
           "monto": 14600
         },
         "31": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "15-09-2026",
           "cc": "AVSS-RT26",
@@ -792,7 +792,7 @@
           "monto": 13800
         },
         "32": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-RT26",
@@ -801,7 +801,7 @@
           "monto": 12300
         },
         "33": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-RT26",
@@ -810,7 +810,7 @@
           "monto": 14100
         },
         "34": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-RT26",
@@ -843,48 +843,48 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Servicios InformÃ¡ticos",
+          "desc": "Servicios InformÃÂ¡ticos",
           "tipo": "FE",
           "fecha": "07-10-2026",
           "cc": "AVSS-Desarrollo",
           "prov": "Anthropic PBC",
-          "folio": "QAUZQ284Õ0001",
+          "folio": "QAUZQ284ÃÂ0001",
           "monto": 21539
         },
         "1": {
-          "desc": "Servicios InformÃ¡ticos",
+          "desc": "Servicios InformÃÂ¡ticos",
           "tipo": "FE",
           "fecha": "07-10-2026",
           "cc": "AVSS-Desarrollo",
           "prov": "Anthropic PBC",
-          "folio": "QAUZQ284Õ0002",
+          "folio": "QAUZQ284ÃÂ0002",
           "monto": 22253
         },
         "2": {
-          "desc": "Servicios InformÃ¡ticos",
+          "desc": "Servicios InformÃÂ¡ticos",
           "tipo": "FE",
           "fecha": "07-10-2026",
           "cc": "AVSS-Desarrollo",
           "prov": "Anthropic PBC",
-          "folio": "QAUZQ284Õ0003",
+          "folio": "QAUZQ284ÃÂ0003",
           "monto": 21967
         },
         "3": {
-          "desc": "Servicios InformÃ¡ticos",
+          "desc": "Servicios InformÃÂ¡ticos",
           "tipo": "FE",
           "fecha": "07-10-2026",
           "cc": "AVSS-Desarrollo",
           "prov": "Anthropic PBC",
-          "folio": "QAUZQ284Õ0004",
+          "folio": "QAUZQ284ÃÂ0004",
           "monto": 22467
         },
         "4": {
-          "desc": "Servicios InformÃ¡ticos",
+          "desc": "Servicios InformÃÂ¡ticos",
           "tipo": "FE",
           "fecha": "07-10-2026",
           "cc": "AVSS-Desarrollo",
           "prov": "Anthropic PBC",
-          "folio": "QAUZQ284Õ0005",
+          "folio": "QAUZQ284ÃÂ0005",
           "monto": 19540
         },
         "5": {
@@ -923,7 +923,7 @@
           "fecha": "04-08-2026",
           "cc": "AVSS-GG",
           "prov": "Starlink Chile SpA.",
-          "folio": "â",
+          "folio": "Ã¢ÂÂ",
           "monto": 360997
         },
         "1": {
@@ -932,7 +932,7 @@
           "fecha": "04-09-2026",
           "cc": "AVSS-GG",
           "prov": "Starlink Chile SpA.",
-          "folio": "â",
+          "folio": "Ã¢ÂÂ",
           "monto": 360997
         },
         "2": {
@@ -941,7 +941,7 @@
           "fecha": "04-10-2026",
           "cc": "AVSS-GG",
           "prov": "Starlink Chile SpA.",
-          "folio": "â",
+          "folio": "Ã¢ÂÂ",
           "monto": 360997
         }
       }
@@ -1159,5 +1159,14 @@
       "total": 4232982
     }
   ],
-  "eliminadas_ids": []
+  "eliminadas_ids": [
+    "TG_20261007",
+    "RM_20261007",
+    "LS_20261006",
+    "CN_20261006",
+    "IR_20261005",
+    "FD_20261006",
+    "NP_20261005",
+    "PF_20261006"
+  ]
 }

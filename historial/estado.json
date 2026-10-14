@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-14T17:27:20.639Z",
+  "timestamp": "2026-10-14T17:28:17.591Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -480,11 +480,13 @@
         "6": "approved",
         "7": "approved",
         "8": "approved",
-        "9": "approved"
+        "9": "approved",
+        "10": "rejected"
       },
       "motivos": {
         "1": "Se descuentan 9 Pesos, boleta mal ingresada",
-        "2": "se descuentan 1040 por propina"
+        "2": "se descuentan 1040 por propina",
+        "10": "se descuentan 300 pesos, monto total mal ingresado"
       },
       "lineasDatos": {
         "0": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-14T17:36:00.288Z",
+  "timestamp": "2026-10-14T17:38:00.644Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -677,6 +677,160 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 39752
+        }
+      }
+    },
+    "CN_20261013": {
+      "codigo": "CN-20261013",
+      "xlsxName": "CN-20261013.xlsx",
+      "rendidor": "Claudio Navarro",
+      "fechaRend": "13-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 576359,
+      "montoAprobado": 107478,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "08-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Soc Comercial Fernandez y Cia SPA",
+          "folio": "146819",
+          "monto": 107478
+        },
+        "1": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "08-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7590
+        },
+        "2": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Codelpa Chile S.A.",
+          "folio": "1949379",
+          "monto": 158794
+        },
+        "3": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "08-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10914
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "08-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18683
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 44100
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 52500
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21000
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21000
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21000
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21000
+        },
+        "12": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 26250
+        },
+        "13": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 26250
+        },
+        "14": {
+          "desc": "Artículos de Oficina",
+          "tipo": "BL",
+          "fecha": "13-10-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 19800
         }
       }
     }

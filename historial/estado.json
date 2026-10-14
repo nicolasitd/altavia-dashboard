@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-14T17:27:06.637Z",
+  "timestamp": "2026-10-14T17:27:15.638Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -466,7 +466,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 586642,
-      "montoAprobado": 78500,
+      "montoAprobado": 81350,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -478,7 +478,8 @@
         "4": "approved",
         "5": "approved",
         "6": "approved",
-        "7": "approved"
+        "7": "approved",
+        "8": "approved"
       },
       "motivos": {
         "1": "Se descuentan 9 Pesos, boleta mal ingresada",

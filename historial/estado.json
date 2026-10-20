@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-20T22:25:27.509Z",
+  "timestamp": "2026-10-20T22:30:32.640Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -249,6 +249,45 @@
           "prov": "OK Parking SPA",
           "folio": "8899",
           "monto": 53400
+        }
+      }
+    },
+    "JRR_20261014": {
+      "codigo": "JRR-20261014",
+      "xlsxName": "JRR-20261014.xlsx",
+      "rendidor": "Jorgem Ignacio Rubio Rubio",
+      "fechaRend": "14-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 18990,
+      "montoAprobado": 0,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "rejected"
+      },
+      "motivos": {
+        "0": "Se descuenta $1.000 por propina"
+      },
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "08-10-2026",
+          "cc": "AVIng-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11000
+        },
+        "1": {
+          "desc": "Desarrollo e Innovación",
+          "tipo": "FE",
+          "fecha": "07-10-2026",
+          "cc": "AVIng-GG",
+          "prov": "—",
+          "folio": "668201556646",
+          "monto": 7990
         }
       }
     }

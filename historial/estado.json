@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-20T22:25:11.314Z",
+  "timestamp": "2026-10-20T22:25:27.509Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -199,12 +199,12 @@
       "xlsxName": "JC-20261020.xlsx",
       "rendidor": "José Carreño",
       "fechaRend": "20-10-2026",
-      "fechaValid": "",
+      "fechaValid": "20-10-2026",
       "fechaPago": "",
       "monto": 176800,
       "montoAprobado": 176800,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

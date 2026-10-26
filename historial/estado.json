@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-26T20:20:07.437Z",
+  "timestamp": "2026-10-26T20:20:21.970Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -713,6 +713,34 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 3350
+        }
+      }
+    },
+    "IR_20261016": {
+      "codigo": "IR-20261016",
+      "xlsxName": "IR-20261016.xlsx",
+      "rendidor": "IGNACIO RODRIGUEZ",
+      "fechaRend": "16-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 19894,
+      "montoAprobado": 19894,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Servicios Informáticos",
+          "tipo": "BL",
+          "fecha": "16-10-2026",
+          "cc": "AVIng-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 19894
         }
       }
     }

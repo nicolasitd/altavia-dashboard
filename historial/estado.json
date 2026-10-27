@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T23:02:48.911Z",
+  "timestamp": "2026-10-27T23:02:59.392Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1927,15 +1927,16 @@
       "xlsxName": "JR-20261023.xlsx",
       "rendidor": "Jorge Rubio",
       "fechaRend": "23-10-2026",
-      "fechaValid": "",
+      "fechaValid": "27-10-2026",
       "fechaPago": "",
       "monto": 18388,
-      "montoAprobado": 7590,
-      "validado": false,
-      "autorizado": 0,
+      "montoAprobado": 18388,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
-        "0": "approved"
+        "0": "approved",
+        "1": "approved"
       },
       "motivos": {},
       "lineasDatos": {

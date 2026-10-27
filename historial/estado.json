@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T22:28:41.326Z",
+  "timestamp": "2026-10-27T22:29:42.153Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -573,9 +573,12 @@
         "23": "approved",
         "24": "approved",
         "25": "approved",
-        "26": "approved"
+        "26": "approved",
+        "27": "rejected"
       },
-      "motivos": {},
+      "motivos": {
+        "27": "Se descuenta 1.850 por propnina. Queda un total de $542.899"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Peajes",

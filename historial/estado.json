@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T22:48:55.676Z",
+  "timestamp": "2026-10-27T22:54:44.150Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1469,6 +1469,61 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 11900
+        }
+      }
+    },
+    "MT_20261027": {
+      "codigo": "MT-20261027",
+      "xlsxName": "MT-20261027.xlsx",
+      "rendidor": "Melissa Tapia Manque",
+      "fechaRend": "27-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 144000,
+      "montoAprobado": 38000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "05-10-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 38000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 38000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-10-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 38000
         }
       }
     }

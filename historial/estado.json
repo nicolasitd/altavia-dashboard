@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T22:20:42.261Z",
+  "timestamp": "2026-10-27T22:22:00.148Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -413,6 +413,115 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 21000
+        }
+      }
+    },
+    "CRG_20261027": {
+      "codigo": "CRG-20261027",
+      "xlsxName": "CRG-20261027.xlsx",
+      "rendidor": "Cristian Andrés Rojo González",
+      "fechaRend": "27-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 309407,
+      "montoAprobado": 24039,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 24039
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "2": {
+          "desc": "Mantención Camioneta",
+          "tipo": "FV",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Servicio de lavado de vehiculo",
+          "folio": "5208",
+          "monto": 50000
+        },
+        "3": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1250
+        },
+        "4": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5980
+        },
+        "5": {
+          "desc": "Alimentación",
+          "tipo": "FV",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Adm. Supermercados Hiper Ltda.",
+          "folio": "80759743",
+          "monto": 87043
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "22-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 26995
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23100
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21000
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 50000
         }
       }
     }

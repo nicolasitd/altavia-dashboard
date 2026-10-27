@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T22:23:59.321Z",
+  "timestamp": "2026-10-27T22:24:48.147Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -531,6 +531,601 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 50000
+        }
+      }
+    },
+    "EV_20261027": {
+      "codigo": "EV-20261027",
+      "xlsxName": "EV-20261027.xlsx",
+      "rendidor": "Eric Vera",
+      "fechaRend": "27-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 544749,
+      "montoAprobado": 3350,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "09-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6700
+        },
+        "3": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3200
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "6": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "15-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "7": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "15-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "8": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "16-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "9": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "10": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "16-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "11": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "16-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7400
+        },
+        "12": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "17-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7190
+        },
+        "13": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "28-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1150
+        },
+        "14": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "28-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "15": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "28-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "16": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "29-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "17": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "29-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "18": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "30-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "19": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "30-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "20": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "30-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Sodimac S.A.",
+          "folio": "149947262",
+          "monto": 29990
+        },
+        "21": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "05-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "22": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "05-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "23": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "06-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "24": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "06-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "25": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "26": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "27": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "08-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20350
+        },
+        "28": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "08-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5350
+        },
+        "29": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "13-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "30": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "13-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1150
+        },
+        "31": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "13-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "32": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "14-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "33": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "14-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "34": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "15-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6500
+        },
+        "35": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5350
+        },
+        "36": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6500
+        },
+        "37": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "20-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "38": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "20-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "39": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "21-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "40": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "21-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "41": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "22-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2200
+        },
+        "42": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "22-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11490
+        },
+        "43": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5350
+        },
+        "44": {
+          "desc": "Alojamiento",
+          "tipo": "BL",
+          "fecha": "25-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7690
+        },
+        "45": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "27-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "46": {
+          "desc": "Lavado de Camioneta",
+          "tipo": "BL",
+          "fecha": "02-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
+        },
+        "47": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "04-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21360
+        },
+        "48": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11198
+        },
+        "49": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3498
+        },
+        "50": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3877
+        },
+        "51": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "11-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8798
+        },
+        "52": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "12-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 16020
+        },
+        "53": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15930
+        },
+        "54": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21360
+        },
+        "55": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "22-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12000
+        },
+        "56": {
+          "desc": "Lavado de Camioneta",
+          "tipo": "BL",
+          "fecha": "23-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
+        },
+        "57": {
+          "desc": "Lavado de Camioneta",
+          "tipo": "BL",
+          "fecha": "26-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
+        },
+        "58": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6000
+        },
+        "59": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-Cen25",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21360
+        },
+        "60": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "27-09-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21270
+        },
+        "61": {
+          "desc": "Equipos Computacionales",
+          "tipo": "BL",
+          "fecha": "14-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 16184
+        },
+        "62": {
+          "desc": "Equipos Computacionales",
+          "tipo": "BL",
+          "fecha": "14-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 16184
+        },
+        "63": {
+          "desc": "Movilización",
+          "tipo": "FE",
+          "fecha": "10-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Funny Tour Chile SPA",
+          "folio": "12020",
+          "monto": 30000
         }
       }
     }

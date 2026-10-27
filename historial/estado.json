@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T22:36:46.579Z",
+  "timestamp": "2026-10-27T22:40:20.161Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1191,6 +1191,79 @@
           "prov": "Funny Tour Chile SPA",
           "folio": "12020",
           "monto": 30000
+        }
+      }
+    },
+    "LR_20261027": {
+      "codigo": "LR-20261027",
+      "xlsxName": "LR-20261027.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "27-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 116890,
+      "montoAprobado": 2850,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "21-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "21-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7190
+        },
+        "3": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 24000
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
         }
       }
     }

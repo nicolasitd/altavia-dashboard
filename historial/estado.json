@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T22:19:16.146Z",
+  "timestamp": "2026-10-27T22:19:24.161Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -54,7 +54,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 810687,
-      "montoAprobado": 746829,
+      "montoAprobado": 767829,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -90,7 +90,8 @@
         "29": "approved",
         "30": "approved",
         "31": "approved",
-        "32": "approved"
+        "32": "approved",
+        "33": "approved"
       },
       "motivos": {
         "23": "Se descuenta 1078 por propina."

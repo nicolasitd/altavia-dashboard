@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T22:31:08.150Z",
+  "timestamp": "2026-10-27T22:31:25.019Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -542,7 +542,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 544749,
-      "montoAprobado": 154030,
+      "montoAprobado": 159380,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -581,7 +581,8 @@
         "31": "approved",
         "32": "approved",
         "33": "approved",
-        "34": "approved"
+        "34": "approved",
+        "35": "approved"
       },
       "motivos": {
         "27": "Se descuenta 1.850 por propnina. Queda un total de $542.899"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-10-27T22:41:43.454Z",
+  "timestamp": "2026-10-27T22:42:21.147Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1269,6 +1269,187 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 40000
+        }
+      }
+    },
+    "LS_20261026": {
+      "codigo": "LS-20261026",
+      "xlsxName": "LS-20261026.xlsx",
+      "rendidor": "LAURA SEGURA",
+      "fechaRend": "26-10-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 648907,
+      "montoAprobado": 18000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18000
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18000
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "07-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "06-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14810
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15750
+        },
+        "5": {
+          "desc": "Artículos de Oficina",
+          "tipo": "FV",
+          "fecha": "09-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Empresas DMG S.A Dimeiggs",
+          "folio": "—",
+          "monto": 26799
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "13-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12500
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11900
+        },
+        "8": {
+          "desc": "Encomiendas, fletes, correo",
+          "tipo": "FV",
+          "fecha": "13-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Transportes, Tecnologia y Giros EGT Ltda.",
+          "folio": "13697385",
+          "monto": 80424
+        },
+        "9": {
+          "desc": "Artículos de Oficina",
+          "tipo": "FV",
+          "fecha": "14-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "I & M servicios Integrales Spa",
+          "folio": "1506",
+          "monto": 3000
+        },
+        "10": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "15-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Reliper SA",
+          "folio": "758807",
+          "monto": 26805
+        },
+        "11": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "20-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18200
+        },
+        "12": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "15-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "DISTRIBUIDORA SUSANA CAROLINA SANDOVAL BASILIO E.I.R.L.",
+          "folio": "2691",
+          "monto": 112669
+        },
+        "13": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "22-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Implementos S.A.",
+          "folio": "6998259",
+          "monto": 17380
+        },
+        "14": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "21-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 44000
+        },
+        "15": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "21-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Implementos SA",
+          "folio": "7079734",
+          "monto": 182670
+        },
+        "16": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 14100
+        },
+        "17": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11900
         }
       }
     }

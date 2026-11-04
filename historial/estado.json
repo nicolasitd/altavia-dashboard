@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T15:51:42.093Z",
+  "timestamp": "2026-11-04T15:52:37.420Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -435,12 +435,12 @@
       "xlsxName": "JG-20261103.xlsx",
       "rendidor": "Jocelyne Garrido",
       "fechaRend": "03-11-2026",
-      "fechaValid": "",
+      "fechaValid": "04-11-2026",
       "fechaPago": "",
       "monto": 85770,
       "montoAprobado": 85770,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",
@@ -465,6 +465,52 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 11880
+        }
+      }
+    },
+    "JPA_20261102": {
+      "codigo": "JPA-20261102",
+      "xlsxName": "JPA-20261102.xlsx",
+      "rendidor": "JUAN PABLO AUAD",
+      "fechaRend": "02-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 39960,
+      "montoAprobado": 5390,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "02-11-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5390
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "02-11-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28770
+        },
+        "2": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "02-11-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5800
         }
       }
     }

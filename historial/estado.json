@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T17:32:35.592Z",
+  "timestamp": "2026-11-04T17:33:24.192Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1042,10 +1042,12 @@
         "2": "approved",
         "3": "approved",
         "4": "approved",
-        "5": "approved"
+        "5": "approved",
+        "6": "rejected"
       },
       "motivos": {
-        "0": "Se descuentan $1000 pesos por propina."
+        "0": "Se descuentan $1000 pesos por propina.",
+        "6": "se descuentan $180 pesos por monto mal ingresado."
       },
       "lineasDatos": {
         "0": {

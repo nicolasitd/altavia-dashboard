@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T17:15:20.773Z",
+  "timestamp": "2026-11-04T17:15:26.691Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -919,12 +919,12 @@
       "xlsxName": "FH-ING-20261013.xlsx",
       "rendidor": "Felipe Halles",
       "fechaRend": "13-10-2026",
-      "fechaValid": "",
+      "fechaValid": "04-11-2026",
       "fechaPago": "",
       "monto": 1502477,
       "montoAprobado": 1502477,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

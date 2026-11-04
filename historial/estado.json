@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T15:53:22.245Z",
+  "timestamp": "2026-11-04T15:53:51.854Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -513,6 +513,34 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 5800
+        }
+      }
+    },
+    "JPA_20261103": {
+      "codigo": "JPA-20261103",
+      "xlsxName": "JPA-20261103.xlsx",
+      "rendidor": "JUAN PABLO AUAD",
+      "fechaRend": "03-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 15000,
+      "montoAprobado": 15000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "03-11-2026",
+          "cc": "AVSS-RT26",
+          "prov": "—",
+          "folio": "4164",
+          "monto": 15000
         }
       }
     }

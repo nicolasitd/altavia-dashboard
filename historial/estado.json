@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T15:54:01.280Z",
+  "timestamp": "2026-11-04T15:56:03.765Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -541,6 +541,79 @@
           "prov": "—",
           "folio": "4164",
           "monto": 15000
+        }
+      }
+    },
+    "LR_20261103": {
+      "codigo": "LR-20261103",
+      "xlsxName": "LR-20261103.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "03-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 130700,
+      "montoAprobado": 3350,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "02-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "29-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "05-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "02-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22000
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-10-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 22000
         }
       }
     }

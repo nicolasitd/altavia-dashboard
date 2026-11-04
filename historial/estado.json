@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T17:22:57.013Z",
+  "timestamp": "2026-11-04T17:28:46.450Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -56,7 +56,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "15-09-2026",
           "cc": "AVSS-Cen25",
@@ -65,7 +65,7 @@
           "monto": 50000
         },
         "1": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Cen25",
@@ -74,7 +74,7 @@
           "monto": 50000
         },
         "2": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-Cen25",
@@ -83,7 +83,7 @@
           "monto": 50000
         },
         "3": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "06-10-2026",
           "cc": "AVSS-Cen25",
@@ -92,7 +92,7 @@
           "monto": 50000
         },
         "4": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "14-10-2026",
           "cc": "AVSS-Cen25",
@@ -101,7 +101,7 @@
           "monto": 50000
         },
         "5": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "20-10-2026",
           "cc": "AVSS-Cen25",
@@ -110,7 +110,7 @@
           "monto": 50000
         },
         "6": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "27-10-2026",
           "cc": "AVSS-Cen25",
@@ -119,7 +119,7 @@
           "monto": 50000
         },
         "7": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "15-09-2026",
           "cc": "AVSS-Cen25",
@@ -128,7 +128,7 @@
           "monto": 10490
         },
         "8": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "17-09-2026",
           "cc": "AVSS-Cen25",
@@ -137,7 +137,7 @@
           "monto": 13000
         },
         "9": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "17-09-2026",
           "cc": "AVSS-Cen25",
@@ -146,7 +146,7 @@
           "monto": 6500
         },
         "10": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "19-09-2026",
           "cc": "AVSS-Cen25",
@@ -155,7 +155,7 @@
           "monto": 7900
         },
         "11": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "22-09-2026",
           "cc": "AVSS-Cen25",
@@ -164,7 +164,7 @@
           "monto": 8500
         },
         "12": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-Cen25",
@@ -173,7 +173,7 @@
           "monto": 13190
         },
         "13": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "07-10-2026",
           "cc": "AVSS-Cen25",
@@ -182,7 +182,7 @@
           "monto": 6980
         },
         "14": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "13-10-2026",
           "cc": "AVSS-Cen25",
@@ -191,7 +191,7 @@
           "monto": 10400
         },
         "15": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "15-10-2026",
           "cc": "AVSS-Cen25",
@@ -200,7 +200,7 @@
           "monto": 6700
         },
         "16": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "14-10-2026",
           "cc": "AVSS-Cen25",
@@ -227,7 +227,7 @@
           "monto": 3350
         },
         "19": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "27-10-2026",
           "cc": "AVSS-Cen25",
@@ -236,7 +236,7 @@
           "monto": 6450
         },
         "20": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "27-10-2026",
           "cc": "AVSS-Cen25",
@@ -280,7 +280,7 @@
           "monto": 230000
         },
         "1": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-Spence22",
@@ -289,7 +289,7 @@
           "monto": 20000
         },
         "2": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-10-2026",
           "cc": "AVSS-Spence22",
@@ -298,7 +298,7 @@
           "monto": 8600
         },
         "3": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "31-10-2026",
           "cc": "AVSS-Spence22",
@@ -307,7 +307,7 @@
           "monto": 118250
         },
         "4": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-Spence22",
@@ -316,7 +316,7 @@
           "monto": 60900
         },
         "5": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-Spence22",
@@ -325,7 +325,7 @@
           "monto": 44100
         },
         "6": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-Spence22",
@@ -334,7 +334,7 @@
           "monto": 57740
         },
         "7": {
-          "desc": "ArtÃ­culos de Oficina",
+          "desc": "ArtÃÂ­culos de Oficina",
           "tipo": "FV",
           "fecha": "03-11-2026",
           "cc": "AVSS-Spence22",
@@ -363,7 +363,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "27-11-2026",
           "cc": "AVSS-CMLP22",
@@ -372,7 +372,7 @@
           "monto": 10000
         },
         "1": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-CMLP22",
@@ -488,7 +488,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-GG",
@@ -497,7 +497,7 @@
           "monto": 5390
         },
         "1": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-GG",
@@ -506,7 +506,7 @@
           "monto": 28770
         },
         "2": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-GG",
@@ -538,7 +538,7 @@
           "tipo": "FV",
           "fecha": "03-11-2026",
           "cc": "AVSS-RT26",
-          "prov": "â",
+          "prov": "Ã¢ÂÂ",
           "folio": "4164",
           "monto": 15000
         }
@@ -585,7 +585,7 @@
           "monto": 3350
         },
         "2": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "05-11-2026",
           "cc": "AVSS-LB24",
@@ -594,7 +594,7 @@
           "monto": 40000
         },
         "3": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-LB24",
@@ -603,7 +603,7 @@
           "monto": 40000
         },
         "4": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-10-2026",
           "cc": "AVSS-LB24",
@@ -612,7 +612,7 @@
           "monto": 22000
         },
         "5": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-10-2026",
           "cc": "AVSS-LB24",
@@ -643,7 +643,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "29-10-2026",
           "cc": "AVSS-LB24",
@@ -652,7 +652,7 @@
           "monto": 11000
         },
         "1": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-LB24",
@@ -661,7 +661,7 @@
           "monto": 10000
         },
         "2": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-LB24",
@@ -670,7 +670,7 @@
           "monto": 18600
         },
         "3": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "05-11-2026",
           "cc": "AVSS-LB24",
@@ -734,7 +734,7 @@
           "monto": 2850
         },
         "2": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "27-10-2026",
           "cc": "AVSS-PSG",
@@ -743,7 +743,7 @@
           "monto": 8880
         },
         "3": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "27-10-2026",
           "cc": "AVSS-PSG",
@@ -779,7 +779,7 @@
           "monto": 3350
         },
         "7": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "30-10-2026",
           "cc": "AVSS-PSG",
@@ -788,7 +788,7 @@
           "monto": 7500
         },
         "8": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "30-10-2026",
           "cc": "AVSS-PSG",
@@ -797,7 +797,7 @@
           "monto": 7500
         },
         "9": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "30-10-2026",
           "cc": "AVSS-PSG",
@@ -815,7 +815,7 @@
           "monto": 117760
         },
         "11": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "30-10-2026",
           "cc": "AVSS-PSG",
@@ -833,7 +833,7 @@
           "monto": 43301
         },
         "13": {
-          "desc": "MovilizaciÃ³n",
+          "desc": "MovilizaciÃÂ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-PSG",
@@ -914,7 +914,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "14-09-2026",
           "cc": "AVIng-GComer",
@@ -923,7 +923,7 @@
           "monto": 18500
         },
         "1": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "10-09-2026",
           "cc": "AVIng-GComer",
@@ -932,7 +932,7 @@
           "monto": 9212
         },
         "2": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "09-09-2026",
           "cc": "AVIng-GComer",
@@ -941,7 +941,7 @@
           "monto": 14807
         },
         "3": {
-          "desc": "AlimentaciÃ³n",
+          "desc": "AlimentaciÃÂ³n",
           "tipo": "BL",
           "fecha": "10-09-2026",
           "cc": "AVIng-GComer",
@@ -986,13 +986,41 @@
           "monto": 402066
         },
         "8": {
-          "desc": "Pasaje AviÃ³n",
+          "desc": "Pasaje AviÃÂ³n",
           "tipo": "FE",
           "fecha": "31-08-2026",
           "cc": "AVIng-GComer",
           "prov": "Latam Airlines Group S.A.",
           "folio": "7548376",
           "monto": 791133
+        }
+      }
+    },
+    "NT_20261104": {
+      "codigo": "NT-20261104",
+      "xlsxName": "NT-20261104.xlsx",
+      "rendidor": "Nicolás Torres",
+      "fechaRend": "04-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 639831,
+      "montoAprobado": 639831,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Publicidad",
+          "tipo": "FE",
+          "fecha": "04-11-2026",
+          "cc": "AV3S-Gcomer",
+          "prov": "Meta ADS",
+          "folio": "20261104",
+          "monto": 639831
         }
       }
     }

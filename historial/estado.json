@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T16:37:25.287Z",
+  "timestamp": "2026-11-04T16:38:36.137Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -699,9 +699,12 @@
         "3": "approved",
         "4": "approved",
         "5": "approved",
+        "6": "rejected",
         "7": "approved"
       },
-      "motivos": {},
+      "motivos": {
+        "6": "se ingresa monto incorrecto. La boleta es por 20.000"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Movilización",

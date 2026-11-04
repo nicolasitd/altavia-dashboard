@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T15:48:19.883Z",
+  "timestamp": "2026-11-04T15:48:50.765Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -341,6 +341,43 @@
           "prov": "Iilop SA",
           "folio": "3082897",
           "monto": 51899
+        }
+      }
+    },
+    "FD_20261103": {
+      "codigo": "FD-20261103",
+      "xlsxName": "FD-20261103.xlsx",
+      "rendidor": "Felipe Díaz",
+      "fechaRend": "03-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 22000,
+      "montoAprobado": 10000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "03-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12000
         }
       }
     }

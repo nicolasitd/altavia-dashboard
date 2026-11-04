@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T15:50:18.915Z",
+  "timestamp": "2026-11-04T15:50:53.921Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -427,6 +427,43 @@
           "prov": "MercadoLibre Chile Ltda.",
           "folio": "15566940",
           "monto": 125930
+        }
+      }
+    },
+    "JG_20261103": {
+      "codigo": "JG-20261103",
+      "xlsxName": "JG-20261103.xlsx",
+      "rendidor": "Jocelyne Garrido",
+      "fechaRend": "03-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 85770,
+      "montoAprobado": 73890,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Bienestar",
+          "tipo": "BL",
+          "fecha": "23-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 73890
+        },
+        "1": {
+          "desc": "Bienestar",
+          "tipo": "BL",
+          "fecha": "26-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11880
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-04T17:28:48.746Z",
+  "timestamp": "2026-11-04T17:30:03.872Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1021,6 +1021,117 @@
           "prov": "Meta ADS",
           "folio": "20261104",
           "monto": 639831
+        }
+      }
+    },
+    "EP_20261104": {
+      "codigo": "EP-20261104",
+      "xlsxName": "EP-20261104.xlsx",
+      "rendidor": "Esteban Pérez Ponce",
+      "fechaRend": "04-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 141915,
+      "montoAprobado": 0,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "rejected"
+      },
+      "motivos": {
+        "0": "Se descuentan $1000 pesos por propina."
+      },
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "13-08-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8010
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "25-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7650
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "04-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13600
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "20-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10290
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "27-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7650
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "05-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 31645
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "28-09-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 24803
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-10-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 25186
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "29-09-2026",
+          "cc": "AVSS-RT26",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2081
         }
       }
     }

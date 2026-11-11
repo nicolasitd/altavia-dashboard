@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-11T01:34:00.049Z",
+  "timestamp": "2026-11-11T01:34:01.935Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -51,12 +51,12 @@
       "xlsxName": "CN-20261110.xlsx",
       "rendidor": "Claudio Navarro",
       "fechaRend": "10-11-2026",
-      "fechaValid": "",
+      "fechaValid": "10-11-2026",
       "fechaPago": "",
       "monto": 443716,
       "montoAprobado": 428216,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

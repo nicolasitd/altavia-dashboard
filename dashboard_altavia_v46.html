@@ -31,6 +31,8 @@ body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;bac
 .frow label{font-size:13px;color:#6b6b66}
 .frow select,.frow input{font-family:inherit;font-size:13px;padding:6px 10px;border-radius:6px;border:1px solid rgba(0,0,0,.18);background:#fff;color:#1a1a18;outline:none}
 .frow input{flex:1;min-width:160px}
+.btn-compact{font-family:inherit;font-size:13px;padding:6px 12px;border-radius:6px;border:1px solid rgba(0,0,0,.18);background:#fff;color:#1a1a18;cursor:pointer;white-space:nowrap}
+.btn-compact:hover{background:#f1efe8}
 .cls{display:grid;grid-template-columns:28px 28px 120px minmax(0,1fr) 92px 92px 92px 90px 90px 86px 116px 42px 28px;gap:6px;padding:4px 18px 7px;align-items:center}
 .cl{font-size:11px;color:#9e9d97;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
 .rrow{border:1px solid rgba(0,0,0,.09);border-radius:10px;margin-bottom:9px;overflow:hidden;background:#fff}
@@ -78,6 +80,7 @@ body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;bac
 .labtn.rej{background:#fdf0f0;border-color:#F09595;color:#A32D2D}
 .rjbtn{font-size:12px;font-weight:500;padding:5px 10px;border-radius:7px;border:1px solid #F09595;cursor:pointer;background:#FCEBEB;color:#A32D2D;white-space:nowrap;font-family:inherit;min-width:58px;text-align:center;transition:all .12s}
 .labtn[disabled],.rjbtn[disabled],.abtn[disabled]{opacity:.35;cursor:not-allowed;pointer-events:none;}
+.locked .labtn.paid[disabled],.locked .labtn.rej[disabled]{opacity:1;cursor:default}
 .rjbtn:hover:not([disabled]){background:#F09595;color:#fff}
 .revbtn{font-size:11px;padding:3px 7px;border-radius:6px;border:1px solid rgba(0,0,0,.13);cursor:pointer;background:#f5f4f1;color:#6b6b66;white-space:nowrap;font-family:inherit;transition:all .12s}
 .revbtn:hover{background:#eceae3}
@@ -201,6 +204,7 @@ body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;bac
   <label>Filtrar por</label>
   <select id="filterEstado" onchange="applyFilters()"><option value="">Todos los estados</option><option value="Pendiente">Pendiente</option><option value="Validado">Validado</option></select>
   <input type="text" id="filterRendidor" placeholder="Buscar rendidor…" oninput="applyFilters()">
+  <button type="button" class="btn-compact" id="btn-compactar" onclick="compactarTodas()" title="Cierra todas las rendiciones que estén desplegadas">&#9650; Compactar todas</button>
 </div>
 <div class="cls">
   <div></div><div></div><div class="cl">Código</div><div class="cl">Rendidor</div>
@@ -448,12 +452,19 @@ function restaurarEstado(estado){
         if(estado_lin === 'approved'){
           /* Simular aprobación */
           var tr = document.querySelector('#l'+id+' tr[data-i="'+i+'"]');
-          if(tr){ ls[id] = ls[id]||{}; ls[id][+i]='approved'; }
+          if(tr){ ls[id] = ls[id]||{}; ls[id][+i]='approved'; tr.classList.add('lp'); setAppr(id,+i); }
         } else if(estado_lin === 'rejected'){
           ls[id] = ls[id]||{}; ls[id][+i]='rejected';
           rejMotivos[id] = rejMotivos[id]||{}; rejMotivos[id][+i]=motivo;
+          var trr = document.querySelector('#l'+id+' tr[data-i="'+i+'"]');
+          if(trr){ trr.classList.add('lr'); setRej(id,+i,motivo); }
         }
       });
+      /* Rendición validada/pagada: bloquear el detalle (igual que al validar) y ocultar Revertir */
+      if(r.validado){
+        var pnl = document.getElementById('d'+id);
+        if(pnl){ pnl.classList.add('locked'); pnl.querySelectorAll('.revbtn').forEach(function(b){ b.style.display='none'; }); }
+      }
       /* Restaurar estado validado/autorizado */
       if(r.validado) validated[id] = true;
       if(r.autorizado){
@@ -485,6 +496,12 @@ function restaurarEstado(estado){
             else if(r.validado){ sb.textContent='Validado'; sb.className='sbadge s-valid'; }
           }
           upd(id);
+          /* upd() omite las validadas: mostrar igual lo aprobado (header y pie) */
+          if(validated[id]){
+            var _ap=getAppr(id);
+            var _ae=document.getElementById('ap'+id); if(_ae) _ae.textContent=fmt(_ap);
+            var _ar=document.getElementById('apr'+id); if(_ar) _ar.textContent=fmt(_ap);
+          }
         });
       })(id, r);
     }
@@ -550,6 +567,7 @@ function showToast(msg){var t=document.getElementById('toast');t.textContent=msg
 function escH(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function escA(s){return String(s||'').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
 function tog(id){var p=document.getElementById('d'+id),a=document.getElementById('arr'+id);var o=p.classList.contains('open');p.classList.toggle('open',!o);a.classList.toggle('open',!o);}
+function compactarTodas(){var n=0;document.querySelectorAll('.dpanel.open').forEach(function(p){p.classList.remove('open');n++;});document.querySelectorAll('.arrbtn.open').forEach(function(a){a.classList.remove('open');});showToast(n?('Se compactaron '+n+(n===1?' rendición':' rendiciones')):'No hay rendiciones abiertas');}
 function fmtDate(v){if(!v&&v!==0)return '—';if(v instanceof Date){return String(v.getUTCDate()).padStart(2,'0')+'-'+String(v.getUTCMonth()+1).padStart(2,'0')+'-'+v.getUTCFullYear();}if(typeof v==='number'&&v>0){var d=new Date(Math.round((v-25569)*864e5));return String(d.getUTCDate()).padStart(2,'0')+'-'+String(d.getUTCMonth()+1).padStart(2,'0')+'-'+d.getUTCFullYear();}return String(v).trim()||'—';}
 function parseNum(v){if(v===null||v===undefined||v==='')return 0;if(typeof v==='number')return Math.round(v);var s=String(v).trim().replace(/\./g,'').replace(',','.');var n=parseFloat(s);return isNaN(n)?0:Math.round(n);}
 var TC={FC:{c:'#9B5A00',b:'#FDF0DC'},FV:{c:'#0C447C',b:'#E6F1FB'},FE:{c:'#444441',b:'#F1EFE8'},BL:{c:'#27500A',b:'#EAF3DE'},BH:{c:'#633806',b:'#FAEEDA'},NC:{c:'#791F1F',b:'#FCEBEB'},ND:{c:'#72243E',b:'#FBEAF0'}};

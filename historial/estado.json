@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-11T01:47:59.292Z",
+  "timestamp": "2026-11-11T01:48:24.863Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -627,6 +627,151 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 13000
+        }
+      }
+    },
+    "PF_20261110": {
+      "codigo": "PF-20261110",
+      "xlsxName": "PF-20261110.xlsx",
+      "rendidor": "PEDRO FARIÑA",
+      "fechaRend": "10-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 685169,
+      "montoAprobado": 4400,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "02-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4400
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "03-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "03-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "03-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 28150
+        },
+        "4": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "03-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Cencosud Retail S.A.",
+          "folio": "28142774",
+          "monto": 23700
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "04-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 2850
+        },
+        "6": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "04-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 12850
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "04-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8540
+        },
+        "8": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "04-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Wurth Chile Ltda",
+          "folio": "2498127",
+          "monto": 43533
+        },
+        "9": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "08-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 45000
+        },
+        "10": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "07-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Aguas Antofagasta S.A",
+          "folio": "1492119",
+          "monto": 397946
+        },
+        "11": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "09-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5000
+        },
+        "12": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "09-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 100000
+        },
+        "13": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "09-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6500
         }
       }
     }

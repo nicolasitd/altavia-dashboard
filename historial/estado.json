@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-11T01:38:07.885Z",
+  "timestamp": "2026-11-11T01:39:18.284Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -224,7 +224,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 396514,
-      "montoAprobado": 190199,
+      "montoAprobado": 194914,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -239,7 +239,8 @@
         "7": "approved",
         "8": "approved",
         "9": "approved",
-        "10": "rejected"
+        "10": "rejected",
+        "11": "approved"
       },
       "motivos": {
         "10": "Se descuenta 135.000 monto mal Ingresado."

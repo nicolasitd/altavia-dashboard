@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-11T01:28:40.419Z",
+  "timestamp": "2026-11-11T01:28:42.095Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -23,12 +23,12 @@
       "xlsxName": "AA-20261109.xlsx",
       "rendidor": "Alvaro Anders",
       "fechaRend": "09-11-2026",
-      "fechaValid": "",
+      "fechaValid": "10-11-2026",
       "fechaPago": "",
       "monto": 7596,
       "montoAprobado": 7596,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved"

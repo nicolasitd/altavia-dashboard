@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-11T01:42:03.417Z",
+  "timestamp": "2026-11-11T01:42:32.114Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -441,6 +441,124 @@
           "prov": "OK Parking SPA",
           "folio": "9029",
           "monto": 54750
+        }
+      }
+    },
+    "LR_20261110": {
+      "codigo": "LR-20261110",
+      "xlsxName": "LR-20261110.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "10-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 235300,
+      "montoAprobado": 40000,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "09-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
+        },
+        "2": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "06-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 650
+        },
+        "3": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "06-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1600
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "05-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "09-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "6": {
+          "desc": "Alojamiento",
+          "tipo": "BL",
+          "fecha": "07-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 32950
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "08-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 33600
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "08-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 33600
+        },
+        "9": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23100
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23100
         }
       }
     }

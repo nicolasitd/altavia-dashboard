@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-11T01:40:01.902Z",
+  "timestamp": "2026-11-11T01:41:49.860Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -403,6 +403,43 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 10000
+        }
+      }
+    },
+    "JC_20261110": {
+      "codigo": "JC-20261110",
+      "xlsxName": "JC-20261110.xlsx",
+      "rendidor": "Josè Carreño",
+      "fechaRend": "10-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 89733,
+      "montoAprobado": 34983,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "03-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 34983
+        },
+        "1": {
+          "desc": "Estacionamiento",
+          "tipo": "FACTMIXTA",
+          "fecha": "09-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "OK Parking SPA",
+          "folio": "9029",
+          "monto": 54750
         }
       }
     }

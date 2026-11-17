@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-17T22:56:54.579Z",
+  "timestamp": "2026-11-17T22:57:15.706Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -498,7 +498,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 614960,
-      "montoAprobado": 614960,
+      "montoAprobado": 613826,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -510,7 +510,7 @@
         "4": "approved",
         "5": "approved",
         "6": "approved",
-        "7": "approved",
+        "7": "rejected",
         "8": "approved",
         "9": "approved",
         "10": "approved",
@@ -520,7 +520,9 @@
         "14": "approved",
         "15": "approved"
       },
-      "motivos": {},
+      "motivos": {
+        "7": "Asciende a $1.350"
+      },
       "lineasDatos": {
         "0": {
           "desc": "Materiales de Proyectos",

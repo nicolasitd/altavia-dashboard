@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-17T22:57:30.961Z",
+  "timestamp": "2026-11-17T22:57:42.858Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -725,6 +725,144 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 13000
+        }
+      }
+    },
+    "PF_20261117": {
+      "codigo": "PF-20261117",
+      "xlsxName": "PF-20261117.xlsx",
+      "rendidor": "PedroFariña",
+      "fechaRend": "17-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 716575,
+      "montoAprobado": 716575,
+      "validado": true,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved",
+        "7": "approved",
+        "8": "approved",
+        "9": "approved",
+        "10": "approved",
+        "11": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "11-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "11-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "2": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "11-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1750
+        },
+        "3": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "11-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Sodimac S.A.",
+          "folio": "150571232",
+          "monto": 84964
+        },
+        "4": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "12-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Aguas Antofagasta S.A",
+          "folio": "1492787",
+          "monto": 221247
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "12-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "6": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "12-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "7": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "15-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 44724
+        },
+        "8": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "16-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5990
+        },
+        "9": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "16-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4500
+        },
+        "10": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 100000
+        },
+        "11": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 240000
         }
       }
     }

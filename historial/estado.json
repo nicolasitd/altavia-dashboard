@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-17T22:57:46.246Z",
+  "timestamp": "2026-11-17T22:57:57.944Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -863,6 +863,94 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 240000
+        }
+      }
+    },
+    "TF_20261119": {
+      "codigo": "TF-20261119",
+      "xlsxName": "TF-20261119.xlsx",
+      "rendidor": "Tamara Falcón",
+      "fechaRend": "17-11-2026",
+      "fechaValid": "17-11-2026",
+      "fechaPago": "",
+      "monto": 28270,
+      "montoAprobado": 28270,
+      "validado": true,
+      "autorizado": 1,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved",
+        "1": "approved",
+        "2": "approved",
+        "3": "approved",
+        "4": "approved",
+        "5": "approved",
+        "6": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "1": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "4": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "6": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 8170
         }
       }
     }

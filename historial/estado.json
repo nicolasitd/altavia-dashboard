@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-18T18:15:49.890Z",
+  "timestamp": "2026-11-18T18:15:56.136Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -1115,12 +1115,12 @@
       "xlsxName": "LR-20261117.xlsx",
       "rendidor": "Luis Rojo",
       "fechaRend": "17-11-2026",
-      "fechaValid": "",
+      "fechaValid": "18-11-2026",
       "fechaPago": "",
       "monto": 142200,
       "montoAprobado": 142200,
-      "validado": false,
-      "autorizado": 0,
+      "validado": true,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T01:40:37.909Z",
+  "timestamp": "2026-11-25T01:43:32.182Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -113,6 +113,106 @@
           "prov": "Electricidad Gobantes S.A.",
           "folio": "—",
           "monto": 21218
+        }
+      }
+    },
+    "czc_20261117": {
+      "codigo": "czc-20261117",
+      "xlsxName": "czc-20261117.xlsx",
+      "rendidor": "czc",
+      "fechaRend": "17-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 119427,
+      "montoAprobado": 5990,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "12-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5990
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "16-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5700
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "16-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "12-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 24397
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "15-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "6": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 5600
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10000
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-CMLP22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 27740
         }
       }
     }

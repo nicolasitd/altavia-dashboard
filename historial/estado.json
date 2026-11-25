@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T02:00:07.015Z",
+  "timestamp": "2026-11-25T02:00:37.180Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -539,12 +539,12 @@
       "xlsxName": "RC-20261124.xlsx",
       "rendidor": "Roberto Contreras",
       "fechaRend": "24-11-2026",
-      "fechaValid": "",
+      "fechaValid": "24-11-2026",
       "fechaPago": "",
       "monto": 20050,
       "montoAprobado": 20050,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",
@@ -599,6 +599,133 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 12500
+        }
+      }
+    },
+    "WO_20261119": {
+      "codigo": "WO-20261119",
+      "xlsxName": "WO-20261119.xlsx",
+      "rendidor": "William Andres Orrego Campos",
+      "fechaRend": "19-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 172451,
+      "montoAprobado": 20900,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "06-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20900
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "09-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23100
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "4": {
+          "desc": "Estacionamiento",
+          "tipo": "BL",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 1150
+        },
+        "5": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Comercializadora Vera SpA.",
+          "folio": "—",
+          "monto": 16501
+        },
+        "6": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "7": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "10-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 11000
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 23100
+        },
+        "9": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30000
+        },
+        "10": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "22-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4000
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 21000
         }
       }
     }

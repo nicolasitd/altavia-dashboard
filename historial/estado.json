@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-19T13:52:34.639Z",
+  "timestamp": "2026-11-25T01:26:25.704Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -45,7 +45,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "10-11-2026",
           "cc": "AVSS-Spence22",
@@ -54,7 +54,7 @@
           "monto": 11000
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "10-11-2026",
           "cc": "AVSS-Spence22",
@@ -72,7 +72,7 @@
           "monto": 10500
         },
         "3": {
-          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
+          "desc": "ArtÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­culos de Oficina",
           "tipo": "BL",
           "fecha": "12-11-2026",
           "cc": "AVSS-Spence22",
@@ -81,7 +81,7 @@
           "monto": 9900
         },
         "4": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "12-11-2026",
           "cc": "AVSS-Spence22",
@@ -90,7 +90,7 @@
           "monto": 18007
         },
         "5": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-Spence22",
@@ -117,7 +117,7 @@
           "monto": 3350
         },
         "8": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-11-2026",
           "cc": "AVSS-Spence22",
@@ -126,7 +126,7 @@
           "monto": 7300
         },
         "9": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-11-2026",
           "cc": "AVSS-Spence22",
@@ -164,7 +164,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "22-10-2026",
           "cc": "AVSS-Cen25",
@@ -173,7 +173,7 @@
           "monto": 3600
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-Cen25",
@@ -182,7 +182,7 @@
           "monto": 23100
         },
         "2": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "10-11-2026",
           "cc": "AVSS-Cen25",
@@ -191,7 +191,7 @@
           "monto": 21000
         },
         "3": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-Cen25",
@@ -200,7 +200,7 @@
           "monto": 20000
         },
         "4": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-Cen25",
@@ -209,7 +209,7 @@
           "monto": 27000
         },
         "5": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-Cen25",
@@ -218,7 +218,7 @@
           "monto": 5490
         },
         "6": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-Cen25",
@@ -227,7 +227,7 @@
           "monto": 4000
         },
         "7": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-10-2026",
           "cc": "AVSS-Cen25",
@@ -236,7 +236,7 @@
           "monto": 50000
         },
         "8": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "21-10-2026",
           "cc": "AVSS-Cen25",
@@ -245,7 +245,7 @@
           "monto": 15000
         },
         "9": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-Cen25",
@@ -254,7 +254,7 @@
           "monto": 50000
         },
         "10": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-Cen25",
@@ -283,7 +283,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "10-11-2026",
           "cc": "AVSS-CMLP22",
@@ -292,7 +292,7 @@
           "monto": 10000
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-CMLP22",
@@ -336,7 +336,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "24-08-2026",
           "cc": "FH-P",
@@ -345,7 +345,7 @@
           "monto": 10990
         },
         "1": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "21-08-2026",
           "cc": "FH-P",
@@ -354,7 +354,7 @@
           "monto": 80924
         },
         "2": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "30-11-2026",
           "cc": "FH-P",
@@ -363,7 +363,7 @@
           "monto": 77726
         },
         "3": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "01-09-2026",
           "cc": "FH-P",
@@ -372,7 +372,7 @@
           "monto": 150736
         },
         "4": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "11-09-2026",
           "cc": "FH-P",
@@ -381,7 +381,7 @@
           "monto": 183775
         },
         "5": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "11-09-2026",
           "cc": "FH-P",
@@ -390,7 +390,7 @@
           "monto": 321453
         },
         "6": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "16-09-2026",
           "cc": "FH-P",
@@ -399,7 +399,7 @@
           "monto": 102450
         },
         "7": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "07-10-2026",
           "cc": "FH-P",
@@ -408,7 +408,7 @@
           "monto": 125024
         },
         "8": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "01-11-2026",
           "cc": "FH-P",
@@ -417,7 +417,7 @@
           "monto": 95982
         },
         "9": {
-          "desc": "Pasaje AviÃÂÃÂÃÂÃÂ³n",
+          "desc": "Pasaje AviÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "15-11-2026",
           "cc": "FH-P",
@@ -426,7 +426,7 @@
           "monto": 116927
         },
         "10": {
-          "desc": "MantenciÃÂÃÂÃÂÃÂ³n Camioneta",
+          "desc": "MantenciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n Camioneta",
           "tipo": "FV",
           "fecha": "25-09-2026",
           "cc": "FH-P",
@@ -435,7 +435,7 @@
           "monto": 1484153
         },
         "11": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "06-08-2026",
           "cc": "FH-P",
@@ -444,7 +444,7 @@
           "monto": 40000
         },
         "12": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "06-11-2026",
           "cc": "FH-P",
@@ -453,7 +453,7 @@
           "monto": 35000
         },
         "13": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "FE",
           "fecha": "15-09-2026",
           "cc": "FH-P",
@@ -462,7 +462,7 @@
           "monto": 35000
         },
         "14": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "31-08-2026",
           "cc": "FH-P",
@@ -471,7 +471,7 @@
           "monto": 33000
         },
         "15": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "FH-P",
@@ -480,7 +480,7 @@
           "monto": 22000
         },
         "16": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "FH-P",
@@ -579,7 +579,7 @@
           "monto": 116000
         },
         "6": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "29-10-2026",
           "cc": "AVSS-RT26",
@@ -606,7 +606,7 @@
           "monto": 43110
         },
         "9": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "27-10-2026",
           "cc": "AVSS-RT26",
@@ -615,7 +615,7 @@
           "monto": 15750
         },
         "10": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-11-2026",
           "cc": "AVSS-RT26",
@@ -624,7 +624,7 @@
           "monto": 11300
         },
         "11": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-RT26",
@@ -633,7 +633,7 @@
           "monto": 14100
         },
         "12": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "11-11-2026",
           "cc": "AVSS-RT26",
@@ -642,7 +642,7 @@
           "monto": 15750
         },
         "13": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "10-11-2026",
           "cc": "AVSS-RT26",
@@ -651,7 +651,7 @@
           "monto": 15900
         },
         "14": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-RT26",
@@ -660,7 +660,7 @@
           "monto": 11400
         },
         "15": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-11-2026",
           "cc": "AVSS-RT26",
@@ -691,7 +691,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "12-11-2026",
           "cc": "AVSS-LB24",
@@ -700,7 +700,7 @@
           "monto": 10000
         },
         "1": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-LB24",
@@ -709,7 +709,7 @@
           "monto": 10800
         },
         "2": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-LB24",
@@ -718,7 +718,7 @@
           "monto": 18600
         },
         "3": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "19-11-2026",
           "cc": "AVSS-LB24",
@@ -829,7 +829,7 @@
           "monto": 44724
         },
         "8": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-PSG",
@@ -838,7 +838,7 @@
           "monto": 5990
         },
         "9": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-PSG",
@@ -847,7 +847,7 @@
           "monto": 4500
         },
         "10": {
-          "desc": "MovilizaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-PSG",
@@ -944,7 +944,7 @@
           "monto": 3350
         },
         "6": {
-          "desc": "AlimentaciÃÂÃÂÃÂÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-Spence22",
@@ -972,7 +972,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Servicios InformÃÂÃÂ¡ticos",
+          "desc": "Servicios InformÃÂÃÂÃÂÃÂ¡ticos",
           "tipo": "BL",
           "fecha": "13-11-2026",
           "cc": "AVIng-GG",
@@ -1028,7 +1028,7 @@
           "monto": 4730
         },
         "2": {
-          "desc": "ArtÃÂ­culos de Oficina",
+          "desc": "ArtÃÂÃÂ­culos de Oficina",
           "tipo": "BL",
           "fecha": "21-10-2026",
           "cc": "FH-P",
@@ -1059,7 +1059,7 @@
           "tipo": "F.COMB",
           "fecha": "22-10-2026",
           "cc": "FH-P",
-          "prov": "Juan Andrade BarrÃÂ­a",
+          "prov": "Juan Andrade BarrÃÂÃÂ­a",
           "folio": "171219",
           "monto": 114543
         },
@@ -1068,7 +1068,7 @@
           "tipo": "F.COMB",
           "fecha": "03-10-2026",
           "cc": "FH-P",
-          "prov": "Daniel Villar y CÃÂ­a. Ltda.",
+          "prov": "Daniel Villar y CÃÂÃÂ­a. Ltda.",
           "folio": "432013",
           "monto": 93930
         },
@@ -1131,7 +1131,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "19-11-2026",
           "cc": "AVSS-LB24",
@@ -1140,7 +1140,7 @@
           "monto": 40000
         },
         "1": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-LB24",
@@ -1149,7 +1149,7 @@
           "monto": 35000
         },
         "2": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-LB24",
@@ -1158,7 +1158,7 @@
           "monto": 33600
         },
         "3": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-LB24",
@@ -1197,7 +1197,7 @@
       },
       "lineasDatos": {
         "0": {
-          "desc": "AlimentaciÃÂ³n",
+          "desc": "AlimentaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "13-08-2026",
           "cc": "AVSS-GG",
@@ -1206,7 +1206,7 @@
           "monto": 11000
         },
         "1": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "23-10-2026",
           "cc": "AVSS-GG",
@@ -1215,7 +1215,7 @@
           "monto": 8010
         },
         "2": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "25-09-2026",
           "cc": "AVSS-GG",
@@ -1224,7 +1224,7 @@
           "monto": 7650
         },
         "3": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "04-10-2026",
           "cc": "AVSS-GG",
@@ -1233,7 +1233,7 @@
           "monto": 13600
         },
         "4": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "20-09-2026",
           "cc": "AVSS-GG",
@@ -1242,7 +1242,7 @@
           "monto": 10290
         },
         "5": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "27-09-2026",
           "cc": "AVSS-GG",
@@ -1251,7 +1251,7 @@
           "monto": 7650
         },
         "6": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "05-10-2026",
           "cc": "AVSS-GG",
@@ -1260,7 +1260,7 @@
           "monto": 31645
         },
         "7": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "28-09-2026",
           "cc": "AVSS-GG",
@@ -1269,7 +1269,7 @@
           "monto": 24803
         },
         "8": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "19-10-2026",
           "cc": "AVSS-GG",
@@ -1278,7 +1278,7 @@
           "monto": 25186
         },
         "9": {
-          "desc": "MovilizaciÃÂ³n",
+          "desc": "MovilizaciÃÂÃÂ³n",
           "tipo": "BL",
           "fecha": "29-09-2026",
           "cc": "AVSS-RT26",
@@ -1598,5 +1598,18 @@
       "total": 6646018
     }
   ],
-  "eliminadas_ids": []
+  "eliminadas_ids": [
+    "CN_20261117",
+    "CRG_20261117",
+    "FD_20261117",
+    "FH_P_20261116",
+    "LS_20261109",
+    "NP_20261116",
+    "PF_20261117",
+    "TF_20261119",
+    "IR_20261116",
+    "FH_P_20261117",
+    "LR_20261117",
+    "EP_20261104"
+  ]
 }

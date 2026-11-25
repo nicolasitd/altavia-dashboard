@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T01:45:54.508Z",
+  "timestamp": "2026-11-25T01:46:46.797Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -249,6 +249,61 @@
           "prov": "—",
           "folio": "228142",
           "monto": 56864
+        }
+      }
+    },
+    "LR_20261124": {
+      "codigo": "LR-20261124",
+      "xlsxName": "LR-20261124.xlsx",
+      "rendidor": "Luis Rojo",
+      "fechaRend": "24-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 126080,
+      "montoAprobado": 30180,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 30180
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 40000
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 35000
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "24-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20900
         }
       }
     }

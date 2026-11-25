@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T02:02:32.685Z",
+  "timestamp": "2026-11-25T18:13:52.640Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -43,7 +43,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "19-11-2026",
           "cc": "AVSS-Spence22",
@@ -52,7 +52,7 @@
           "monto": 55860
         },
         "1": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "19-11-2026",
           "cc": "AVSS-Spence22",
@@ -61,7 +61,7 @@
           "monto": 44100
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "19-11-2026",
           "cc": "AVSS-Spence22",
@@ -70,7 +70,7 @@
           "monto": 57740
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "18-11-2026",
           "cc": "AVSS-Spence22",
@@ -79,7 +79,7 @@
           "monto": 15000
         },
         "4": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "18-11-2026",
           "cc": "AVSS-Spence22",
@@ -88,7 +88,7 @@
           "monto": 15000
         },
         "5": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "19-11-2026",
           "cc": "AVSS-Spence22",
@@ -97,7 +97,7 @@
           "monto": 19836
         },
         "6": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-Spence22",
@@ -111,7 +111,7 @@
           "fecha": "11-11-2026",
           "cc": "AVSS-Spence22",
           "prov": "Electricidad Gobantes S.A.",
-          "folio": "—",
+          "folio": "â",
           "monto": 21218
         }
       }
@@ -142,7 +142,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "12-11-2026",
           "cc": "AVSS-CMLP22",
@@ -151,7 +151,7 @@
           "monto": 5990
         },
         "1": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-CMLP22",
@@ -160,7 +160,7 @@
           "monto": 5700
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-CMLP22",
@@ -169,7 +169,7 @@
           "monto": 10000
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "12-11-2026",
           "cc": "AVSS-CMLP22",
@@ -178,7 +178,7 @@
           "monto": 24397
         },
         "4": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "15-11-2026",
           "cc": "AVSS-CMLP22",
@@ -187,7 +187,7 @@
           "monto": 10000
         },
         "5": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-CMLP22",
@@ -196,7 +196,7 @@
           "monto": 20000
         },
         "6": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-CMLP22",
@@ -205,7 +205,7 @@
           "monto": 5600
         },
         "7": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-CMLP22",
@@ -214,7 +214,7 @@
           "monto": 10000
         },
         "8": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "19-11-2026",
           "cc": "AVSS-CMLP22",
@@ -242,11 +242,11 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Mantención oficinas",
+          "desc": "MantenciÃ³n oficinas",
           "tipo": "FV",
           "fecha": "20-11-2026",
           "cc": "AVSS-GG",
-          "prov": "—",
+          "prov": "â",
           "folio": "228142",
           "monto": 56864
         }
@@ -273,7 +273,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "24-11-2026",
           "cc": "AVSS-LB24",
@@ -282,7 +282,7 @@
           "monto": 30180
         },
         "1": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "26-11-2026",
           "cc": "AVSS-LB24",
@@ -291,7 +291,7 @@
           "monto": 40000
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-LB24",
@@ -300,7 +300,7 @@
           "monto": 35000
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "24-11-2026",
           "cc": "AVSS-LB24",
@@ -332,7 +332,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "02-11-2026",
           "cc": "AVSS-CMLP22",
@@ -341,7 +341,7 @@
           "monto": 38000
         },
         "1": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "09-11-2026",
           "cc": "AVSS-CMLP22",
@@ -350,7 +350,7 @@
           "monto": 38000
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "12-11-2026",
           "cc": "AVSS-CMLP22",
@@ -359,7 +359,7 @@
           "monto": 40000
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "16-11-2026",
           "cc": "AVSS-CMLP22",
@@ -368,7 +368,7 @@
           "monto": 38000
         },
         "4": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-CMLP22",
@@ -399,7 +399,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "19-11-2026",
           "cc": "AVSS-LB24",
@@ -408,7 +408,7 @@
           "monto": 10800
         },
         "1": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-LB24",
@@ -417,7 +417,7 @@
           "monto": 10850
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-LB24",
@@ -426,7 +426,7 @@
           "monto": 18600
         },
         "3": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "26-11-2026",
           "cc": "AVSS-LB24",
@@ -461,7 +461,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-CMLP22",
@@ -470,7 +470,7 @@
           "monto": 14961
         },
         "1": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-CMLP22",
@@ -479,7 +479,7 @@
           "monto": 2000
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-CMLP22",
@@ -488,7 +488,7 @@
           "monto": 13000
         },
         "3": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "03-11-2026",
           "cc": "AVSS-CMLP22",
@@ -497,7 +497,7 @@
           "monto": 2390
         },
         "4": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "10-11-2026",
           "cc": "AVSS-CMLP22",
@@ -506,7 +506,7 @@
           "monto": 13000
         },
         "5": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "14-11-2026",
           "cc": "AVSS-CMLP22",
@@ -515,7 +515,7 @@
           "monto": 30000
         },
         "6": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-CMLP22",
@@ -524,7 +524,7 @@
           "monto": 5000
         },
         "7": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-CMLP22",
@@ -583,7 +583,7 @@
           "monto": 1100
         },
         "3": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "07-11-2026",
           "cc": "AVSS-GG",
@@ -592,7 +592,7 @@
           "monto": 4250
         },
         "4": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "06-11-2026",
           "cc": "AVSS-TeckCDA25",
@@ -631,7 +631,7 @@
       "motivos": {},
       "lineasDatos": {
         "0": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "06-11-2026",
           "cc": "AVSS-LB24",
@@ -640,7 +640,7 @@
           "monto": 20900
         },
         "1": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "09-11-2026",
           "cc": "AVSS-LB24",
@@ -649,7 +649,7 @@
           "monto": 23100
         },
         "2": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "10-11-2026",
           "cc": "AVSS-LB24",
@@ -681,7 +681,7 @@
           "fecha": "10-11-2026",
           "cc": "AVSS-LB24",
           "prov": "Comercializadora Vera SpA.",
-          "folio": "—",
+          "folio": "â",
           "monto": 16501
         },
         "6": {
@@ -694,7 +694,7 @@
           "monto": 3350
         },
         "7": {
-          "desc": "Alimentación",
+          "desc": "AlimentaciÃ³n",
           "tipo": "BL",
           "fecha": "10-11-2026",
           "cc": "AVSS-LB24",
@@ -703,7 +703,7 @@
           "monto": 11000
         },
         "8": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "17-11-2026",
           "cc": "AVSS-LB24",
@@ -730,13 +730,178 @@
           "monto": 4000
         },
         "11": {
-          "desc": "Movilización",
+          "desc": "MovilizaciÃ³n",
           "tipo": "BL",
           "fecha": "23-11-2026",
           "cc": "AVSS-LB24",
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 21000
+        }
+      }
+    },
+    "PF_20261124": {
+      "codigo": "PF-20261124",
+      "xlsxName": "PF-20261124.xlsx",
+      "rendidor": "Pedro Fariña B",
+      "fechaRend": "24-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 784824,
+      "montoAprobado": 0,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "rejected"
+      },
+      "motivos": {
+        "0": "Se debe reembolsar $6.600"
+      },
+      "lineasDatos": {
+        "0": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Implementos S.A.",
+          "folio": "7160562",
+          "monto": 116960
+        },
+        "1": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "05-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7300
+        },
+        "2": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "3": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "4": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "17-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Cencosud Retail S.A.",
+          "folio": "28231961",
+          "monto": 43371
+        },
+        "5": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "6": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 4000
+        },
+        "7": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 9000
+        },
+        "8": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 6000
+        },
+        "9": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Aguas Antofagasta S.A",
+          "folio": "1494385",
+          "monto": 221505
+        },
+        "10": {
+          "desc": "Combustible",
+          "tipo": "BL",
+          "fecha": "22-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 41676
+        },
+        "11": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18000
+        },
+        "12": {
+          "desc": "Alimentación",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 7100
+        },
+        "13": {
+          "desc": "Peajes",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 3350
+        },
+        "14": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "Carol Puca Cruz EIRL",
+          "folio": "32196",
+          "monto": 74859
+        },
+        "15": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-PSG",
+          "prov": "—",
+          "folio": "—",
+          "monto": 221653
         }
       }
     }

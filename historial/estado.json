@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T02:02:30.704Z",
+  "timestamp": "2026-11-25T02:02:32.685Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -607,12 +607,12 @@
       "xlsxName": "WO-20261119.xlsx",
       "rendidor": "William Andres Orrego Campos",
       "fechaRend": "19-11-2026",
-      "fechaValid": "",
+      "fechaValid": "24-11-2026",
       "fechaPago": "",
       "monto": 172451,
       "montoAprobado": 172451,
       "validado": true,
-      "autorizado": 0,
+      "autorizado": 1,
       "enNomina": false,
       "lineas": {
         "0": "approved",

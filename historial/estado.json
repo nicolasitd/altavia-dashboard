@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T18:15:38.959Z",
+  "timestamp": "2026-11-25T18:15:48.642Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -748,7 +748,7 @@
       "fechaValid": "",
       "fechaPago": "",
       "monto": 784824,
-      "montoAprobado": 79721,
+      "montoAprobado": 301226,
       "validado": false,
       "autorizado": 0,
       "enNomina": false,
@@ -761,7 +761,8 @@
         "5": "approved",
         "6": "approved",
         "7": "approved",
-        "8": "approved"
+        "8": "approved",
+        "9": "approved"
       },
       "motivos": {
         "0": "Se debe reembolsar $6.600"

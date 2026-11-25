@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T01:26:36.370Z",
+  "timestamp": "2026-11-25T01:39:16.178Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -17,6 +17,97 @@
       "lineas": {},
       "motivos": {},
       "lineasDatos": {}
+    },
+    "CN_20261124": {
+      "codigo": "CN-20261124",
+      "xlsxName": "CN-20261124.xlsx",
+      "rendidor": "Claudio Navarro",
+      "fechaRend": "24-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 248754,
+      "montoAprobado": 55860,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 55860
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 44100
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 57740
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "18-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "4": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "18-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 15000
+        },
+        "5": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 19836
+        },
+        "6": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 20000
+        },
+        "7": {
+          "desc": "Materiales de Proyectos",
+          "tipo": "FV",
+          "fecha": "11-11-2026",
+          "cc": "AVSS-Spence22",
+          "prov": "Electricidad Gobantes S.A.",
+          "folio": "—",
+          "monto": 21218
+        }
+      }
     }
   },
   "nominas": [

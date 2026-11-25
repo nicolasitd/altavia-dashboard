@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T01:48:47.198Z",
+  "timestamp": "2026-11-25T01:49:11.716Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -375,6 +375,61 @@
           "prov": "Boletas Varias",
           "folio": "xxx",
           "monto": 38000
+        }
+      }
+    },
+    "NP_20261123": {
+      "codigo": "NP-20261123",
+      "xlsxName": "NP-20261123.xlsx",
+      "rendidor": "Ninivel Pereira",
+      "fechaRend": "23-11-2026",
+      "fechaValid": "",
+      "fechaPago": "",
+      "monto": 53250,
+      "montoAprobado": 10800,
+      "validado": false,
+      "autorizado": 0,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "19-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10800
+        },
+        "1": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 10850
+        },
+        "2": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "23-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 18600
+        },
+        "3": {
+          "desc": "Movilización",
+          "tipo": "BL",
+          "fecha": "26-11-2026",
+          "cc": "AVSS-LB24",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 13000
         }
       }
     }

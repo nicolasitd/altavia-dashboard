@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": "2026-11-25T18:17:21.425Z",
+  "timestamp": "2026-11-25T18:20:53.837Z",
   "rendiciones": {
     "IR_20260903": {
       "codigo": "IR-20260903",
@@ -917,6 +917,34 @@
           "prov": "—",
           "folio": "—",
           "monto": 221653
+        }
+      }
+    },
+    "JPA_20261125": {
+      "codigo": "JPA-20261125",
+      "xlsxName": "JPA-20261125.xlsx",
+      "rendidor": "JUAN PABLO AUAD",
+      "fechaRend": "25-11-2026",
+      "fechaValid": "25-11-2026",
+      "fechaPago": "",
+      "monto": 90000,
+      "montoAprobado": 90000,
+      "validado": true,
+      "autorizado": 1,
+      "enNomina": false,
+      "lineas": {
+        "0": "approved"
+      },
+      "motivos": {},
+      "lineasDatos": {
+        "0": {
+          "desc": "Equipamiento Camioneta",
+          "tipo": "BL",
+          "fecha": "25-11-2026",
+          "cc": "AVSS-GG",
+          "prov": "Boletas Varias",
+          "folio": "xxx",
+          "monto": 90000
         }
       }
     }
